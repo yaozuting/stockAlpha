@@ -34,7 +34,7 @@ function InnerApp({ code, setCode, selectedCompany, setSelectedCompany, nav_item
 
   const handleSearch = (company) => {
     setCode(company.Code);
-    navigate('/stock');  // ← Jump to /stock after search
+    navigate('/stock');  // Jump to /stock after search
   };
 
   return (
@@ -62,12 +62,12 @@ function InnerApp({ code, setCode, selectedCompany, setSelectedCompany, nav_item
             </ul>
           </nav>
           <MobileNav code={code} />
-
         </div>
       </div>
 
       <div className="content">
         <Routes>
+          <Route path="/" element={<Navigate to="/screener" replace />} />
           <Route path="/screener" element={<MarketScreener code={code} />} />
           <Route path="/news" element={<News code={code} />} />
           <Route path="/stock" element={<StockDashBoard code={code} />} />
@@ -76,4 +76,6 @@ function InnerApp({ code, setCode, selectedCompany, setSelectedCompany, nav_item
       </div>
     </>
   );
+}
+
 }
