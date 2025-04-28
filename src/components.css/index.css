@@ -1,0 +1,189 @@
+*{
+    font-family: sans-serif;    
+}
+
+
+body{
+    margin:0;
+    overflow-y: hidden;
+    
+}
+
+#root{
+    width: calc(100vw-20px);
+    height: 100vh;
+    display: flex;
+    padding:10px;
+    flex-direction: column; /*In CSS Grid, if you don't define rows explicitly, it might create extra space if the content does not fill the entire grid.                   flexbox only takes as much space it needs*/
+    overflow-y: overlay;
+}
+
+div.upper {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between left and right sections */
+    box-sizing: border-box;
+}
+
+div .upper .search-part{
+    width:50%;
+    display: flex;
+}
+
+div .upper .search-part .title {
+    font: 2rem bolder;
+    color:#007bff;
+    margin-right: 1%;
+}
+
+
+div .upper .nav-part {
+    width:50%;
+  
+}
+
+div .upper .nav-part ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none; /*no bullet point*/
+    gap: 1rem; /* Use rem for more consistent spacing */
+    padding: 0;
+    margin: 0;
+   
+}
+
+div .upper .nav-part ul .nav_tab {
+    color: #007bff;
+    font-weight: 400;
+    padding-left: 10px;
+    border-left: 1.5px solid rgba(108, 117, 125, 0.5); /* Lower opacity */
+    cursor: pointer;
+    transition: color 0.3s, border-color 0.3s;
+}
+.nav_tab .nav-link{
+    text-decoration: none;
+    color: #007bff;
+}
+
+/* Remove border-left for the first child */
+div .upper .nav-part ul .nav_tab:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+
+/* Active tab styling */
+div .upper .nav-part ul .nav_tab:active {
+    color: #bfcad5;
+}
+
+div .mobile-nav{
+    display:none;
+}
+
+/* Basic button style */
+.hamburger {
+    margin:0;
+    top:48px;
+    right:0;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #bdc3ca;
+  }
+  
+  /* Dropdown menu container mobile */
+  .dropdown-menu {
+    position: absolute;
+    top: 48px; /* Adjust based on header height */
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    animation: fadeInSlide 0.2s ease-out;
+  }
+  
+  /* Dropdown items */
+  .dropdown-menu div {
+    padding: 10px 16px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .dropdown-menu div:hover {
+    background-color: #f5f5f5;
+  }
+  
+div .content{
+    align-items: stretch;
+}
+
+.loading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .spinner {
+    width: 60px;
+    height: 60px;
+    border: 8px solid #cbd5e0;
+    border-top: 8px solid #3182ce;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-bottom: 20px;
+  }
+  
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  
+  .loading-text {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2d3748;
+    display: flex;
+    gap: 5px;
+  }
+  
+  .dot {
+    animation: blink 1.5s infinite;
+  }
+  
+  .dot:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  .dot:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes blink {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+  
+
+@media (max-width: 1024px) {
+    div.upper .search-part .title {
+      font-size: 1.5rem;
+    }
+    div .upper .nav-part ul {
+        display:none;
+    }
+    div .mobile-nav {
+        display: flex; /* or block */
+        justify-content: flex-end;
+      }
+
+  }
+  

@@ -1,0 +1,54 @@
+div .market_container{
+    width: 100%;
+    margin-top:10px;
+}
+
+div .market_body nav ul{
+    list-style-type:none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu{
+    margin-bottom: 5px;
+}
+.nav_button {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+    border-bottom: 2px solid transparent;
+    color: #333;
+}
+
+.nav_button.active {
+    color: #007bff; /* Blue color for active item */
+    border-bottom: 2px solid #007bff; /* Highlight bottom border */
+}
+
+.nav_button:hover {
+    color: #007bff;
+}
+
+
+/*stock price graph*/
+.stock-price-chart {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* ✅ pushes child to the right */
+  }
+  
+  .stock-price-chart .date-range {
+    margin: 8px 10px;
+  }
+
+  .stock-price-chart .date-range .active {
+    background-color: #899cab; /* Light blue */
+    font-weight: bold;
+  }
+  
+
+@media (max-width:1042px){
+    .nav-menu{
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,505 @@
+
+.ContentContainer{
+    display:flex;
+    border-top: 2px solid #007bff;
+    gap:20px;
+}
+
+  /* Tab Content */
+.tab-content {
+    width: 80%;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+/* graph financial & competition */
+.financial_container {
+  display: flex;
+  gap: 5px;
+}
+
+.financial_select {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    top: 10px; /* Required for stickiness */
+    position: sticky;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width:max-content; /* Adjust width as needed */
+    padding: 2px;
+    max-height: clamp(500px, 60vh, 700px);
+    overflow-y: auto;
+  }
+  
+  .financial_title {
+    background-color: #d6dbdf;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .financial_select ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: clamp(500px, 60vh, 700px);
+  }
+  
+  .financial_select li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .financial_select .even-row{
+    background-color: #f2f2f2 ;
+  }
+  
+  .financial_select li:hover {
+    background-color: #fff8dc;
+  }
+
+.financial-chart-table{
+  flex-grow: 1;
+  margin:10px;
+  overflow-x: auto;
+}
+.chart_container{
+  width: 90%;
+  height: fit-content;
+}
+
+/* Chart container (financial) */
+.financial-chart-wrapper {
+  background-color: white;
+  padding: 1rem;
+  box-sizing: border-box;
+  min-height: 300px; /* ✅ Force chart to have minimum height */
+  height: 400px;     /* ✅ Set fixed or preferred chart height */
+}
+
+
+.header-row {
+  display: flex;
+  justify-content: flex-end; /* move button to the right */
+}
+
+.refresh-button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #555;
+  transition: color 0.3s;
+}
+
+.refresh-button:hover {
+  color: #007bff; /* slight blue on hover */
+}
+
+.chart-container {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.yoy-growth-row {
+  font-style: italic;
+}
+
+.yoy-growth-value {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.yoy-growth-value.positive {
+  color: green;
+}
+
+.yoy-growth-value.negative {
+  color: red;
+}
+
+.financial-table {
+  width: 100%;
+  border-collapse: collapse;
+  overflow-x:auto;
+}
+
+.financial-table th,
+.financial-table td {
+  cursor: pointer;
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd; /* ✨only soft bottom lines */
+}
+
+.financial-table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.clickable-row {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.clickable-row:hover {
+  background-color: #f0f0f0;
+}
+
+.no-border-chart td{
+  border-bottom: none !important;
+}
+.no-border-financial td{
+  border-top: none;
+}
+
+
+
+
+/* company Management */
+.managementTable {
+  width: 100%;
+  margin-top: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+.managementTable table{
+  width: 100%;
+}
+.managementTable th,
+.managementTable td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #e5e7eb;
+  border-right: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.managementTable thead th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+  color: #111827;
+}
+
+.managementTable th {
+  background-color: #f9fafb;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+/*competition */
+.tab_compete {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+.tab_compete button {
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6b7280; /* Gray-600 */
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 4px;
+  transition: color 0.2s ease;
+}
+
+.tab_compete button::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #2563eb;
+  transition: width 0.3s ease;
+}
+
+.tab_compete button:hover {
+  color: #111827;
+}
+
+.tab_compete button:hover::after {
+  width: 100%;
+}
+
+.tab_compete button.active {
+  color: #2563eb;
+}
+
+.tab_compete button.active::after {
+  width: 100%;
+}
+
+/*competition fundamental*/
+.financials-wrapper {
+  margin: 20px;
+}
+
+.financial-grid {
+  margin-bottom: 30px;
+}
+
+.financial-table-fundamental {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* ✅ Important for aligned columns */
+}
+
+.financial-table-fundamental th,
+.financial-table-fundamental td {
+  cursor: pointer;
+  padding: 8px 12px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: center;
+  vertical-align: middle;
+  word-break: break-word;
+}
+
+/* Make the first column (titles) narrower and left aligned */
+.financial-table-fundamental th:first-child,
+.financial-table-fundamental td:first-child {
+  width: 220px; /* ✅ consistent title column width */
+  text-align: left;
+  font-weight: 600;
+}
+
+
+/* Headers */
+.sticky-header {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+
+/* Section Titles like "Valuation Metrics", "Income Statement" */
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 4px;
+}
+
+/* Metric label (like "Price to Earnings (P/E)") */
+.metric-label {
+  text-align: left;
+  font-weight: 500;
+}
+
+/* Percentage row (highlight) */
+.percentage-row {
+  background-color: #fafafa;
+}
+
+/* Bold text */
+.text-bold {
+  font-weight: bold;
+}
+
+/* Hover effect for table rows */
+.financial-table-fundamental tr:hover {
+  background-color: #f1f1f1;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Small buttons or expandable icons (if you have) */
+.expandable-button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+
+/* news */
+.NewsColumns {
+  top:10px;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width:20%;
+  min-width: 300px;
+  font-family: 'Segoe UI', sans-serif;
+}
+.annoucementCol,
+.ComNewsCol {
+ 
+  margin-bottom: 3px;
+  margin-left: auto;
+  padding: .5rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.annoucementCol h2,
+.ComNewsCol h2 {
+  font-size: 20px;
+  margin-bottom: 1rem;
+  color: #111827;
+  border-bottom: 2px solid #2563eb;
+  padding-bottom: 4px;
+}
+.scrollable{
+  height:300px;
+  overflow-y: scroll;
+}
+.news-card {
+  display: grid;
+  justify-content: center;
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.news-card img {
+  display: block;
+  margin: 0 auto;   /*equal left n right */
+  max-width: 100%;
+}
+.news-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.news-card a {
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.news-card a:hover {
+  text-decoration: underline;
+}
+
+.news-card img {
+  max-width: 120px;
+  height: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 4px;
+}
+
+.news-card p {
+  font-size: 14px;
+  color: #6b7280;
+  margin-top: 0.5rem;
+}
+
+
+
+/* search bar */
+.company-row {
+  width: 80%;
+  display: flex;
+  flex-wrap: nowrap;         /* prevent wrapping to new line */
+  overflow-x: scroll;          /* allow scroll if overflowed */
+  gap: 0.5rem;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+}
+.company-search-wrapper {
+  flex: 1 1 auto;            /* grow & shrink */
+  min-width: 180px;
+  max-width: 100%;
+}
+
+.financial-grid {
+  width: 100%;
+  overflow-x: auto;  /* ✅ allow internal horizontal scroll */
+}
+/* competitionChart */
+.competionChart{
+  width:65%;
+  height:auto;
+}
+.financials-wrapper {
+  width: 100%;
+}
+
+
+.financial-table {
+  overflow-x: auto;
+  width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+
+.financial-table th,
+.financial-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: right;
+}
+
+.financial-table th {
+  text-overflow: ellipsis;
+}
+
+
+.financial-table th:first-child,
+.financial-table td:first-child {
+  text-align: left;
+  
+}
+
+.financial-table thead tr {
+  background-color: #f3f4f6;
+}
+
+.financial-table .text-bold {
+  font-weight: bold;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+
+
+@media (max-width: 1024px) {
+   .ContentContainer{
+    flex-direction: column;
+   }
+   .tab-content{
+    width:100%;
+   }
+
+   div .financial_container{
+    flex-wrap: wrap;
+   }
+   div .financial_select{
+    position: static;
+    width:100%;
+    max-height: 300px;
+    overflow-y: auto;
+   }
+   div .financial-chart-wrapper {
+       width:100%;
+       height:auto;
+   } /*financial component*/
+   
+  .NewsColumns{
+    width:100%
+  }
+
+
+}

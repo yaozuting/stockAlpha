@@ -1,0 +1,241 @@
+div .screener_container{
+    display:flex;
+    gap:2%;  
+}
+
+div .select-menu{
+    height:fit-content;
+    position: sticky;
+    top: 20px; /* Sticks 20px from the top of the viewport */
+    width:20%;
+    padding:10px;
+    border: 1px #6c757d solid;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+
+/* Title for the profile section */
+div .select-menu p {
+    background-color: #9cc5f4;
+    margin: 0;
+    padding: 10px;
+    border: 1px #c1c6ca solid;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-radius: 6px 6px 0 0;
+}
+
+/* Common row styling */
+div .select-menu .row {
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    justify-content: space-between;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Alternating background colors */
+div .select-menu .odd {
+    background-color: #ffffff;
+}
+
+div .select-menu .even {
+    background-color: #f1f1f1;
+}
+
+/* Hover effect */
+div .select-menu .row:hover {
+    background-color: #e9ecef;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transform: translateY(-2px);
+    border: 1px solid #ddd;
+}
+
+/* Label styling */
+div .select-menu .row label {
+    flex: 0 0 40%;
+    margin-right: 3%;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Input and select elements styling */
+input[type="text"],
+select {
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+    width: 100%;
+    background-color: white;
+    transition: border 0.3s, box-shadow 0.3s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Focus effect for input and select elements */
+input[type="text"]:focus,
+select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    outline: none;
+}
+
+/* Container for min/max inputs */
+div .select-menu div .input-number {
+    display: flex;
+    justify-content: flex-start;
+    max-width: fit-content;
+    gap: 10px;
+}
+
+/* Min and Max input boxes */
+input[type="text"] {
+    flex: 1 1 50%;
+    width: calc(50% - 10px);
+}
+
+div .buttons{
+    display:flex;
+    justify-content: flex-end;
+    margin-top:2%;
+    gap:10px;
+}
+
+/* Reset Button */
+.reset {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reset:hover {
+    background-color: #5a6268;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+.reset:active {
+    transform: translateY(1px);
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Submit Button */
+.submit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 2px 4px 6px rgba(0, 123, 255, 0.2);
+}
+
+.submit:hover {
+    background-color: #0069d9;
+    box-shadow: 4px 6px 8px rgba(0, 123, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+.submit:active {
+    transform: translateY(1px);
+    box-shadow: 2px 4px 6px rgba(0, 123, 255, 0.2);
+}
+
+/* General Table Styling */
+/* Table Container */
+div.table_container {
+    width: 100%;
+    overflow-x: auto; /* ✅ allow horizontal scroll if table too wide */
+  }
+  
+  div.table_container table {
+    overflow-x: auto;
+    width: 95%; /* ✅ make table shrink to fit container */
+    border-collapse: collapse;
+    text-align: left;
+    font-family: "Segoe UI", Roboto, sans-serif;
+    font-size: 14px;
+    background-color: #ffffff;
+  }
+
+/* Header Styling */
+div.table_container th {
+    padding: 10px 14px;
+    cursor: pointer;
+    border: 1px solid #d1d5db;
+    background-color: #909297; /* dark slate gray / navy */
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+}
+
+/* Header Icon + Label Layout */
+div.table_container th .text-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Arrow Icon Styling */
+div.table_container th .arrow {
+    width: 16px;
+    height: 16px;
+    stroke: #ffffff;
+    stroke-width: 2;
+}
+
+/* Table Cell Styling */
+div.table_container td {
+    padding: 10px 14px;
+    border: 1px solid #e5e7eb;
+    background-color: #f9fafb; /* soft gray */
+    color: #111827;
+    box-sizing: border-box;
+}
+
+/* Zebra striping for clarity */
+div.table_container tr:nth-child(even) td {
+    background-color: #f3f4f6;
+}
+
+/* Hover Effect */
+div.table_container tbody tr:hover td {
+    background-color: #e5e7eb; /* or #ddd for stronger effect */
+    cursor: pointer;
+  }
+  
+
+  @media (max-width:1024px) {
+    div .screener_container {
+     flex-direction: column;
+      gap:10px;
+      position: relative;
+    }
+ 
+    div .select-menu {
+      margin-top:10px;
+      margin-bottom: 10px;
+      width: calc(100% - 20px);
+      position: static; /* ✅ remove sticky on mobile */
+      top: unset;
+    }
+  }
+
+
+

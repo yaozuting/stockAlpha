@@ -1,0 +1,179 @@
+/* Container Styling */
+.info_row {
+    margin: 20px auto;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+  }
+  
+  /* Header Styling */
+  .stock-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .stock-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-right: 10px;
+  }
+  
+  .stock-price {
+    font-size: 18px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  /* Price Change Styling */
+  .stock-change {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  .positive {
+    color: green;
+  }
+  
+  .negative {
+    color: red;
+  }
+  
+  /* Sector & Industry */
+  .stock-sector {
+    font-size: 14px;
+    color: #555;
+    background: #f4f4f4;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  /* Business Summary */
+  .stock-summary {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 15px;
+  }
+  
+  /* Website Link */
+  .stock-website a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .stock-website a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Earnings Date */
+  .stock-earnings {
+    font-size: 14px;
+    color: #444;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Loading Text */
+  .loading-text {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .dateRangeButtons{
+    display:flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+  }
+  .dateRangeButtons .range-btn.active {
+    background-color: #899cab; /* Light blue */
+    font-weight: bold;
+  }
+  
+
+  .tab-buttons {
+    display:flex;
+    margin-top: 10px;
+    margin-bottom: 10px;;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Navigation Buttons */
+  .tab-buttons button {
+    padding: 10px 20px;
+    margin:2px;
+    border: none;
+    background: #f4f4f4;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .tab-buttons .active {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+
+  .stock-summary-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* align top! */
+    width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  
+  
+  .stock-price-chart {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1; /* allow to stretch if needed */
+    min-width: 300px;
+  }
+  
+  .summary-table-vertical-container {
+    flex: 1; /* narrower */
+    min-width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+    
+  .summary-vertical-table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9fafb;
+      overflow: hidden;
+    }
+    
+  .summary-vertical-table th {
+      background-color: #e5e7eb;
+      color: #374151;
+      padding: 10px;
+      font-size: 16px;
+      text-align: center;
+    }
+    
+  .summary-vertical-table td {
+      padding: 10px;
+      border: 1px solid #e5e7eb;
+      text-align: center;
+      font-size: 14px;
+      color: #374151;
+    }
+    
+  
+  
