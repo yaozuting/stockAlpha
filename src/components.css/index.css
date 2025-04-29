@@ -10,8 +10,8 @@ body{
 }
 
 #root{
-    width: calc(100vw-20px);
-    margin:10px;
+    width: calc(100vw-10px);
+    margin:5px;
     height: 100vh;
     display: flex;
     padding:10px;
