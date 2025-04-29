@@ -21,7 +21,6 @@ jobs:
     - name: 📦 Install dependencies
       run: npm ci --legacy-peer-deps
 
-
     - name: 🔐 Inject secrets as Vite env variables
       run: |
         echo "VITE_API_BASE_URL=${{ secrets.VITE_API_BASE_URL }}" >> $GITHUB_ENV
@@ -39,3 +38,4 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
+
