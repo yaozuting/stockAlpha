@@ -73,7 +73,7 @@ function NewsStatistic({news}) {
               ))}
 
             </select>
-            <div>
+            <div className='news_list_container'>
               {selectedSector && selectedSectorData(selectedSector).map((item, index) => (
                 <div key={index} className="news_item">
                   <a href={item.News_Hyperlinks} target="_blank" rel="noopener noreferrer">
@@ -97,7 +97,7 @@ function NewsStatistic({news}) {
                 </option>
               ))}
             </select>
-            <div>
+            <div className='news_list_container'>
               {selectedCompany && selectedCompanyData(selectedCompany).map((item, index) => (
                 <div key={index} className="news_item">
                   <a href={item.News_Hyperlinks} target="_blank" rel="noopener noreferrer">
