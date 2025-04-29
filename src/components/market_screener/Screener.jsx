@@ -4,6 +4,7 @@ import axios from 'axios';
 import Table from '../sortableTable/Table.jsx'
 
 function Screener(){
+    const baseURL = import.meta.env.VITE_API_BASE_URL;
     const [industry_sector,setIndustrySector] = useState([])
     const sector = industry_sector.flatMap(obj => Object.keys(obj))
     const [stockData, setData] = useState([]);
@@ -99,12 +100,12 @@ function Screener(){
         if (submitCondition) 
             { {
             const params = new URLSearchParams();
-        
+            const baseURL = import.meta.env.VITE_API_BASE_URL;
             if (submitCondition.sector) params.append('sector', submitCondition?.sector);
             if (submitCondition.industry) params.append('industry', submitCondition?.industry);
             if (submitCondition.min) params.append('min', submitCondition?.min);
             if (submitCondition.max) params.append('max', submitCondition?.max);
-        
+           
             axios.get(`${baseURL}/api/screener?${params.toString()}`)
                 .then((response) => {
                     let data = response.data;
