@@ -7,6 +7,6 @@ yahooquery
 scikit-learn
 openai
 python-dotenv
-pyodbc
+pymssql
 numpy
 gunicorn
