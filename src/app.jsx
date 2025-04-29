@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, useNavigate, Navigate } from 'react-router-dom';
 import MarketScreener from './components/market_screener/market_screener.jsx';
 import News from './components/News/News_dashboard.jsx';
 import StockDashBoard from './components/Stock/StockDashboard.jsx';
