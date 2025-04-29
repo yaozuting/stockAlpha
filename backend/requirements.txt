@@ -1,0 +1,12 @@
+Flask
+flask-cors
+beautifulsoup4
+pandas
+requests
+yahooquery
+scikit-learn
+openai
+python-dotenv
+pyodbc
+numpy
+gunicorn

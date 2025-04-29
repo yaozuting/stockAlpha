@@ -8,14 +8,18 @@ function News() {
     const [newsData,setNewsData] = useState([]);
 
     useEffect(() => {
-        axios.get('http://127.0.0.1:5000/api/news', {
+        // Use environment variable for the base URL
+        const baseURL = import.meta.env.VITE_API_BASE_URL;
+    
+        axios.get(`${baseURL}/api/news`, {
             headers: { 
                 'Content-Type': 'application/json; charset=utf-8' 
             }
         })
             .then((response) => {
                 let data = response.data;
-                console.log('news',data)
+                console.log('news', data);
+    
                 // Check if data is a string and parse it safely
                 if (typeof data === 'string') {
                     try {
@@ -27,9 +31,9 @@ function News() {
                     }
                 }
     
-                // Check if data is an array and set it
+                // Check if data is valid and set it
                 setNewsData(data ? data : {});
-                console.log('Parsed Data:', newsData);
+                console.log('Parsed Data:', data);
             })
             .catch((error) => {
                 console.error('Error fetching data:', error);

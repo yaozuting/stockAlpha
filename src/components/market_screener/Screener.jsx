@@ -26,29 +26,32 @@ function Screener(){
         { label: "MCap.(M)", accessor: "MCap" ,sortable:true},
     ];
     useEffect(() => {
-        axios.get('http://127.0.0.1:5000/api/SectorIndustry')
-        .then((response) => {
-            let data = response.data;
+        // Use environment variable for the base URL
+        const baseURL = import.meta.env.VITE_API_BASE_URL;
 
-            // Check if data is a string and parse it safely
-            if (typeof data === 'string') {
-                try {
-                    // Replace "NaN" with "null" or "N/A" before parsing
-                    data = JSON.parse(data.replace(/NaN/g, '"N/A"'));
-                } catch (error) {
-                    console.error('Error parsing data:', error);
-                    return;
+    
+        axios.get(`${baseURL}/api/SectorIndustry`)
+            .then((response) => {
+                let data = response.data;
+    
+                // Check if data is a string and parse it safely
+                if (typeof data === 'string') {
+                    try {
+                        // Replace "NaN" with "null" or "N/A" before parsing
+                        data = JSON.parse(data.replace(/NaN/g, '"N/A"'));
+                    } catch (error) {
+                        console.error('Error parsing data:', error);
+                        return;
+                    }
                 }
-            }
-
-            // Check if data is an array and set it
-            setIndustrySector(Array.isArray(data) ? data : []);
-            // console.log('Parsed Data:', data);
-        })
-        .catch((error) => {
-            console.error('Error fetching data:', error);
-        });
-   }, []);
+    
+                // Check if data is an array and set it
+                setIndustrySector(Array.isArray(data) ? data : []);
+            })
+            .catch((error) => {
+                console.error('Error fetching data:', error);
+            });
+    }, []);
 
 
    

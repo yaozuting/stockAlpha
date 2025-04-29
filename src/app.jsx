@@ -17,7 +17,7 @@ export default function App() {
   ];
 
   return (
-    <Router>
+    <Router basename="/stockAlpha">
       <InnerApp 
         code={code} 
         setCode={setCode} 

@@ -34,49 +34,49 @@ function MarketScreener(){
         switch (activeTab) {
             case 'Screener':
                 return <Screener />;
-            // case 'Performance':
-            //     return <Performance />;
-            // case 'Short Interest':
-            //     return <ShortInterest />;
             default:
                 return <Screener />;
         }
     };
-useEffect(() => {
-    if (!stockCode) return;
+    useEffect(() => {
+        if (!stockCode) return;
+    
+        const params = new URLSearchParams();
+        if (stockCode) params.append("stockCode", stockCode);
+        if (selectedRange) params.append("dateRange", selectedRange);
+    
+        // Use environment variable for the base URL
+        const baseURL = import.meta.env.VITE_API_BASE_URL;
 
-    const params = new URLSearchParams();
-    if (stockCode) params.append("stockCode", stockCode);
-    if (selectedRange) params.append("dateRange", selectedRange);
-
-    axios
-        .get(`http://127.0.0.1:5000/api/stockPrice?${params.toString()}`)
-        .then((response) => {
-            let data = response.data;
-            console.log('API Response:', data);
-
-            // Convert data from a string if necessary
-            if (typeof data === "string") {
-                try {
-                    data = JSON.parse(data); // Convert string to JSON
-                } catch (error) {
-                    console.error("Error parsing JSON:", error);
+    
+        axios
+            .get(`${baseURL}/api/stockPrice?${params.toString()}`)
+            .then((response) => {
+                let data = response.data;
+                console.log('API Response:', data);
+    
+                // Convert data from a string if necessary
+                if (typeof data === "string") {
+                    try {
+                        data = JSON.parse(data); // Convert string to JSON
+                    } catch (error) {
+                        console.error("Error parsing JSON:", error);
+                    }
                 }
-            }
-
-            if (data && data[stockCode]) {
-                console.log('Historical Price:', data);
-                setHistoricalStockPrice(data[stockCode]);
-            } else {
-                console.error("Unexpected data format:",typeof data);
-                setHistoricalStockPrice([]); // Set to an empty array if data is invalid
-            }
-        })
-        .catch((error) => {
-            console.error("Error fetching filtered data:", error);
-            setHistoricalStockPrice([]); // Set to an empty array on error
-        });
-}, [selectedRange]);
+    
+                if (data && data[stockCode]) {
+                    console.log('Historical Price:', data);
+                    setHistoricalStockPrice(data[stockCode]);
+                } else {
+                    console.error("Unexpected data format:", typeof data);
+                    setHistoricalStockPrice([]); // Set to an empty array if data is invalid
+                }
+            })
+            .catch((error) => {
+                console.error("Error fetching filtered data:", error);
+                setHistoricalStockPrice([]); // Set to an empty array on error
+            });
+    }, [selectedRange]);
 
  useEffect(() => {
         if (historicalStockPrice && historicalStockPrice.historical_data) {

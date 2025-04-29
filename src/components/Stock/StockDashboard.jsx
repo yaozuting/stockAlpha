@@ -52,18 +52,20 @@ function StockDashBoard(code){
       }, [historicalStockPrice]);
       
     
-    useEffect(() => {
+      useEffect(() => {
         if (!stockCode) return;
-        setSelectedRange('1mo'); // Reset to default range when stockCode 
-      
+        setSelectedRange('1mo'); // Reset to default range when stockCode changes
+    
         const params = new URLSearchParams();
         if (stockCode) params.append("stockCode", stockCode);
     
+        // Use environment variable for the base URL
+        const baseURL = import.meta.env.VITE_API_BASE_URL;
+    
         // Fetch company news and stock data concurrently
-        const fetchCompanyNews = axios.get(`http://127.0.0.1:5000/api/companyNews?${params.toString()}`);
-        const fetchStockData = axios.get(`http://127.0.0.1:5000/api/stock?${params.toString()}`);
-      
-
+        const fetchCompanyNews = axios.get(`${baseURL}/api/companyNews?${params.toString()}`);
+        const fetchStockData = axios.get(`${baseURL}/api/stock?${params.toString()}`);
+    
         Promise.all([fetchCompanyNews, fetchStockData])
             .then(([newsResponse, stockResponse]) => {
                 // Handle company news response
@@ -97,46 +99,48 @@ function StockDashBoard(code){
                 } else {
                     console.error("Unexpected stock data format:", stockData);
                 }
-
             })
-            
             .catch((error) => {
                 console.error("Error fetching data:", error);
             });
     }, [stockCode]);
-
+    
     useEffect(() => {
-        if(!stockCode) return;
+        if (!stockCode) return;
+    
         const params = new URLSearchParams();
-              
-              if (stockCode) params.append("stockCode", stockCode);
-              if (selectedRange) params.append("dateRange", selectedRange);
-              axios
-                  .get(`http://127.0.0.1:5000/api/stockPrice?${params.toString()}`)
-                  .then((response) => {
-                      let data = response.data;
-                      console.log(typeof data)
-                      console.log(data)
-                      // Convert data from a string if necessary
-                      if (typeof data === "string") {
-                          try {
-                              data = JSON.parse(data); // Convert string to JSON
-                          } catch (error) {
-                              console.error("Error parsing JSON:", error);
-                          }
-                      }
-                      if (data) {
-                          console.log(data);
-                          setHistoricalStockPrice(data[stockCode]);
-                      } else {
-                          console.error("Unexpected data format:", data);
-                      }
-                  })
-                  .catch((error) => {
-                      console.error("Error fetching filtered data:", error);
-                  });
-          console.log(stockData)
-},[selectedRange,stockCode]);
+        if (stockCode) params.append("stockCode", stockCode);
+        if (selectedRange) params.append("dateRange", selectedRange);
+    
+        // Use environment variable for the base URL
+        const baseURL = import.meta.env.VITE_API_BASE_URL;
+    
+        axios
+            .get(`${baseURL}/api/stockPrice?${params.toString()}`)
+            .then((response) => {
+                let data = response.data;
+                console.log(typeof data);
+                console.log(data);
+    
+                // Convert data from a string if necessary
+                if (typeof data === "string") {
+                    try {
+                        data = JSON.parse(data); // Convert string to JSON
+                    } catch (error) {
+                        console.error("Error parsing JSON:", error);
+                    }
+                }
+                if (data) {
+                    console.log(data);
+                    setHistoricalStockPrice(data[stockCode]);
+                } else {
+                    console.error("Unexpected data format:", data);
+                }
+            })
+            .catch((error) => {
+                console.error("Error fetching filtered data:", error);
+            });
+    }, [selectedRange, stockCode]);
   
   
    useEffect(()=>{

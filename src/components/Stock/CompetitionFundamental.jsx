@@ -310,10 +310,17 @@ export default function CompetitionFundamental({ data, stockCodes, competeDatas 
                           dataset?.forEach(obj => Object.keys(obj || {}).forEach(key => allKeysSet.add(key)));
 
                           const metadataKeys = ["asOfDate", "periodType"];
+                          const dataKeys = Array.from(allKeysSet).filter(k => !metadataKeys.includes(k));
+
                           const sortedKeys = [
                             ...metadataKeys,
-                            ...Array.from(allKeysSet).filter(k => !metadataKeys.includes(k)).sort()
+                            ...dataKeys.sort((a, b) => {
+                              const sumA = dataset.reduce((sum, row) => sum + (typeof row?.[a] === 'number' ? row[a] : 0), 0);
+                              const sumB = dataset.reduce((sum, row) => sum + (typeof row?.[b] === 'number' ? row[b] : 0), 0);
+                              return sumB - sumA; // descending
+                            })
                           ];
+
 
                           return sortedKeys.flatMap((itemKey) => {
                             if (!dataset || dataset.length === 0) {

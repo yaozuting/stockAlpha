@@ -12,6 +12,8 @@ from openai import OpenAI
 import os 
 from dotenv import load_dotenv
 import json
+import pathlib
+
 
 load_dotenv('.env')
 
@@ -72,7 +74,11 @@ News Headlines:
 
 
 def get_market_data():
-    industry_data = pd.read_csv(r'C:\Users\user\OneDrive\桌面\stock_info\market\react_app\my-react-app\backend\files\basic.csv')
+
+    base_dir = pathlib.Path(__file__).resolve().parent
+    file_path = base_dir / 'files' / 'basic.csv'
+    industry_data = pd.read_csv(file_path)
+
     sliced_data = industry_data[['Name', 'Industry', 'Sector']]
     market_url = 'https://www.klsescreener.com/v2/screener/quote_results'
     
@@ -221,13 +227,6 @@ def unpack_dict(d, prefix=""):
         print(f"{prefix}: {d}")
 
 
-
-from yahooquery import Ticker
-
-from yahooquery import Ticker
-import pandas as pd
-from datetime import datetime
-
 def date_converter(date_str):
     """Convert 'Sun, 30 Jun 2024 00:00:00 GMT' → '30Jun2024'"""
     return date_str.strftime("%d/%m/%Y")
@@ -267,11 +266,6 @@ def compare_stock_data(stock_data):
 
 
 
-
-from flask import Flask, request, jsonify
-import pandas as pd
-from yahooquery import Ticker
-from datetime import datetime
 
 def date_converter(date):
     """Convert a date to string format."""
@@ -405,7 +399,9 @@ def get_stock_price(symbol,daterange):
 # print(f'stock Price:{stock_data}')
 
 def get_news_data(stock):
-    basic_file = pd.read_csv(r'C:\Users\user\OneDrive\桌面\stock_info\market\react_app\my-react-app\backend\files\basic.csv')
+    base_dir = pathlib.Path(__file__).resolve().parent
+    file_path = base_dir / 'files' / 'basic.csv'
+    basic_file = pd.read_csv(file_path)
 
     # Announcement
     stock_redacted = stock.replace('.KL', '')
@@ -490,7 +486,7 @@ def get_news_data(stock):
 
     # Ensure news_data is a valid DataFrame
     if news_data:
-        news_df = pd.DataFrame(data=news_data)
+        news_df = pd.DataFrame(data=news_data) 
         news_df['date'] = pd.to_datetime(news_df['date'], format='%d %b %Y', errors='coerce')
         if not news_df.empty:
             # Now sort by the date column

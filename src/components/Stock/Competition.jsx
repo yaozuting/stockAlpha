@@ -79,11 +79,13 @@ export default function Competition({data}){
     const fetchData = async () => {
       try {
         const newData = {};
+        const baseURL = import.meta.env.VITE_API_BASE_URL;
+    
         for (const field of fields) {
           if (field.selectedCompany?.Code) {
             const params = new URLSearchParams();
             params.append('stockCode', field.selectedCompany.Code);
-            const response = await axios.get(`http://127.0.0.1:5000/api/stock?${params.toString()}`);
+            const response = await axios.get(`${baseURL}/api/stock?${params.toString()}`);
             newData[field.selectedCompany.Code] = response.data[field.selectedCompany?.Code];
           }
         }
