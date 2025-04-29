@@ -10,3 +10,4 @@ python-dotenv
 pymssql
 numpy
 gunicorn
+flask-cors
