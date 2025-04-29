@@ -45,9 +45,6 @@ function MarketScreener(){
         const params = new URLSearchParams();
         if (stockCode) params.append("stockCode", stockCode);
         if (selectedRange) params.append("dateRange", selectedRange);
-    
-        // Use environment variable for the base URL
-        const baseURL = import.meta.env.VITE_API_BASE_URL;
 
     
         axios
