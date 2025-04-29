@@ -22,7 +22,7 @@ def connect_to_azure_sql(max_retries=5, delay_seconds=10):
     while attempt < max_retries:
         try:
             connection = pyodbc.connect(
-                f"DRIVER={{ODBC Driver 17 for SQL Server}};"
+                f"DRIVER={{ODBC Driver 18 for SQL Server}};"
                 f"SERVER={os.getenv('DB_SERVER')};"
                 f"DATABASE={os.getenv('DB_NAME')};"
                 f"UID={os.getenv('DB_USERNAME')};"
