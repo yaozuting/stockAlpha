@@ -1,8 +1,10 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
-  base:"/stockAlpha/",
+  base: '/stockAlpha/', // ✅ IMPORTANT for GitHub Pages
   plugins: [react()],
+  build: {
+    outDir: 'dist',
+  }
 })
