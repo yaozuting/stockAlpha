@@ -105,7 +105,7 @@ function Screener(){
             if (submitCondition.min) params.append('min', submitCondition?.min);
             if (submitCondition.max) params.append('max', submitCondition?.max);
         
-            axios.get(`http://127.0.0.1:5000/api/screener?${params.toString()}`)
+            axios.get(`${baseURL}/api/screener?${params.toString()}`)
                 .then((response) => {
                     let data = response.data;
                     if (typeof data === 'string') {
