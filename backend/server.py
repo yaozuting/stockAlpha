@@ -7,7 +7,8 @@ import numpy as np
 import pathlib
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
+# Enable CORS for all routes and all origins (or restrict to GitHub Pages)
+CORS(app, origins=["https://yaozuting.github.io"])
 
 # ✅ Centralize base directory
 BASE_DIR = pathlib.Path(__file__).resolve().parent
