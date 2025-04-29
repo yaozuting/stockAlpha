@@ -5,6 +5,7 @@ import Screener from './Screener';
 import StockPriceChart from './reusableModule/stockPriceChart.jsx'
 
 function MarketScreener(){
+    const baseURL = import.meta.env.VITE_API_BASE_URL; // ✅ Moved here
     const [stockCode, setStockCode] = useState('^KLSE'); // Example stock code
     const [selectedRange, setSelectedRange] = useState('1mo'); // Example date range
     const [historicalStockPrice, setHistoricalStockPrice] = useState([]);
