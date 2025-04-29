@@ -1,12 +1,11 @@
 import os
 import time
-import pyodbc
 import pandas as pd
+import pymssql
 from dotenv import load_dotenv
 
 # Load environment variables from .env file
 load_dotenv()
-
 
 # Validate required env vars
 def validate_env():
@@ -15,21 +14,19 @@ def validate_env():
     if missing:
         raise EnvironmentError(f"Missing environment variables: {', '.join(missing)}")
 
-# Connect to Azure SQL with retry logic
+# Connect to Azure SQL using pymssql with retry logic
 def connect_to_azure_sql(max_retries=5, delay_seconds=10):
     validate_env()
     attempt = 0
     while attempt < max_retries:
         try:
-            connection = pyodbc.connect(
-                f"DRIVER={{ODBC Driver 18 for SQL Server}};"
-                f"SERVER={os.getenv('DB_SERVER')};"
-                f"DATABASE={os.getenv('DB_NAME')};"
-                f"UID={os.getenv('DB_USERNAME')};"
-                f"PWD={os.getenv('DB_PASSWORD')};"
-                f"Encrypt=yes;"
-                f"TrustServerCertificate=no;"
-                f"Connection Timeout=60;"  # 60s enough for serverless wake
+            connection = pymssql.connect(
+                server=os.getenv('DB_SERVER'),
+                user=os.getenv('DB_USERNAME'),
+                password=os.getenv('DB_PASSWORD'),
+                database=os.getenv('DB_NAME'),
+                timeout=60,
+                login_timeout=30
             )
             print(f"[INFO] Successfully connected to Azure SQL Database on attempt {attempt + 1}.")
             return connection
@@ -57,9 +54,6 @@ def read_sql(table_name):
     except Exception as e:
         print(f"[ERROR] Error reading SQL data: {e}")
         return pd.DataFrame()
-
-
-
 
 # Manual test connection
 if __name__ == "__main__":
