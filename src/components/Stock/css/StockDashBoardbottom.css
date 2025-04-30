@@ -246,6 +246,7 @@
 
 .financial-grid {
   margin-bottom: 30px;
+    overflow-x:auto;
 }
 
 .financial-table-fundamental {
