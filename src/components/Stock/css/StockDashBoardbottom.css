@@ -249,13 +249,23 @@
     overflow-x:auto;
 }
 
+/* Force the table*/
 .financial-table-fundamental {
-  width: 100%;
+  table-layout: fixed;
   border-collapse: collapse;
-  table-layout: fixed; /* ✅ Important for aligned columns */
-  overflow-x:auto;
+  min-width: 1000px;       /* ✅ Makes the table wider than most screens */
+  width: max-content;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 14px;
 }
-
+.financial-table-fundamental thead th {
+  background-color: #f3f4f6;
+  font-weight: bold;
+  padding: 10px 8px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  white-space: nowrap;
+}
 .financial-table-fundamental th,
 .financial-table-fundamental td {
   cursor: pointer;
@@ -502,6 +512,19 @@
   .NewsColumns{
     width:100%
   }
+ .financial-grid {
+    overflow-x: scroll;
+    padding: 0.25rem;
+  }
 
+  .financial-table-fundamental {
+    min-width: 800px;
+    font-size: 13px;
+  }
+
+  .financial-table-fundamental th:first-child,
+  .financial-table-fundamental td:first-child {
+    min-width: 160px;
+  }
 
 }
