@@ -8,7 +8,7 @@ export default defineConfig({
     outDir: 'dist',
     rollupOptions: {
       input: {
-        main: 'index.html', // Helps ensure fallback routing
+        main: 'index.html', 
       }
     }
   }
