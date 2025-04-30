@@ -132,6 +132,7 @@ function CompetitionFinancial({data,stockCodes,competeDatas}){
                         ...prevState,
                         [itemKey]: temp,
                     }));
+                    console.log(showFinancial)
                 });
             });
         }
@@ -199,15 +200,38 @@ function CompetitionFinancial({data,stockCodes,competeDatas}){
 
                         const combinedDataName = allNames.map(name => {
                             const row = { name };
-                            entries.forEach(entry => {
-                            if (entry.name !== name) return;
-                            entry.date.forEach((date, idx) => {
-                                const value = entry.value[idx];
-                                row[new Date(date).getFullYear()] = value;
+                        
+                            // Group entries by name
+                            const nameEntries = entries.filter(entry => entry.name === name);
+                        
+                            // Flatten all dates to compare MM-DD patterns across years
+                            const allDates = nameEntries.flatMap(entry => entry.date.map(d => new Date(d)));
+                            const allMonthDay = allDates.map(d => `${d.getMonth()}-${d.getDate()}`);
+                            
+                            nameEntries.forEach(entry => {
+                                entry.date.forEach((dateStr, idx) => {
+                                    const date = new Date(dateStr);
+                                    const year = date.getFullYear();
+                                    const monthDay = `${date.getMonth()}-${date.getDate()}`;
+                        
+                                    // Check if this MM-DD exists in other years too
+                                    const sameMonthDayCount = allMonthDay.filter(md => md === monthDay).length;
+                        
+                                    if (sameMonthDayCount > 1) {
+                                        // If MM-DD appears in multiple years, use this value
+                                        row[year] = entry.value[idx];
+                                    } else {
+                                        // Only set if not already set (prefer exact MM-DD matches across years)
+                                        if (!row[year]) {
+                                            row[year] = entry.value[idx];
+                                        }
+                                    }
+                                });
                             });
-                            });
+                        
                             return row;
                         });
+                        
 
                         const allDates = Array.from(
                             new Set(entries.flatMap(entry => entry.date.map(date => new Date(date).getFullYear())))
