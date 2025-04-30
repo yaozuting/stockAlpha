@@ -345,10 +345,10 @@
 }
 .annoucementCol,
 .ComNewsCol {
- 
+ width:100%;
   margin-bottom: 3px;
   margin-left: auto;
-  padding: .5rem;
+  padding: 3px;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
