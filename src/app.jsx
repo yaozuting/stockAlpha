@@ -71,7 +71,6 @@ function InnerApp({ code, setCode, selectedCompany, setSelectedCompany, nav_item
           <Route path="/screener" element={<MarketScreener code={code} />} />
           <Route path="/news" element={<News code={code} />} />
           <Route path="/stock" element={<StockDashBoard code={code} />} />
-          <Route path="/stockAlpha" element={<MarketScreener code={code} />} />
         </Routes>
       </div>
     </>
