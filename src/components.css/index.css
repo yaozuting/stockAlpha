@@ -5,17 +5,15 @@
 
 body{
     margin:0;
-    overflow-y: hidden;
-    
 }
 
 #root{
-    width: calc(100vw-4px);
+    width: calc(100vw - 4px);  
     margin:2px;
     height: 100vh;
     display: flex;
     padding:10px;
-    flex-direction: column; /*In CSS Grid, if you don't define rows explicitly, it might create extra space if the content does not fill the entire grid.                   flexbox only takes as much space it needs*/
+    flex-direction: column;
     overflow-y: overlay;
 }
 
@@ -175,6 +173,9 @@ div .content{
   
 
 @media (max-width: 1024px) {
+   #root{
+   height: 100dvh;
+   }
     div.upper .search-part .title {
       font-size: 1.5rem;
     }
