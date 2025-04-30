@@ -106,7 +106,7 @@ function MarketScreener(){
      return(
         <>
         <div className="market_container">
-            <div className="stock-price-chart">
+{/*             <div className="stock-price-chart">
                <div className='date-range'>
                    { dateRanges.map((range) => (
                        <button
@@ -117,9 +117,7 @@ function MarketScreener(){
                    ))}
                 </div>
                   <StockPriceChart data={formattedHistoricalPrice}></StockPriceChart>
-               
-                 
-            </div>
+            </div> */}
             <div className="market_body">
                 <div className="nav">
                     <nav>
