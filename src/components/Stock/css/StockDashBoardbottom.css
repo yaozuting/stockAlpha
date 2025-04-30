@@ -246,26 +246,14 @@
 
 .financial-grid {
   margin-bottom: 30px;
-    overflow-x:auto;
+  overflow-x: auto;
 }
 
-/* Force the table*/
 .financial-table-fundamental {
-  table-layout: fixed;
-  border-collapse: collapse;
-  min-width: 1000px;       /* ✅ Makes the table wider than most screens */
-  width: max-content;
-  font-family: 'Segoe UI', sans-serif;
-  font-size: 14px;
+  overflow-x: auto;
+  width: 100%;
 }
-.financial-table-fundamental thead th {
-  background-color: #f3f4f6;
-  font-weight: bold;
-  padding: 10px 8px;
-  text-align: center;
-  border-bottom: 1px solid #ccc;
-  white-space: nowrap;
-}
+
 .financial-table-fundamental th,
 .financial-table-fundamental td {
   cursor: pointer;
@@ -273,7 +261,7 @@
   border-bottom: 1px solid #e0e0e0;
   text-align: center;
   vertical-align: middle;
-  word-break: break-word;
+  word-break: normal;
 }
 
 /* Make the first column (titles) narrower and left aligned */
@@ -345,10 +333,10 @@
 }
 .annoucementCol,
 .ComNewsCol {
- width:100%;
+  width:100%;
   margin-bottom: 3px;
   margin-left: auto;
-  padding: 3px;
+  padding: .5rem;
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
@@ -512,19 +500,6 @@
   .NewsColumns{
     width:100%
   }
- .financial-grid {
-    overflow-x: scroll;
-    padding: 0.25rem;
-  }
 
-  .financial-table-fundamental {
-    min-width: 800px;
-    font-size: 13px;
-  }
-
-  .financial-table-fundamental th:first-child,
-  .financial-table-fundamental td:first-child {
-    min-width: 160px;
-  }
 
 }
