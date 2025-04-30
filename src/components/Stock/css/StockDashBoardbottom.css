@@ -252,6 +252,7 @@
   width: 100%;
   border-collapse: collapse;
   table-layout: fixed; /* ✅ Important for aligned columns */
+  overflow-x:auto;
 }
 
 .financial-table-fundamental th,
