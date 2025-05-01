@@ -6,6 +6,7 @@
 body{
     margin:0;
     overflow-y:overlay;
+    overflow-x:overlay;
 }
 
 #root{
@@ -13,9 +14,7 @@ body{
     margin:2px;
     height: 100vh;
     display: flex;
-    padding:10px;
     flex-direction: column;
-      overflow-y:overlay;
 }
 
 div.upper {
