@@ -9,6 +9,7 @@ function MarketScreener(){
     const [sentiment,setSentiment] = useState({})
     const navItems = ['Screener']
     const [activeTab,setActiveTab] = useState('Screener')
+    const baseURL = import.meta.env.VITE_API_BASE_URL;
     const renderContent = () => {
         switch (activeTab) {
             case 'Screener':
@@ -18,7 +19,7 @@ function MarketScreener(){
         }
     };
     useEffect(() => {
-            axios.get(`http://127.0.0.1:5000/api/screener`)
+            axios.get(`${baseURL}/api/screener`)
                 .then((response) => {
                     let data = response.data;
                     if (typeof data === 'string') {
