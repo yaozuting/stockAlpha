@@ -230,8 +230,8 @@ def get_market_news(filters=None):
         if len(notValid) == 1 and None in notValid:
             query = """
                 SELECT * FROM Market_News
-                WHERE CAST(Published_Date AS DATE) = ?
-                    """
+                WHERE CAST(Published_Date AS DATE) = %s
+            """
             params = [today_date]
 
     if filters is None:
