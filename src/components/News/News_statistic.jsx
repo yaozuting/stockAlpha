@@ -97,7 +97,7 @@ function NewsStatistic({news}) {
             </div>
             <select id="company" value={selectedCompany} onChange={(e) => setSelectedCompany(e.target.value)}>
               <option value="">-- Select Company --</option>
-              {newsData.company_distribution.filter(item => item.name).map((item, index) => (
+              {newsData?.company_distribution.filter(item => item.name).map((item, index) => (
                 <option key={index} value={item.name}>
                   {item.name}
                 </option>
