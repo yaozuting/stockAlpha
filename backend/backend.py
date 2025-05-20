@@ -205,15 +205,16 @@ def get_market_news(filters=None):
     if filters:
         print(filters)
         query = """
-            SELECT *
-            FROM Market_News
-            WHERE 
-                (? IS NULL OR Title LIKE '%' || ? || '%' OR Body LIKE '%' || ? || '%') 
-                AND (? IS NULL OR Sector = ?) 
-                AND (? IS NULL OR CAST(Published_Date AS DATE) >= ?)
-                AND (? IS NULL OR CAST(Published_Date AS DATE) <= ?)
-            ORDER BY Published_Date DESC
+                SELECT *
+                FROM Market_News
+                WHERE 
+                    (%s IS NULL OR Title LIKE '%%' + %s + '%%' OR Body LIKE '%%' + %s + '%%')
+                    AND (%s IS NULL OR Sector = %s)
+                    AND (%s IS NULL OR CAST(Published_Date AS DATE) >= %s)
+                    AND (%s IS NULL OR CAST(Published_Date AS DATE) <= %s)
+                ORDER BY Published_Date DESC
             """
+
         params = [
             filters.get('keyword') if filters and 'keyword' in filters else None,
             filters.get('keyword') if filters and 'keyword' in filters else None,
