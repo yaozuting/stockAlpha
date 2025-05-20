@@ -76,16 +76,19 @@ def get_data():
         print(f"Error: {e}")
         return jsonify({'error': str(e)}), 500
 
-@app.route('/api/news', methods=['GET'])
+@app.route('/api/news', methods=['GET', 'POST'])
 def get_news():
     try:
-        news_data = get_market_news()
-        response = jsonify(news_data)
-        response.headers['Content-Type'] = 'application/json; charset=utf-8'
-        return response
+        if request.method == 'POST':
+            filters = request.get_json()
+            news_data = get_market_news(filters)
+        else:
+            news_data = get_market_news()
+
+        return jsonify(news_data)
 
     except Exception as e:
-        print(f'Error: {e}')
+        print(f'error:{e}')
         return jsonify({'error': str(e)}), 500
 
 @app.route('/api/stock', methods=['GET'])
