@@ -1,11 +1,12 @@
 
 const TableBody = ({ tableData, columns }) => {
-    console.log(tableData)
+
     return (
      <tbody>
     {tableData.map((data, rowIndex) => {
         return (
             <tr key={`row-${data.code}-${rowIndex}`}>
+                <td>{rowIndex+1}</td>
                 {columns.map(({ label }, colIndex) => {
                     const tData = data[label];
                     const mergedString = `cell-${data.code}-${label}-${colIndex}`;
