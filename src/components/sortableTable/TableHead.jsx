@@ -16,6 +16,7 @@ const TableHead = ({ columns, handleSorting }) => {
     return (
      <thead>
       <tr>
+        <th>Index</th>
         {columns.map(({ label, accessor, sortable }) => {
             return (
           <th
