@@ -1,32 +1,38 @@
 import React from 'react';
 import { useState,useEffect } from "react";
-import SectorDonutChart from './donutChart';
+import DonutChart from '../tools/donutChart';
 import WordCloudChart from './wordCloud';
 import './css/news.css'
 import CompanyBarChart from './barChart';
+import AnswerBox from './answerBox.jsx'
 
 function NewsStatistic({news}) {
   const [newsData, setNewsData] = useState({});
     const [selectedSector, setSelectedSector] = useState('');
     const [selectedCompany, setSelectedCompany] = useState('');
+ 
     const selectedSectorData = (selectedSector) => {
-        const data = newsData?.today_news.filter(item => item.Sector === selectedSector);
+        const data = newsData?.news.filter(item => item.Sector === selectedSector);
         if (data.length > 0) {
          return data || [];
     }};
     const selectedCompanyData = (selectedCompany) => {
-      const data = newsData?.today_news.filter(item => item['Related_Stock']?.includes(selectedCompany));
+      const data = newsData?.news.filter(item => item['Related_Stock']?.includes(selectedCompany));
       if (data.length > 0) {
        return data || [];
   }};
-    
+
     useEffect(()=>{
       setNewsData(news)
    },[news]);
-
+   
+   function isDate(value) {
+    const date = new Date(value);
+    return !isNaN(date.getTime()); // Returns true if the value is a valid date
+  }
   
 
-   if (!newsData || !newsData.today_news) return null;
+   if (!newsData || !newsData.news) return null;
 
    return (
     <>
@@ -36,8 +42,8 @@ function NewsStatistic({news}) {
         <div className="firstRow">
           <div>
             <h3>Date:</h3>
-            {newsData?.latest_date && (
-              <p>{new Date(newsData?.latest_date).toISOString().split('T')[0]}</p>
+            {newsData?.latest_date  && (
+              <p>{isDate(newsData?.latest_date)? new Date(newsData?.latest_date).toISOString().split('T')[0]:newsData?.latest_date}</p>
             )}
           </div>
           <div>
@@ -63,7 +69,7 @@ function NewsStatistic({news}) {
           <div>
             <h3>Sector Distribution</h3>
             <div className='graph-container'>
-              <SectorDonutChart data={newsData.sector_distribution} />
+              <DonutChart data={newsData.sector_distribution} />
             </div>
             <select id="sector" value={selectedSector} onChange={(e) => setSelectedSector(e.target.value)}>
               <option value="">-- Select Sector --</option>
@@ -73,7 +79,7 @@ function NewsStatistic({news}) {
               ))}
 
             </select>
-            <div className='news_list_container'>
+            <div className='news-item-container'>
               {selectedSector && selectedSectorData(selectedSector).map((item, index) => (
                 <div key={index} className="news_item">
                   <a href={item.News_Hyperlinks} target="_blank" rel="noopener noreferrer">
@@ -97,7 +103,7 @@ function NewsStatistic({news}) {
                 </option>
               ))}
             </select>
-            <div className='news_list_container'>
+            <div className='news-item-container'>
               {selectedCompany && selectedCompanyData(selectedCompany).map((item, index) => (
                 <div key={index} className="news_item">
                   <a href={item.News_Hyperlinks} target="_blank" rel="noopener noreferrer">
@@ -107,6 +113,7 @@ function NewsStatistic({news}) {
               ))}
             </div>
          </div>
+
        </div>
      </div>
       )}
