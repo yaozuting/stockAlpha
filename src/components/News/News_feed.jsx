@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState,useEffect } from "react";
+import axios from 'axios';
 
 function NewsFeed({news}) {
     const [NewsData,setNewsData] = useState([]);
@@ -12,16 +13,26 @@ function NewsFeed({news}) {
     }
     
     useEffect(()=>{
-       setNewsData(news.today_news)
-       console.log('news',news.today_news)
+       setNewsData(news.news)
+       console.log('news',news.news)
     },[news]);
-
+    
+    const deleteNews = (deletedTitle) => {
+    axios.post('/api/DeleteNews', { title: deletedTitle })
+        .then(response => {
+            console.log('News deleted successfully:', response.data);
+            // Optionally, update the state to remove the deleted news from the UI
+        })
+        .catch(error => {
+            console.error('Error deleting news:', error);
+        });
+};
     return(
         <div className="news_feed">
             <div className='text'><p>News Feed</p></div>
             <ul>
                 {NewsData && NewsData.length > 0 && 
-                NewsData.slice(1,endNewsFeed).map((row,index)=>{
+                NewsData.slice(0,endNewsFeed).map((row,index)=>{
                  return (
                     <li key={index}>
                         <div className='news_scroll' >
@@ -38,7 +49,7 @@ function NewsFeed({news}) {
                             </div>
                             <p className='news_date'>{row.Published_Date}</p>
                         </div>
-                       
+    
                     </li>
                  )
                  })}
