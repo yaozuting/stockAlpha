@@ -1,0 +1,1091 @@
+Unnamed: 0,Name,Code,Sector,Industry,Price,Change%,Volume,MCap.(M),Long Name
+0,DYNAFNT,03046.KL,Technology,Software,1.0,0.0,0.0,108.0,DynaFront Holdings Berhad
+1,JISHAN,03040.KL,Industrial Products & Services,Packaging Materials,0.6,0.0,0.0,141.09,Jishan Berhad
+2,BARAKAH,7251.KL,Energy,"Energy, Infrastructure, Equipment & Services",0.04,0.0,1326.0,40.12,Barakah Offshore Petroleum Berhad
+3,CARLSBG,2836.KL,Consumer Products & Services,Food & Beverages,18.72,1.2,587.0,5723.6,Carlsberg Brewery Malaysia Berhad
+4,HEIM,3255.KL,Consumer Products & Services,Food & Beverages,27.12,0.6,1466.0,8192.9,Heineken Malaysia Berhad
+5,NESTLE,4707.KL,Consumer Products & Services,Food & Beverages,73.36,-7.3,3032.0,17202.92,Nestle (Malaysia) Berhad
+6,AAX,5238.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",1.53,4.1,13007.0,684.02,AirAsia X Berhad
+7,UCHITEC,7100.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",3.65,-1.4,8392.0,1693.38,Uchi Technologies Berhad
+8,IDBTECH,03030.KL,Technology,Software,0.13,0.0,0.0,65.0,IDB Technologies Berhad
+9,AVANGAAD,5259.KL,Transportation & Logistics,Transportation & Logistics Services,0.29,0.0,15247.0,384.61,Avangaad Berhad
+10,RPLANET,03036.KL,Technology,Digital Services,0.305,0.0,0.0,51.95,RedPlanet Berhad
+11,SLIC,03008.KL,Technology,Digital Services,0.64,0.0,0.0,81.28,
+12,AJI,2658.KL,Consumer Products & Services,Food & Beverages,14.66,-0.1,221.0,891.31,Ajinomoto (Malaysia) Berhad
+13,NPS,03006.KL,Health Care,Pharmaceuticals,0.215,0.0,0.0,32.04,Nova Pharma Solutions Berhad
+14,JASKITA,8648.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.29,3.6,80.0,130.37,Jasa Kita Berhad
+15,BAT,4162.KL,Consumer Products & Services,Personal Goods,6.31,-1.3,2746.0,1801.69,British American Tobacco (Malaysia) Berhad
+16,RL,0219.KL,Energy,"Energy, Infrastructure, Equipment & Services",0.35,1.4,151444.0,117.2,Reservoir Link Energy Bhd
+17,EUROSP,7094.KL,Consumer Products & Services,Houshold Goods,2.62,0.0,0.0,116.38,Eurospan Holdings Berhad
+18,CRESNDO,6718.KL,Property,Property,1.28,1.6,1181.0,1081.78,Crescendo Corporation Berhad
+19,MFGROUP,03015.KL,Consumer Products & Services,Consumer Services,0.24,0.0,0.0,76.8,MANFORCE GROUP BERHAD
+20,ENEST,03025.KL,Consumer Products & Services,Consumer Services,0.14,0.0,0.0,65.1,Enest Group Berhad
+21,M&G,5078.KL,Transportation & Logistics,Transportation & Logistics Services,0.285,-1.7,8744.0,222.55,Marine & General Berhad
+22,BAUTO,5248.KL,Consumer Products & Services,Automotive,1.09,-2.7,22762.0,1277.67,Bermaz Auto Berhad
+23,HUPSENG,5024.KL,Consumer Products & Services,Food & Beverages,1.01,0.0,10998.0,808.0,Hup Seng Industries Berhad
+24,BURSA,1818.KL,Financial Services,Other Financials,7.8,0.0,22417.0,6312.53,Bursa Malaysia Berhad
+25,FBBHD,03026.KL,Industrial Products & Services,Industrial Services,0.35,0.0,0.0,75.6,Fibromat (M) Berhad
+26,HUMEIND,5000.KL,Industrial Products & Services,Building Materials,2.8,0.4,2457.0,2031.36,Hume Cement Industries Berhad
+27,RGB,0037.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.39,2.6,63039.0,603.82,RGB International Bhd.
+28,SMRT,0117.KL,Technology,Digital Services,0.97,-3.0,3001.0,441.59,SMRT Holdings Berhad
+29,ADB,0276.KL,Technology,Software,0.98,0.5,4964.0,539.49,Autocount Dotcom Berhad
+30,WELLCAL,7231.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",1.47,-1.3,2845.0,731.98,Wellcall Holdings Berhad
+31,KEYFIELD,5321.KL,Energy,"Energy, Infrastructure, Equipment & Services",1.86,-5.6,33220.0,1495.68,Keyfield International Berhad
+32,AMWAY,6351.KL,Consumer Products & Services,Retailers,6.32,-0.2,700.0,1038.92,Amway (Malaysia) Holdings Berhad
+33,BNASTRA,7195.KL,Construction,Construction,1.75,0.6,6320.0,1907.51,Binastra Corporation Berhad
+34,TEOSENG,7252.KL,Consumer Products & Services,Agricultural Products,1.04,1.0,7152.0,624.02,Teo Seng Capital Berhad
+35,ALPHA,0303.KL,Health Care,Health Care Providers,0.305,1.7,15982.0,1482.3,
+36,MRDIY,5296.KL,Consumer Products & Services,Retailers,1.41,2.2,133048.0,13347.54,Mr D.I.Y. Group (M) Berhad
+37,GASMSIA,5209.KL,Utilities,"Gas, Water & Multi-Utilities",4.12,-0.5,3261.0,5290.08,Gas Malaysia Berhad
+38,MPSOL,03019.KL,Consumer Products & Services,Consumer Services,0.07,0.0,0.0,15.6,Matrix Parking Solution Holdings Berhad
+39,PECCA,5271.KL,Industrial Products & Services,Auto Parts,1.46,1.4,46506.0,1097.92,Pecca Group Berhad
+40,LSH,03047.KL,Construction,Construction,0.845,0.0,0.0,596.87,Lim Seong Hai Capital Berhad
+41,LSH,03047.KL,Construction,Construction,0.845,0.0,0.0,596.87,
+42,CHB,0291.KL,Industrial Products & Services,Industrial Services,0.82,1.2,2370.0,304.83,Critical Holdings Berhad
+43,NEXG,5216.KL,Technology,Digital Services,0.26,2.0,945798.0,772.49,NEXG Berhad
+44,INFOTEC,0253.KL,Technology,Digital Services,0.8,-5.9,4199.0,290.58,Infoline Tec Group Berhad
+45,INNO,6262.KL,Plantation,Plantation,1.85,5.7,11896.0,885.89,Innoprise Plantations Berhad
+46,KGB,0151.KL,Industrial Products & Services,Industrial Engineering,3.36,-1.2,4847.0,2421.25,Kelington Group Berhad
+47,CLOUDPT,0277.KL,Technology,Digital Services,0.775,0.0,30644.0,411.99,Cloudpoint Technology Berhad
+48,FOCUSP,0157.KL,Consumer Products & Services,Personal Goods,0.745,2.8,2039.0,344.19,Focus Point Holdings Berhad
+49,CUSCAPI,0051.KL,Technology,Software,0.195,2.6,12863.0,184.25,Cuscapi Berhad
+50,MYEG,0138.KL,Technology,Digital Services,0.91,1.1,412326.0,6943.33,My E.G. Services Berhad
+51,MAXIS,6012.KL,Telecommunications & Media,Telecommunications Service Providers,3.41,-2.3,26898.0,26710.94,Maxis Berhad
+52,SDS,0212.KL,Consumer Products & Services,Food & Beverages,1.05,5.0,1983.0,430.11,SDS Group Berhad
+53,POLYDM,03031.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.75,0.0,0.0,66.18,Polydamic Group Berhad
+54,WPRTS,5246.KL,Transportation & Logistics,Transportation & Logistics Services,4.64,0.9,9391.0,15822.4,Westports Holdings Berhad
+55,ASTRA,03032.KL,Consumer Products & Services,Food & Beverages,0.5,0.0,0.0,136.08,Astramina Group Berhad
+56,EDEN,7471.KL,Utilities,Electricity,0.165,3.1,17491.0,83.38,Eden Inc. Berhad
+57,SENFONG,5308.KL,Industrial Products & Services,Industrial Services,0.865,0.0,6000.0,624.23,Seng Fong Holdings Berhad
+58,APOLLO,6432.KL,Consumer Products & Services,Food & Beverages,6.79,0.6,64.0,543.2,Apollo Food Holdings Berhad
+59,MCLEAN,0167.KL,Industrial Products & Services,Industrial Services,0.31,0.0,22547.0,76.33,MClean Technologies Berhad
+60,99SMART,5326.KL,Consumer Products & Services,Retailers,2.06,1.5,45638.0,17304.0,99 Speed Mart Retail Holdings Berhad
+61,NORTHERN,0340.KL,Energy,Renewable Energy,0.54,12.5,18704.0,213.62,Northern Solar Holdings Berhad
+62,DXN,5318.KL,Consumer Products & Services,Retailers,0.505,1.0,39066.0,2517.42,DXN Holdings Bhd.
+63,REDTONE,0032.KL,Telecommunications & Media,Telecommunications Service Providers,0.56,1.8,967.0,438.17,REDtone Digital Berhad
+64,SYNERGY,0279.KL,Consumer Products & Services,Houshold Goods,0.915,-6.6,2186.0,457.5,Synergy House Berhad
+65,HEGROUP,0296.KL,Industrial Products & Services,Industrial Services,0.32,-3.0,9318.0,140.8,HE Group Berhad
+66,LFECORP,7170.KL,Industrial Products & Services,Industrial Engineering,0.215,0.0,3191.0,250.27,LFE Corporation Berhad
+67,ICTZONE,03038.KL,Technology,Technology Equipment,0.28,0.0,0.0,185.49,ICT Zone Asia Berhad
+68,HEXTAR,5151.KL,Industrial Products & Services,Chemicals,0.89,-0.6,44672.0,3505.94,Hextar Global Berhad
+69,INFOM,0265.KL,Technology,Technology Equipment,1.04,-1.0,1662.0,625.3,Infomina Berhad
+70,SUNCON,5263.KL,Construction,Construction,4.24,3.7,53441.0,5481.94,Sunway Construction Group Berhad
+71,SSB8,0045.KL,Construction,Construction,0.45,0.0,16745.0,1022.67,Southern Score Builders Berhad
+72,PMETAL,8869.KL,Industrial Products & Services,Metals,5.0,3.1,28902.0,41198.09,Press Metal Aluminium Holdings Berhad
+73,KENERGY,0307.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.7,2.9,3979.0,385.0,
+74,GOLDETF,0828EA.KL,ETF-Commodity,Commodity Fund,4.01,0.3,616.0,141.54,
+75,HAWK,0320.KL,Energy,"Energy, Infrastructure, Equipment & Services",0.42,0.0,21065.0,205.8,Steel Hawk Berhad
+76,SPTOTO,1562.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",1.47,0.0,2492.0,1986.01,Sports Toto Berhad
+77,GCB,5102.KL,Consumer Products & Services,Food & Beverages,3.88,9.3,58971.0,4558.67,Guan Chong Berhad
+78,PANDA,0290.KL,Technology,Software,0.29,-3.3,13884.0,194.64,Panda Eco System Berhad
+79,VLB,0273.KL,Construction,Construction,0.515,0.0,3551.0,486.32,Vestland Berhad
+80,ITMAX,5309.KL,Technology,Digital Services,4.08,4.6,19199.0,4207.28,ITMAX System Berhad
+81,TM,4863.KL,Telecommunications & Media,Telecommunications Service Providers,6.8,0.4,45186.0,26096.39,Telekom Malaysia Berhad
+82,CARIMIN,5257.KL,Energy,"Energy, Infrastructure, Equipment & Services",0.745,0.0,0.0,174.24,Carimin Petroleum Berhad
+83,HLIND,3301.KL,Consumer Products & Services,Automotive,13.26,0.6,396.0,4348.0,Hong Leong Industries Berhad
+84,FEYTECH,5322.KL,Industrial Products & Services,Auto Parts,0.45,-7.2,20445.0,379.44,Feytech Holdings Berhad
+85,ZECON,7028.KL,Construction,Construction,0.495,0.0,700.0,73.49,Zecon Berhad
+86,PWRWELL,0217.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.39,-2.5,58930.0,226.42,Powerwell Holdings Berhad
+87,DLADY,3026.KL,Consumer Products & Services,Food & Beverages,28.3,2.5,113.0,1811.2,Dutch Lady Milk Industries Berhad
+88,SIGN,7246.KL,Consumer Products & Services,Houshold Goods,1.5,0.0,311.0,968.25,Signature International Berhad
+89,UUE,0310.KL,Construction,Construction,0.645,-0.8,6458.0,392.35,UUE Holdings Berhad
+90,TAKAFUL,6139.KL,Financial Services,Insurance,3.53,0.0,5817.0,3078.81,Syarikat Takaful Malaysia Keluarga Berhad
+91,SCICOM,0099.KL,Industrial Products & Services,Industrial Services,0.76,0.0,2086.0,270.14,Scicom (MSC) Berhad
+92,PERDANA,7108.KL,Energy,"Energy, Infrastructure, Equipment & Services",0.19,0.0,27715.0,423.14,Perdana Petroleum Berhad
+93,FRONTKN,0128.KL,Technology,Semiconductors,3.53,2.0,36714.0,5626.53,Frontken Corporation Berhad
+94,OPTIMAX,0222.KL,Health Care,Health Care Providers,0.54,0.0,3091.0,293.38,Optimax Holdings Berhad
+95,PETDAG,5681.KL,Consumer Products & Services,Retailers,17.9,-3.0,7493.0,17782.83,PETRONAS Dagangan Berhad
+96,WASCO,5142.KL,Energy,"Energy, Infrastructure, Equipment & Services",0.945,0.0,2989.0,732.27,Wasco Berhad
+97,KMLOONG,5027.KL,Plantation,Plantation,2.29,0.4,1532.0,2241.99,Kim Loong Resources Berhad
+98,PTRB,0260.KL,Consumer Products & Services,Food & Beverages,0.38,0.0,1763.0,203.31,PT Resources Holdings Berhad
+99,MNHLDG,0245.KL,Construction,Construction,1.02,2.0,44665.0,569.26,MN Holdings Berhad
+100,TAS,5149.KL,Transportation & Logistics,Transportation Equipment,0.63,2.4,1358.0,113.4,TAS Offshore Berhad
+101,SCGBHD,0225.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",1.09,3.8,82079.0,1003.94,Southern Cable Group Berhad
+102,LHI,6633.KL,Consumer Products & Services,Agricultural Products,0.62,4.2,102069.0,2264.06,Leong Hup International Berhad
+103,FPHB,0304.KL,Consumer Products & Services,Consumer Services,0.36,1.4,957.0,162.0,Farm Price Holdings Berhad
+104,ELRIDGE,0318.KL,Energy,Renewable Energy,0.47,1.1,89261.0,940.0,Elridge Energy Holdings Berhad
+105,REXIT,0106.KL,Technology,Software,0.615,0.8,2351.0,116.44,Rexit Berhad
+106,MOBILIA,0229.KL,Consumer Products & Services,Houshold Goods,0.135,3.8,9341.0,94.5,Mobilia Holdings Berhad
+107,CIHLDG,2828.KL,Consumer Products & Services,Food & Beverages,2.66,2.3,1.0,430.92,C.I. Holdings Berhad
+108,INTA,0192.KL,Construction,Construction,0.45,2.3,9808.0,248.92,Inta Bina Group Berhad
+109,GREATEC,0208.KL,Technology,Technology Equipment,1.54,-3.1,47725.0,3867.59,Greatech Technology Berhad
+110,CTOS,5301.KL,Technology,Digital Services,1.07,-2.7,42340.0,2471.7,CTOS Digital Berhad
+111,NATGATE,0270.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",1.41,-2.8,394268.0,3210.12,NationGate Holdings Berhad
+112,DYNAMIC,03058.KL,Technology,Software,0.275,0.0,0.0,68.75,
+113,UTDPLT,2089.KL,Plantation,Plantation,22.8,0.1,4201.0,14235.29,United Plantations Berhad
+114,TAFI,7211.KL,Consumer Products & Services,Houshold Goods,0.52,0.0,0.0,197.3,TAFI Industries Berhad
+115,MAGNI,7087.KL,Consumer Products & Services,Personal Goods,2.39,0.0,1388.0,1037.14,Magni-Tech Industries Berhad
+116,DAYANG,5141.KL,Energy,"Energy, Infrastructure, Equipment & Services",1.7,0.6,37277.0,1968.21,Dayang Enterprise Holdings Bhd
+117,KRETAM,1996.KL,Plantation,Plantation,0.51,3.0,21.0,1187.09,Kretam Holdings Berhad
+118,BETA,0263.KL,Industrial Products & Services,Auto Parts,0.415,1.2,3426.0,186.75,Betamek Berhad
+119,LTKM,7085.KL,Consumer Products & Services,Agricultural Products,1.19,1.7,4138.0,170.31,LTKM Berhad
+120,SOLID,5242.KL,Consumer Products & Services,Automotive,0.175,6.1,1.0,90.89,Solid Automotive Berhad
+121,KOPI,0338.KL,Consumer Products & Services,Food & Beverages,0.695,4.5,55259.0,1390.0,Oriental Kopi Holdings Berhad
+122,CBHB,0339.KL,Industrial Products & Services,Industrial Services,0.27,1.9,28930.0,507.84,CBH Engineering Holding Berhad
+123,TOPMIX,0302.KL,Industrial Products & Services,Building Materials,0.45,0.0,226.0,177.24,Topmix Berhad
+124,YINSON,7293.KL,Energy,"Energy, Infrastructure, Equipment & Services",2.25,-2.2,88499.0,6928.44,Yinson Holdings Berhad
+125,LAYHONG,9385.KL,Consumer Products & Services,Agricultural Products,0.33,3.1,13553.0,250.01,Lay Hong Berhad
+126,DELEUM,5132.KL,Energy,"Energy, Infrastructure, Equipment & Services",1.45,0.7,2024.0,582.25,Deleum Berhad
+127,PENERGY,5133.KL,Energy,"Energy, Infrastructure, Equipment & Services",1.2,-3.2,1800.0,386.1,Petra Energy Berhad
+128,MNRB,6459.KL,Financial Services,Insurance,1.95,1.0,2878.0,1527.02,MNRB Holdings Berhad
+129,XOXTECH,0017.KL,Telecommunications & Media,Telecommunications Equipment,0.05,-9.1,6.0,44.81,XOX Technology Berhad
+130,CCIB,03053.KL,Consumer Products & Services,Consumer Services,0.33,0.0,0.0,158.3,
+131,SBAGAN,2569.KL,Plantation,Plantation,5.86,0.0,60.0,545.47,Sungei Bagan Rubber Company (Malaya) Berhad
+132,LPI,8621.KL,Financial Services,Insurance,13.74,1.2,456.0,5473.78,LPI Capital Bhd
+133,KOTRA,0002.KL,Health Care,Pharmaceuticals,4.12,0.0,22.0,611.05,Kotra Industries Berhad
+134,BIG,7005.KL,Industrial Products & Services,Diversified Industrials,0.515,-8.0,93.0,32.69,B.I.G. Industries Berhad
+135,KITACON,5310.KL,Construction,Construction,0.72,1.4,125.0,360.22,Kumpulan Kitacon Berhad
+136,PGLOBE,3611.KL,Property,Property,0.61,0.8,43614.0,455.44,Paragon Globe Berhad
+137,OFI,7107.KL,Consumer Products & Services,Food & Beverages,1.51,0.0,616.0,362.4,Oriental Food Industries Holdings Berhad
+138,EQ8US50,0827EA.KL,ETF-Equity,Equity Fund,2.87,-0.5,50.0,34.19,
+139,YTLPOWR,6742.KL,Utilities,"Gas, Water & Multi-Utilities",3.04,3.1,171184.0,25153.91,YTL Power International Berhad
+140,MUDAJYA,5085.KL,Construction,Construction,0.1,-4.8,1294.0,265.74,Mudajaya Group Berhad
+141,LAGENDA,7179.KL,Property,Property,1.2,-0.8,3687.0,1004.79,Lagenda Properties Berhad
+142,MBMR,5983.KL,Consumer Products & Services,Automotive,5.46,0.2,1906.0,2134.25,MBM Resources Berhad
+143,NAIM,5073.KL,Property,Property,0.88,1.7,1946.0,452.14,Naim Holdings Berhad
+144,MY-MOMETF,0836EA.KL,ETF-Equity,Equity Fund,1.13,0.4,1.0,1.58,
+145,PAM-A40M,0822EA.KL,ETF-Equity,Equity Fund,1.55,0.0,0.0,2.09,
+146,MTEC,0295.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",1.03,-1.0,1126.0,1050.6,Master Tec Group Berhad
+147,FFB,5306.KL,Consumer Products & Services,Food & Beverages,1.73,3.0,34481.0,3243.9,Farm Fresh Berhad
+148,LBS,5789.KL,Property,Property,0.48,1.1,12864.0,758.52,LBS Bina Group Berhad
+149,JTGROUP,0292.KL,Construction,Construction,0.35,2.9,11638.0,137.13,Jati Tinggi Group Berhad
+150,QL,7084.KL,Consumer Products & Services,Agricultural Products,4.84,1.3,33191.0,17668.35,QL Resources Berhad
+151,TPC,7176.KL,Consumer Products & Services,Agricultural Products,0.32,0.0,0.0,98.63,TPC Plus Berhad
+152,F&N,3689.KL,Consumer Products & Services,Food & Beverages,25.36,1.3,504.0,9301.5,Fraser & Neave Holdings Bhd
+153,MKHOP,5319.KL,Plantation,Plantation,0.635,0.8,4097.0,649.98,MKH Oil Palm (East Kalimantan) Berhad
+154,IFCAMSC,0023.KL,Technology,Software,0.46,1.1,19743.0,279.81,IFCA MSC Berhad
+155,ABLEGLOB,7167.KL,Consumer Products & Services,Food & Beverages,1.45,-2.0,2250.0,450.18,Able Global Berhad
+156,GFM,0039.KL,Industrial Products & Services,Industrial Services,0.215,4.9,12376.0,163.3,GFM Services Berhad
+157,RCECAP,9296.KL,Financial Services,Other Financials,1.32,7.3,13861.0,1959.5,RCE Capital Berhad
+158,KERJAYA,7161.KL,Construction,Construction,2.08,-0.5,18744.0,2635.79,Kerjaya Prospek Group Berhad
+159,AGX,0299.KL,Transportation & Logistics,Transportation & Logistics Services,0.545,2.8,12259.0,235.91,AGX Group Berhad
+160,KPJ,5878.KL,Health Care,Health Care Providers,2.78,4.5,152549.0,12583.97,KPJ Healthcare Berhad
+161,VSTECS,5162.KL,Technology,Technology Equipment,3.05,3.0,3587.0,1098.0,VSTECS Berhad
+162,WELLS,0271.KL,Consumer Products & Services,Food & Beverages,0.66,0.8,10219.0,470.0,Wellspire Holdings Berhad
+163,SCIENTX,4731.KL,Industrial Products & Services,Packaging Materials,3.53,-3.0,7479.0,5493.63,Scientex Berhad
+164,MMIS,03027.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.2,0.0,0.0,120.0,MMIS Berhad
+165,PEKAT,0233.KL,Energy,Renewable Energy,1.19,-0.8,4129.0,767.51,Pekat Group Berhad
+166,IGBREIT,5227.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,2.27,2.3,18026.0,8213.83,IGB Real Estate Investment Trust
+167,GDB,0198.KL,Construction,Construction,0.32,6.7,6270.0,300.0,GDB Holdings Berhad
+168,ASTRO,6399.KL,Telecommunications & Media,Media,0.19,-5.0,45816.0,991.61,Astro Malaysia Holdings Berhad
+169,PBA,5041.KL,Utilities,"Gas, Water & Multi-Utilities",1.97,1.0,3185.0,652.6,PBA Holdings Bhd
+170,SAMAIDEN,0223.KL,Energy,Renewable Energy,1.08,0.0,7795.0,453.63,Samaiden Group Berhad
+171,INGENIEU,5178.KL,Industrial Products & Services,Metals,0.03,0.0,262553.0,45.5,Ingenieur Gudang Berhad
+172,WMG,6378.KL,Property,Property,0.39,0.0,800.0,338.19,WMG Holdings Bhd.
+173,AURORA,03037.KL,Consumer Products & Services,Personal Goods,0.22,0.0,0.0,137.73,
+174,POHKONG,5080.KL,Consumer Products & Services,Retailers,0.985,1.0,2470.0,404.2,Poh Kong Holdings Berhad
+175,EG,8907.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",2.04,1.0,4850.0,954.32,EG Industries Berhad
+176,AEONCR,5139.KL,Financial Services,Other Financials,5.62,0.0,725.0,2869.66,AEON Credit Service (M) Berhad
+177,ALLIANZ,1163.KL,Financial Services,Insurance,18.54,0.5,327.0,3329.21,Allianz Malaysia Berhad
+178,ARK,7007.KL,Property,Property,0.25,0.0,206.0,22.62,ARK Resources Holdings Berhad
+179,PETGAS,6033.KL,Utilities,"Gas, Water & Multi-Utilities",17.38,-0.6,6967.0,34390.36,PETRONAS Gas Berhad
+180,MFCB,3069.KL,Utilities,Electricity,4.08,-1.0,13485.0,4032.48,Mega First Corporation Berhad
+181,LGMS,0249.KL,Technology,Digital Services,0.87,-4.9,7739.0,396.72,LGMS Berhad
+182,FAREAST,5029.KL,Plantation,Plantation,3.45,0.0,0.0,2048.74,Far East Holdings Berhad
+183,AGMO,0258.KL,Technology,Software,0.4,2.6,3537.0,130.0,Agmo Holdings Berhad
+184,TOMEI,7230.KL,Consumer Products & Services,Retailers,1.66,-0.6,1395.0,230.08,Tomei Consolidated Berhad
+185,EDARAN,5036.KL,Technology,Technology Equipment,1.22,14.0,1335.0,73.2,Edaran Berhad
+186,JCBNEXT,0058.KL,Industrial Products & Services,Industrial Services,1.63,0.6,10.0,214.14,JcbNext Berhad
+187,UTAMA,03043.KL,Industrial Products & Services,Building Materials,0.27,0.0,0.0,90.02,
+188,YGL,0086.KL,Technology,Software,0.135,0.0,1911.0,36.95,Ygl Convergence Berhad
+189,OPENSYS,0040.KL,Technology,Software,0.32,1.6,3002.0,142.99,OpenSys (M) Berhad
+190,MBL,5152.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.38,-1.3,1123.0,94.55,Muar Ban Lee Group Berhad
+191,RGS,03052.KL,Industrial Products & Services,Industrial Services,0.15,0.0,0.0,38.25,Ray Go Solar Holdings Berhad
+192,DKSH,5908.KL,Consumer Products & Services,Consumer Services,4.78,0.6,67.0,753.61,DKSH Holdings (Malaysia) Berhad
+193,ATECH,5302.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",3.03,3.1,300.0,1313.43,Aurelius Technologies Berhad
+194,SNS,0259.KL,Technology,Technology Equipment,0.37,2.8,141672.0,620.03,SNS Network Technology Berhad
+195,IDEAL,9687.KL,Property,Property,3.8,0.0,0.0,1900.0,Ideal Capital Berhad
+196,PBBANK,1295.KL,Financial Services,Banking,4.63,2.2,391554.0,89871.5,Public Bank Berhad
+197,HARBOUR,2062.KL,Transportation & Logistics,Transportation & Logistics Services,1.38,0.0,623.0,552.55,Harbour-Link Group Berhad
+198,PADINI,7052.KL,Consumer Products & Services,Retailers,1.85,-0.5,8703.0,1825.7,Padini Holdings Berhad
+199,PA,7225.KL,Industrial Products & Services,Metals,0.2,5.3,130056.0,300.95,P.A. Resources Berhad
+200,ATRIUM,5130.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,1.26,0.0,350.0,334.59,Atrium Real Estate Investment Trust
+201,HIBISCS,5199.KL,Energy,Oil & Gas Producers,1.6,2.6,93832.0,1229.44,Hibiscus Petroleum Berhad
+202,SUNMOW,03050.KL,Construction,Construction,1.24,0.0,0.0,290.09,Sunmow Holding Berhad
+203,UMC,0256.KL,Health Care,Health Care Equipment & Services,0.475,2.2,1226.0,177.61,UMediC Group Berhad
+204,CCK,7035.KL,Consumer Products & Services,Food & Beverages,1.2,0.0,3470.0,756.86,CCK Consolidated Holdings Berhad
+205,YTL,4677.KL,Utilities,"Gas, Water & Multi-Utilities",1.86,5.7,173358.0,20660.13,YTL Corporation Berhad
+206,SKPRES,7155.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.995,0.5,5142.0,1554.92,SKP Resources Bhd
+207,FPI,9172.KL,Consumer Products & Services,Houshold Goods,2.64,0.4,3615.0,681.44,Formosa Prosonic Industries Berhad
+208,SANCY,03057.KL,Technology,Software,0.35,0.0,0.0,237.71,
+209,WELLCHIP,5325.KL,Financial Services,Other Financials,1.04,-6.3,9503.0,624.0,Well Chip Group Berhad
+210,TPTEC,03061.KL,Industrial Products & Services,Industrial Services,0.22,0.0,0.0,55.0,
+211,APEX,5088.KL,Financial Services,Other Financials,0.915,0.0,0.0,195.41,Apex Equity Holdings Berhad
+212,SLVEST,0215.KL,Energy,Renewable Energy,1.69,0.6,33144.0,1239.18,Solarvest Holdings Berhad
+213,SWKPLNT,5135.KL,Plantation,Plantation,2.27,0.9,157.0,635.6,Sarawak Plantation Berhad
+214,LEESK,8079.KL,Consumer Products & Services,Houshold Goods,0.505,2.0,2037.0,127.12,Lee Swee Kiat Group Berhad
+215,SDG,5285.KL,Plantation,Plantation,4.95,1.0,24865.0,34232.79,SD Guthrie Berhad
+216,SOP,5126.KL,Plantation,Plantation,3.05,1.3,1661.0,2725.57,Sarawak Oil Palms Berhad
+217,PESONA,8311.KL,Construction,Construction,0.275,1.9,5689.0,191.12,Pesona Metro Holdings Berhad
+218,UNIQUE,0257.KL,Industrial Products & Services,Industrial Services,0.365,2.8,4945.0,146.0,Unique Fire Holdings Berhad
+219,SMETRIC,0203.KL,Technology,Software,0.175,0.0,3139.0,100.99,Securemetric Berhad
+220,NOTION,0083.KL,Technology,Technology Equipment,0.72,5.1,76508.0,378.57,Notion VTec Berhad
+221,EPICON,4847.KL,Construction,Construction,0.195,2.6,2729.0,122.36,Epicon Berhad
+222,SEM,5250.KL,Consumer Products & Services,Retailers,1.97,0.5,55.0,2308.28,7-Eleven Malaysia Holdings Berhad
+223,KLCI1XI,0835EA.KL,,,1.735,0.0,0.0,1.74,
+224,AWC,7579.KL,Industrial Products & Services,Industrial Services,0.86,1.2,3177.0,292.19,AWC Berhad
+225,KUCINGKO,0315.KL,Telecommunications & Media,Media,0.17,6.3,30158.0,85.0,Kucingko Berhad
+226,MSC,5916.KL,Industrial Products & Services,Metals,2.33,8.4,10756.0,978.6,Malaysia Smelting Corporation Berhad
+227,CIMB,1023.KL,Financial Services,Banking,7.8,-2.5,381345.0,83711.76,CIMB Group Holdings Berhad
+228,BPURI,5932.KL,Construction,Construction,0.335,-1.5,92873.0,270.02,Bina Puri Holdings Bhd
+229,HOMERIZ,5160.KL,Consumer Products & Services,Houshold Goods,0.575,0.9,351.0,266.37,Homeritz Corporation Berhad
+230,KSL,5038.KL,Property,Property,1.5,0.7,11960.0,1556.26,KSL Holdings Berhad
+231,TALIWRK,8524.KL,Utilities,"Gas, Water & Multi-Utilities",0.7,-2.8,14128.0,1411.07,Taliworks Corporation Berhad
+232,MCEHLDG,7004.KL,Industrial Products & Services,Auto Parts,1.54,0.7,100.0,209.35,MCE Holdings Berhad
+233,MAYBANK,1155.KL,Financial Services,Banking,10.58,-0.2,99490.0,127668.35,Malayan Banking Berhad
+234,RAMSSOL,0236.KL,Technology,Software,0.83,0.0,46536.0,298.35,Ramssol Group Berhad
+235,HLBANK,5819.KL,Financial Services,Banking,21.3,1.4,12900.0,46172.4,Hong Leong Bank Berhad
+236,KFIMA,6491.KL,Industrial Products & Services,Diversified Industrials,2.28,2.2,541.0,644.57,Kumpulan Fima Berhad
+237,PANTECH,5125.KL,Industrial Products & Services,Metals,0.765,-4.4,45412.0,654.07,Pantech Group Holdings Berhad
+238,IOICORP,1961.KL,Plantation,Plantation,3.79,-1.3,10775.0,23820.9,IOI Corporation Berhad
+239,PWROOT,7237.KL,Consumer Products & Services,Food & Beverages,1.37,-2.1,1312.0,633.19,Power Root Berhad
+240,SKBSHUT,7115.KL,Industrial Products & Services,Building Materials,0.805,-0.6,6619.0,156.58,SKB Shutters Corporation Berhad
+241,HLFG,1082.KL,Financial Services,Banking,18.2,-0.4,1602.0,20884.81,Hong Leong Financial Group Berhad
+242,HIAPTEK,5072.KL,Industrial Products & Services,Metals,0.295,1.7,14840.0,515.58,Hiap Teck Venture Berhad
+243,JTIASA,4383.KL,Plantation,Plantation,1.16,0.9,50333.0,1129.51,Jaya Tiasa Holdings Berhad
+244,ARMADA,5210.KL,Energy,"Energy, Infrastructure, Equipment & Services",0.545,-2.7,177276.0,3230.69,Bumi Armada Berhad
+245,OIB,5827.KL,Property,Property,1.25,0.0,0.0,583.22,Oriental Interest Berhad
+246,SERSOL,0055.KL,Industrial Products & Services,Chemicals,0.06,-14.3,10.0,43.89,Sersol Berhad
+247,L&PBHD,0268.KL,Industrial Products & Services,Industrial Services,0.17,6.3,14433.0,95.34,L&P Global Berhad
+248,CHINTEK,1929.KL,Plantation,Plantation,8.12,0.7,115.0,741.87,Chin Teck Plantations Berhad
+249,MASTER,7029.KL,Industrial Products & Services,Packaging Materials,2.89,-0.7,869.0,157.85,Master-Pack Group Berhad
+250,DANCO,5276.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.43,-1.1,4031.0,190.3,Dancomech Holdings Berhad
+251,UCREST,0005.KL,Technology,Technology Equipment,0.1,5.3,56022.0,74.38,UCrest Berhad
+252,RTSTECH,03039.KL,Technology,Software,0.165,0.0,0.0,20.53,
+253,PLYTEC,0289.KL,Industrial Products & Services,Industrial Services,0.31,6.9,4800.0,187.88,PLYTEC Holding Berhad
+254,ATLAN,7048.KL,Consumer Products & Services,Retailers,2.5,1.2,65.0,634.13,Atlan Holdings Bhd
+255,FAJAR,7047.KL,Construction,Construction,0.275,1.9,43395.0,204.79,Fajarbaru Builder Group Bhd.
+256,SET,0337.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.28,1.8,20780.0,280.22,
+257,AJIYA,7609.KL,Industrial Products & Services,Building Materials,1.74,-0.6,150.0,529.98,Ajiya Berhad
+258,SUNREIT,5176.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,1.91,1.6,16231.0,6541.38,Sunway Real Estate Investment Trust
+259,SYGROUP,5173.KL,Transportation & Logistics,Transportation & Logistics Services,0.795,3.2,3458.0,954.0,Shin Yang Group Berhad
+260,CENGILD,0243.KL,Health Care,Health Care Providers,0.265,0.0,4800.0,220.72,Cengild Medical Berhad
+261,TAANN,5012.KL,Plantation,Plantation,3.74,0.8,2817.0,1663.72,Ta Ann Holdings Berhad
+262,MGB,7595.KL,Construction,Construction,0.625,-3.8,4769.0,369.78,MGB Berhad
+263,EMCC,0286.KL,Financial Services,Other Financials,0.305,5.2,19722.0,340.05,Evergreen Max Cash Capital Berhad
+264,TSA,0297.KL,Industrial Products & Services,Metals,0.72,4.3,562.0,222.7,
+265,KIALIM,6211.KL,Industrial Products & Services,Building Materials,0.35,4.5,562.0,21.68,Kia Lim Berhad
+266,THPLANT,5112.KL,Plantation,Plantation,0.595,1.7,3956.0,525.89,TH Plantations Berhad
+267,ANCOMNY,4758.KL,Industrial Products & Services,Chemicals,0.985,0.5,31776.0,1149.13,Ancom Nylex Berhad
+268,ABMB,2488.KL,Financial Services,Banking,5.18,-0.4,21382.0,8019.19,Alliance Bank Malaysia Berhad
+269,CEKD,0238.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.36,-5.3,2230.0,70.05,CEKD Berhad
+270,TIMECOM,5031.KL,Telecommunications & Media,Telecommunications Service Providers,5.2,-0.6,17940.0,9613.86,TIME dotCom Berhad
+271,VS,6963.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.92,-1.1,35066.0,3622.24,V.S. Industry Berhad
+272,IGBB,5606.KL,Property,Property,2.73,0.4,11.0,3707.72,IGB Berhad
+273,DFX,0131.KL,Technology,Digital Services,0.105,0.0,1650.0,78.3,Divfex Berhad
+274,AMBANK,1015.KL,Financial Services,Banking,5.75,2.0,69743.0,19056.56,AMMB Holdings Berhad
+275,HSPLANT,5138.KL,Plantation,Plantation,1.97,-1.0,16101.0,1576.0,Hap Seng Plantations Holdings Berhad
+276,BTECH,0011.KL,Utilities,"Gas, Water & Multi-Utilities",0.28,1.8,220.0,70.56,Brite-Tech Berhad
+277,SPRING,0216.KL,Consumer Products & Services,Houshold Goods,0.175,-2.8,2200.0,72.75,Spring Art Holdings Berhad
+278,AHEALTH,7090.KL,Health Care,Pharmaceuticals,2.22,-0.4,636.0,1598.92,Apex Healthcare Berhad
+279,RHBBANK,1066.KL,Financial Services,Banking,6.94,1.2,103132.0,30254.86,RHB Bank Berhad
+280,AVALAND,5182.KL,Property,Property,0.295,3.5,10925.0,429.81,Avaland Berhad
+281,IBRACO,5084.KL,Property,Property,1.08,3.8,430.0,589.73,Ibraco Berhad
+282,ORGABIO,0252.KL,Consumer Products & Services,Food & Beverages,0.33,0.0,1410.0,81.8,Orgabio Holdings Berhad
+283,YOCB,5159.KL,Consumer Products & Services,Houshold Goods,1.69,0.6,5.0,270.4,Yoong Onn Corporation Berhad
+284,GLXT,0284.KL,Industrial Products & Services,Industrial Services,0.195,-2.5,3077.0,81.32,Glostrext Berhad
+285,PPHB,8273.KL,Industrial Products & Services,Packaging Materials,0.71,-0.7,1680.0,189.36,Public Packages Holdings Berhad
+286,RGTECH,0202.KL,Technology,Digital Services,0.335,3.1,729.0,186.09,Radiant Globaltech Berhad
+287,QES,0196.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.45,0.0,13510.0,375.36,QES Group Berhad
+288,EPB,0317.KL,Industrial Products & Services,Industrial Services,0.5,1.0,2041.0,186.0,EPB Group Berhad
+289,HARISON,5008.KL,Consumer Products & Services,Food & Beverages,1.42,0.0,27.0,486.27,Harrisons Holdings (Malaysia) Berhad
+290,GOHUB,0311.KL,Technology,Software,0.83,2.5,1837.0,332.0,Go Hub Capital Berhad
+291,SORENTO,0326.KL,Consumer Products & Services,Houshold Goods,0.45,0.0,15040.0,387.0,
+292,AME,5293.KL,Construction,Construction,1.69,1.2,1764.0,1082.74,AME Elite Consortium Berhad
+293,STAR,6084.KL,Telecommunications & Media,Media,0.39,2.6,2984.0,288.04,Star Media Group Berhad
+294,CAB,7174.KL,Consumer Products & Services,Agricultural Products,0.495,0.0,4806.0,347.44,CAB Cakaran Corporation Berhad
+295,PTRANS,0186.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.73,-0.7,32724.0,823.79,Perak Transit Berhad
+296,AUMAS,0098.KL,Industrial Products & Services,Metals,0.725,-0.7,44026.0,1320.59,AuMas Resources Berhad
+297,JPG,5323.KL,Plantation,Plantation,1.19,-2.5,55879.0,2975.0,
+298,CATCHA,0173.KL,Telecommunications & Media,Media,0.32,-1.5,1760.0,115.26,Catcha Digital Berhad
+299,DSS,0269.KL,Industrial Products & Services,Packaging Materials,0.265,0.0,5509.0,127.2,DS Sigma Holdings Berhad
+300,DSR,03055.KL,Plantation,Plantation,1.18,0.0,0.0,385.24,DSR Taiko Berhad
+301,3A,0012.KL,Consumer Products & Services,Food & Beverages,0.77,2.7,3655.0,378.84,Three-A Resources Berhad
+302,ULICORP,7133.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",1.54,4.1,968.0,335.41,United U-LI Corporation Berhad
+303,LBALUM,9326.KL,Industrial Products & Services,Metals,0.465,1.1,635.0,202.21,LB Aluminium Berhad
+304,EUPE,6815.KL,Property,Property,0.95,0.0,1107.0,139.84,Eupe Corporation Berhad
+305,COASTAL,5071.KL,Energy,"Energy, Infrastructure, Equipment & Services",1.38,1.5,275.0,761.22,Coastal Contracts Bhd
+306,VITROX,0097.KL,Technology,Semiconductors,2.87,-1.0,25424.0,5429.57,ViTrox Corporation Berhad
+307,BMGREEN,0168.KL,Energy,Renewable Energy,1.78,0.6,3262.0,1224.28,BM GreenTech Berhad
+308,IHH,5225.KL,Health Care,Health Care Providers,7.37,0.3,50661.0,64966.18,IHH Healthcare Berhad
+309,AMEREIT,5307.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,1.65,5.8,330.0,871.15,AME Real Estate Investment Trust
+310,DPHARMA,7148.KL,Health Care,Pharmaceuticals,1.2,3.4,3353.0,1154.33,Duopharma Biotech Berhad
+311,MHB,5186.KL,Energy,"Energy, Infrastructure, Equipment & Services",0.365,0.0,1035.0,584.0,Malaysia Marine and Heavy Engineering Holdings Berhad
+312,OVH,0220.KL,Energy,"Energy, Infrastructure, Equipment & Services",0.16,-3.0,3350.0,67.19,Ocean Vantage Holdings Berhad
+313,OSKVI,0053.KL,Financial Services,Other Financials,0.53,-3.6,54.0,104.73,OSK Ventures International Berhad
+314,PENTA,7160.KL,Technology,Technology Equipment,3.03,1.0,20990.0,2158.32,Pentamaster Corporation Berhad
+315,KAB,0193.KL,Energy,Renewable Energy,0.325,-1.5,114424.0,675.61,Kinergy Advancement Berhad
+316,INARI,0166.KL,Technology,Semiconductors,2.01,0.5,185046.0,7615.79,Inari Amertron Berhad
+317,HSSEB,0185.KL,Industrial Products & Services,Industrial Engineering,0.88,-2.2,4360.0,447.46,HSS Engineers Berhad
+318,KENANGA,6483.KL,Financial Services,Other Financials,1.03,-1.0,3332.0,757.84,Kenanga Investment Bank Berhad
+319,CDB,6947.KL,Telecommunications & Media,Telecommunications Service Providers,3.59,-1.9,33450.0,42116.11,Celcomdigi Berhad
+320,MHC,5026.KL,Plantation,Plantation,1.0,0.0,270.0,196.54,MHC Plantations Bhd.
+321,PDZ,6254.KL,Transportation & Logistics,Transportation & Logistics Services,0.04,14.3,604.0,23.53,PDZ Holdings Bhd
+322,HLCAP,5274.KL,Financial Services,Other Financials,3.41,0.6,639.0,841.92,Hong Leong Capital Berhad
+323,PAVREIT,5212.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,1.51,0.7,24401.0,5533.23,Pavilion Real Estate Investment Trust
+324,HIL,8443.KL,Industrial Products & Services,Chemicals,0.75,0.0,0.0,250.53,Hil Industries Berhad
+325,WCT,9679.KL,Construction,Construction,0.645,0.8,156106.0,1006.08,WCT Holdings Berhad
+326,MPI,3867.KL,Technology,Semiconductors,17.34,1.8,4143.0,3639.4,Malaysian Pacific Industries Berhad
+327,YENHER,5300.KL,Consumer Products & Services,Agricultural Products,0.825,0.6,725.0,247.5,Yenher Holdings Berhad
+328,SUPERLN,7235.KL,Industrial Products & Services,Building Materials,0.85,6.3,121.0,136.0,Superlon Holdings Berhad
+329,ARANK,7214.KL,Industrial Products & Services,Metals,0.48,1.1,381.0,85.8,A-Rank Berhad
+330,SIME,4197.KL,Consumer Products & Services,Automotive,2.05,1.5,165340.0,13971.97,Sime Darby Berhad
+331,T7GLOBAL,7228.KL,Energy,"Energy, Infrastructure, Equipment & Services",0.465,1.1,2402.0,427.92,T7 Global Berhad
+332,SUNWAY,5211.KL,Industrial Products & Services,Diversified Industrials,4.6,2.2,90121.0,28625.65,Sunway Berhad
+333,IOIPG,5249.KL,Property,Property,1.9,2.7,8334.0,10461.68,IOI Properties Group Berhad
+334,OSK,5053.KL,Property,Property,1.82,0.0,15110.0,3813.45,OSK Holdings Berhad
+335,MCEMENT,3794.KL,Industrial Products & Services,Building Materials,4.81,1.3,4225.0,6461.5,Malayan Cement Berhad
+336,WENTEL,0298.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.27,-1.8,5051.0,310.5,Wentel Engineering Holdings Berhad
+337,HAPSENG,3034.KL,Industrial Products & Services,Diversified Industrials,3.1,1.6,3949.0,7718.01,Hap Seng Consolidated Berhad
+338,VELESTO,5243.KL,Energy,"Energy, Infrastructure, Equipment & Services",0.16,0.0,303865.0,1314.5,Velesto Energy Berhad
+339,KAWAN,7216.KL,Consumer Products & Services,Food & Beverages,1.5,0.7,180.0,546.05,Kawan Food Berhad
+340,KTC,0180.KL,Consumer Products & Services,Consumer Services,0.17,6.3,3878.0,115.92,Kim Teck Cheong Consolidated Berhad
+341,JETSON,9083.KL,Industrial Products & Services,Auto Parts,0.195,2.6,1162.0,77.28,Kumpulan Jetson Berhad
+342,BPPLAS,5100.KL,Industrial Products & Services,Packaging Materials,1.14,0.9,548.0,320.95,BP Plastics Holding Bhd.
+343,REX,9946.KL,Consumer Products & Services,Food & Beverages,0.1,5.3,1.0,65.77,Rex Industry Berhad
+344,EFRAME,0227.KL,Industrial Products & Services,Building Materials,0.56,2.8,18954.0,206.1,Econframe Berhad
+345,PIE,7095.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",3.58,-0.6,3116.0,1374.87,P.I.E. Industrial Berhad
+346,HEXIND,0161.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.42,0.0,16686.0,1153.88,Hextar Industries Berhad
+347,BIPORT,5032.KL,Transportation & Logistics,Transportation & Logistics Services,5.98,0.0,32.0,2750.8,Bintulu Port Holdings Berhad
+348,TEXCYCL,0089.KL,Industrial Products & Services,Industrial Services,1.01,-1.0,280.0,284.0,Tex Cycle Technology (M) Berhad
+349,PRTASCO,5070.KL,Construction,Construction,0.29,0.0,6102.0,143.66,Protasco Berhad
+350,EDELTEQ,0278.KL,Technology,Technology Equipment,0.25,2.0,2540.0,133.13,Edelteq Holdings Berhad
+351,SEALINK,5145.KL,Transportation & Logistics,Transportation Equipment,0.17,-5.6,52432.0,85.0,Sealink International Berhad
+352,LFG,5255.KL,Energy,"Energy, Infrastructure, Equipment & Services",1.02,1.0,2988.0,821.54,Lianson Fleet Group Berhad
+353,HAILY,0237.KL,Construction,Construction,0.19,-5.0,1769.0,80.37,Haily Group Berhad
+354,GENETEC,0104.KL,Technology,Technology Equipment,1.16,4.5,61367.0,913.9,Genetec Technology Berhad
+355,UZMA,7250.KL,Energy,"Energy, Infrastructure, Equipment & Services",0.57,-2.6,2468.0,251.54,Uzma Berhad
+356,MERSEC,0285.KL,Financial Services,Other Financials,0.305,0.0,5978.0,272.37,Mercury Securities Group Berhad
+357,TENAGA,5347.KL,Utilities,Electricity,13.82,1.6,87011.0,80334.94,Tenaga Nasional Berhad
+358,ORIENT,4006.KL,Consumer Products & Services,Automotive,7.15,1.3,1222.0,4435.81,Oriental Holdings Berhad
+359,CREST,0323.KL,Industrial Products & Services,Industrial Services,0.195,2.6,6211.0,168.79,Crest Group Berhad
+360,NHFATT,7060.KL,Consumer Products & Services,Automotive,1.93,0.0,170.0,319.11,New Hoong Fatt Holdings Berhad
+361,OASIS,5265.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.18,0.0,456.0,26.49,Oasis Harvest Corporation Berhad
+362,AUTORIS,03059.KL,Financial Services,Other Financials,0.5,0.0,0.0,186.05,
+363,BINTAI,6998.KL,Industrial Products & Services,Industrial Engineering,0.085,6.3,98987.0,103.7,Bintai Kinden Corporation Berhad
+364,ECOFIRS,3557.KL,Property,Property,0.38,2.7,2125.0,459.01,EcoFirst Consolidated Bhd
+365,DOMINAN,7169.KL,Industrial Products & Services,Wood & Wood Products,0.83,3.7,102.0,137.15,Dominant Enterprise Berhad
+366,TECGUAN,7439.KL,Consumer Products & Services,Agricultural Products,1.61,3.2,84.0,64.56,Teck Guan Perdana Berhad
+367,PTT,7010.KL,Property,Property,1.3,5.7,186.0,561.81,PTT Synergy Group Berhad
+368,LYSAGHT,9199.KL,Industrial Products & Services,Metals,2.54,3.3,30.0,105.61,Lysaght Galvanized Steel Berhad
+369,LWSABAH,5328.KL,Consumer Products & Services,Food & Beverages,0.82,1.9,1373.0,388.01,
+370,SLP,7248.KL,Industrial Products & Services,Packaging Materials,0.87,0.0,0.0,275.76,SLP Resources Berhad
+371,BHIC,8133.KL,Transportation & Logistics,Transportation Equipment,0.35,2.9,200.0,197.5,Boustead Heavy Industries Corporation Berhad
+372,KLCC,5235SS.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,8.45,0.0,838.0,15255.06,KLCC Property Holdings Berhad
+373,JKGLAND,6769.KL,Property,Property,0.105,5.0,801.0,238.87,JKG Land Berhad
+374,BIMB,5258.KL,Financial Services,Banking,2.57,0.4,14063.0,5824.84,Bank Islam Malaysia Berhad
+375,RSAWIT,5113.KL,Plantation,Plantation,0.2,0.0,5254.0,408.34,Rimbunan Sawit Berhad
+376,PANSAR,8419.KL,Industrial Products & Services,Building Materials,0.555,0.0,361.0,286.12,Pansar Berhad
+377,LUXCHEM,5143.KL,Industrial Products & Services,Chemicals,0.465,-2.1,3069.0,497.49,Luxchem Corporation Berhad
+378,FM,7210.KL,Transportation & Logistics,Transportation & Logistics Services,0.585,0.9,452.0,326.69,FM Global Logistics Holdings Berhad
+379,TASCO,5140.KL,Transportation & Logistics,Transportation & Logistics Services,0.66,-2.2,1040.0,528.0,TASCO Berhad
+380,MANULFE,1058.KL,Financial Services,Insurance,2.19,0.0,49.0,492.07,Manulife Holdings Berhad
+381,FCW,2755.KL,Consumer Products & Services,Houshold Goods,1.62,0.0,0.0,404.99,FCW Holdings Berhad
+382,RHONEMA,5278.KL,Consumer Products & Services,Agricultural Products,0.645,0.8,471.0,142.69,Rhone Ma Holdings Berhad
+383,TGUAN,7034.KL,Industrial Products & Services,Packaging Materials,1.26,-1.6,13790.0,509.6,Thong Guan Industries Berhad
+384,SCOMNET,0001.KL,Health Care,Health Care Equipment & Services,1.06,0.0,17545.0,912.24,Supercomnet Technologies Berhad
+385,CHINHIN,5273.KL,Industrial Products & Services,Building Materials,2.19,1.4,7206.0,7753.32,Chin Hin Group Berhad
+386,PWF,7134.KL,Consumer Products & Services,Agricultural Products,0.78,1.3,3073.0,247.93,PWF Corporation Bhd.
+387,SHL,6017.KL,Property,Property,2.3,3.6,120.0,556.88,SHL Consolidated Bhd.
+388,PPJACK,0242.KL,Financial Services,Other Financials,0.96,0.5,2483.0,737.47,Pappajack Berhad
+389,ELKDESA,5228.KL,Financial Services,Other Financials,1.13,1.8,613.0,513.93,ELK-Desa Resources Berhad
+390,VERSATL,4995.KL,Consumer Products & Services,Retailers,0.7,4.5,502.0,196.07,Versatile Creative Berhad
+391,PARAMON,1724.KL,Property,Property,1.07,0.9,2720.0,666.37,Paramount Corporation Berhad
+392,TMK,5330.KL,Industrial Products & Services,Chemicals,1.33,2.3,6291.0,1330.0,
+393,TGL,9369.KL,Consumer Products & Services,Personal Goods,0.97,0.0,0.0,83.81,Teo Guan Lee Corporation Berhad
+394,KJTS,0293.KL,Industrial Products & Services,Industrial Services,1.05,0.0,37622.0,723.06,
+395,PANAMY,3719.KL,Consumer Products & Services,Houshold Goods,16.02,-1.4,49.0,973.15,Panasonic Manufacturing Malaysia Berhad
+396,GOPENG,2135.KL,Plantation,Plantation,0.63,-3.1,4071.0,254.2,Gopeng Berhad
+397,MATRIX,5236.KL,Property,Property,1.38,-0.7,72406.0,2590.29,Matrix Concepts Holdings Berhad
+398,CNERGEN,0246.KL,Technology,Technology Equipment,0.405,2.5,1191.0,201.69,Cnergenz Berhad
+399,TSH,9059.KL,Plantation,Plantation,1.17,-0.8,12379.0,1616.71,TSH Resources Berhad
+400,COLFORM,0341.KL,Industrial Products & Services,Metals,0.35,-4.1,16927.0,210.0,Colform Group Berhad
+401,APPASIA,0119.KL,Technology,Software,0.13,8.3,12632.0,187.84,AppAsia Berhad
+402,AMTEL,7031.KL,Telecommunications & Media,Telecommunications Equipment,0.45,0.0,200.0,44.23,Amtel Holdings Berhad
+403,SKYWLD,5315.KL,Property,Property,0.415,1.2,4192.0,415.0,SkyWorld Development Berhad
+404,KARYON,0054.KL,Industrial Products & Services,Chemicals,0.155,0.0,1199.0,73.74,Karyon Industries Berhad
+405,IRIS,0010.KL,Technology,Software,0.265,1.9,4558.0,216.17,IRIS Corporation Berhad
+406,SCIPACK,8125.KL,Industrial Products & Services,Packaging Materials,1.5,0.0,0.0,526.76,Scientex Packaging (Ayer Keroh) Berhad
+407,LOTUSCIR,7234.KL,Consumer Products & Services,Personal Goods,0.42,1.2,464.0,60.6,Lotus Circular Berhad
+408,MINOX,0288.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.24,2.1,27852.0,86.4,Minox International Group Berhad
+409,PGF,8117.KL,Industrial Products & Services,Building Materials,2.0,-3.4,2881.0,387.9,PGF Capital Berhad
+410,KPS,5843.KL,Industrial Products & Services,Diversified Industrials,0.64,-1.5,6.0,343.93,Kumpulan Perangsang Selangor Berhad
+411,YXPM,0250.KL,Consumer Products & Services,Personal Goods,0.22,2.3,4594.0,81.87,YX Precious Metals Bhd
+412,MARCO,3514.KL,Consumer Products & Services,Personal Goods,0.12,-4.0,10288.0,126.52,Marco Holdings Berhad
+413,UNIMECH,7091.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",1.4,0.0,80.0,211.08,Unimech Group Berhad
+414,SAPIND,7811.KL,Industrial Products & Services,Auto Parts,0.84,0.0,0.0,61.13,Sapura Industrial Berhad
+415,CLMT,5180.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,0.65,0.8,11831.0,1871.98,CapitaLand Malaysia Trust
+416,FAVCO,7229.KL,Industrial Products & Services,Industrial Engineering,1.68,0.0,165.0,397.45,Favelle Favco Berhad
+417,KIMLUN,5171.KL,Construction,Construction,0.91,1.1,3310.0,321.58,Kimlun Corporation Berhad
+418,AEON,6599.KL,Consumer Products & Services,Retailers,1.38,1.5,5794.0,1937.52,Aeon Co. (M) Bhd.
+419,MUH,9539.KL,Property,Property,0.38,-8.4,911.0,21.44,Multi-Usage Holdings Berhad
+420,SAM,9822.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",3.53,-1.7,4086.0,2389.76,SAM Engineering & Equipment (M) Berhad
+421,MI,5286.KL,Technology,Technology Equipment,1.72,1.2,19719.0,1548.0,Mi Technovation Berhad
+422,TECHBND,5289.KL,Industrial Products & Services,Chemicals,0.34,1.5,3089.0,257.16,Techbond Group Berhad
+423,RAPID,7765.KL,Property,Property,0.63,-0.8,1401.0,67.34,Rapid Synergy Berhad
+424,YSPSAH,7178.KL,Health Care,Pharmaceuticals,2.22,0.9,760.0,314.9,Y.S.P. Southeast Asia Holding Berhad
+425,SEB,5163.KL,Industrial Products & Services,Industrial Engineering,0.57,0.0,0.0,45.6,Seremban Engineering Berhad
+426,ANNUM,5082.KL,Industrial Products & Services,Wood & Wood Products,0.055,0.0,600.0,12.51,Annum Berhad
+427,CRPMATE,0331.KL,Industrial Products & Services,Chemicals,0.18,2.9,6654.0,132.84,Cropmate Berhad
+428,TAMBUN,5191.KL,Property,Property,0.83,-0.6,591.0,364.63,Tambun Indah Land Berhad
+429,KEINHIN,7199.KL,Industrial Products & Services,Metals,1.37,-1.4,66.0,149.19,Kein Hing International Berhad
+430,SAMCHEM,5147.KL,Industrial Products & Services,Chemicals,0.4,1.3,1690.0,217.6,Samchem Holdings Berhad
+431,EFORCE,0065.KL,Technology,Software,0.235,2.2,2156.0,143.32,Excel Force MSC Berhad
+432,JAYCORP,7152.KL,Consumer Products & Services,Houshold Goods,0.62,0.0,684.0,170.19,Jaycorp Berhad
+433,AXREIT,5106.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,1.84,0.5,15661.0,3699.31,Axis Real Estate Investment Trust
+434,NPC,5047.KL,Plantation,Plantation,2.76,0.0,0.0,331.2,NPC Resources Berhad
+435,DUFU,7233.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",1.15,0.0,24651.0,628.34,Dufu Technology Corp. Berhad
+436,KKB,9466.KL,Industrial Products & Services,Industrial Engineering,1.47,2.8,10.0,424.43,KKB Engineering Berhad
+437,KUB,6874.KL,Industrial Products & Services,Industrial Services,0.605,-0.8,260.0,337.14,KUB Malaysia Berhad
+438,FPGROUP,5277.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.265,0.0,4049.0,145.29,FoundPac Group Berhad
+439,RANHILL,5272.KL,Utilities,"Gas, Water & Multi-Utilities",1.26,0.0,4185.0,1633.95,Ranhill Utilities Berhad
+440,GESHEN,7197.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",4.46,0.0,591.0,599.53,GE-Shen Corporation Berhad
+441,MTAG,0213.KL,Industrial Products & Services,Industrial Services,0.27,3.8,5626.0,184.04,MTAG Group Berhad
+442,ECOWLD,8206.KL,Property,Property,1.88,0.0,29547.0,5573.4,Eco World Development Group Berhad
+443,ASTINO,7162.KL,Industrial Products & Services,Building Materials,0.545,2.8,2830.0,268.91,Astino Berhad
+444,CPETECH,5317.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.68,-5.6,4310.0,456.49,CPE Technology Berhad
+445,MAGNUM,3859.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",1.25,0.0,24109.0,1797.19,Magnum Berhad
+446,ANALABS,7083.KL,Industrial Products & Services,Industrial Services,1.69,0.0,50.0,202.88,Analabs Resources Berhad
+447,GENP,2291.KL,Plantation,Plantation,5.52,0.2,2286.0,4953.42,Genting Plantations Berhad
+448,MAHSING,8583.KL,Property,Property,1.18,1.7,96184.0,3020.96,Mah Sing Group Berhad
+449,SPRITZER,7103.KL,Consumer Products & Services,Food & Beverages,1.57,4.0,2856.0,1002.65,Spritzer Bhd
+450,YTLREIT,5109.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,1.05,0.0,11263.0,1789.61,YTL Hospitality REIT
+451,BABA,03012.KL,Consumer Products & Services,Houshold Goods,0.44,0.0,0.0,98.88,Baba Eco Group Berhad
+452,AZAMJAYA,5329.KL,Construction,Construction,1.0,-1.0,1857.0,500.0,Azam Jaya Berhad
+453,SRIDGE,0129.KL,Telecommunications & Media,Telecommunications Equipment,0.55,-0.9,203250.0,148.18,Silver Ridge Holdings Bhd.
+454,SMART,0306.KL,Industrial Products & Services,Building Materials,0.245,-5.8,3172.0,90.61,
+455,AYER,2305.KL,Property,Property,7.5,0.0,0.0,561.4,AYER Holdings Berhad
+456,DKLS,7528.KL,Construction,Construction,1.75,0.0,0.0,162.22,DKLS Industries Berhad
+457,TJSETIA,5297.KL,Construction,Construction,0.23,-2.1,39.0,80.16,Tuju Setia Berhad
+458,CVIEW,5049.KL,Property,Property,1.77,0.0,0.0,177.0,Country View Berhad
+459,CABNET,0191.KL,Technology,Technology Equipment,0.3,3.4,4816.0,53.63,Cabnet Holdings Berhad
+460,E&O,3417.KL,Property,Property,0.76,1.3,53503.0,1911.55,Eastern & Oriental Berhad
+461,KIPREIT,5280.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,0.87,0.0,9174.0,694.81,KIP Real Estate Investment Trust
+462,MAGNA,7617.KL,Property,Property,0.6,0.0,0.0,240.86,Magna Prima Berhad
+463,MEGAFB,5327.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.51,-1.0,37847.0,430.94,
+464,SENTRAL,5123.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,0.77,0.0,4244.0,920.54,Sentral REIT
+465,OKA,7140.KL,Industrial Products & Services,Building Materials,0.65,2.4,52.0,159.51,OKA Corporation Bhd
+466,APM,5015.KL,Industrial Products & Services,Auto Parts,3.09,1.0,1586.0,622.94,APM Automotive Holdings Berhad
+467,MEDIA,4502.KL,Telecommunications & Media,Media,0.48,2.1,7407.0,532.42,Media Prima Berhad
+468,INNATURE,5295.KL,Consumer Products & Services,Personal Goods,0.16,-3.0,2400.0,112.94,InNature Berhad
+469,FIBON,0149.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.45,16.9,51.0,44.1,Fibon Berhad
+470,SASBADI,5252.KL,Telecommunications & Media,Media,0.17,3.0,1109.0,74.14,Sasbadi Holdings Berhad
+471,NSOP,2038.KL,Plantation,Plantation,3.98,1.3,220.0,279.4,Negri Sembilan Oil Palms Berhad
+472,CENSOF,5195.KL,Technology,Software,0.18,-2.7,1672.0,99.41,Censof Holdings Berhad
+473,DIALOG,7277.KL,Energy,"Energy, Infrastructure, Equipment & Services",1.48,-4.5,181526.0,8356.11,Dialog Group Berhad
+474,SUNVIEW,0262.KL,Energy,Renewable Energy,0.405,0.0,32991.0,229.93,Sunview Group Berhad
+475,PCCS,6068.KL,Consumer Products & Services,Personal Goods,0.345,0.0,0.0,76.94,PCCS Group Berhad
+476,FIAMMA,6939.KL,Consumer Products & Services,Houshold Goods,1.08,0.0,1801.0,572.65,Fiamma Holdings Berhad
+477,AIMFLEX,0209.KL,Technology,Technology Equipment,0.115,4.5,50235.0,169.38,Aimflex Berhad
+478,KGW,0282.KL,Transportation & Logistics,Transportation & Logistics Services,0.17,3.0,9939.0,82.08,KGW Group Berhad
+479,NGGB,7241.KL,Industrial Products & Services,Industrial Services,0.79,-0.6,32527.0,843.69,Nextgreen Global Berhad
+480,MYTECH,7692.KL,Industrial Products & Services,Metals,0.3,-13.0,100.0,67.13,MyTech Group Berhad
+481,ALAQAR,5116.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,1.27,-0.8,743.0,1066.29,Al-'Aqar Healthcare REIT
+482,JCY,5161.KL,Technology,Technology Equipment,0.375,4.2,64455.0,805.46,JCY International Berhad
+483,TECHSTORE,0343.KL,Technology,Software,0.18,9.1,68607.0,90.0,TechStore Berhad
+484,ZHULIAN,5131.KL,Consumer Products & Services,Consumer Services,1.15,0.0,1049.0,529.0,Zhulian Corporation Berhad
+485,IJM,3336.KL,Construction,Construction,2.07,4.0,61949.0,7550.46,IJM Corporation Berhad
+486,PRIVA,0123.KL,Telecommunications & Media,Telecommunications Equipment,0.1,5.3,12322.0,67.54,Privasia Technology Berhad
+487,MESTRON,0207.KL,Industrial Products & Services,Metals,0.275,0.0,15693.0,275.21,Mestron Holdings Berhad
+488,MBRIGHT,2097.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.12,0.0,260.0,303.76,Meta Bright Group Berhad
+489,BLDPLNT,5069.KL,Plantation,Plantation,10.84,0.0,0.0,1013.54,BLD Plantation Bhd.
+490,POHUAT,7088.KL,Consumer Products & Services,Houshold Goods,1.27,0.8,767.0,353.44,Poh Huat Resources Holdings Berhad
+491,NOVA,0201.KL,Health Care,Pharmaceuticals,0.32,1.6,601.0,101.99,Nova Wellness Group Berhad
+492,SWIFT,5303.KL,Transportation & Logistics,Transportation & Logistics Services,0.425,3.7,3232.0,379.66,Swift Haulage Berhad
+493,MUHIBAH,5703.KL,Construction,Construction,0.66,0.0,15060.0,482.45,Muhibbah Engineering (M) Bhd.
+494,KSSC,5192.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.86,-1.1,22329.0,159.34,K. Seng Seng Corporation Berhad
+495,KPPROP,7077.KL,Property,Property,0.47,-3.1,6650.0,272.67,Kerjaya Prospek Property Berhad
+496,MENANG,1694.KL,Property,Property,0.66,3.1,230.0,469.17,Menang Corporation (M) Berhad
+497,UMCCA,2593.KL,Plantation,Plantation,5.06,0.0,0.0,1061.43,United Malacca Berhad
+498,GOB,1147.KL,Property,Property,0.145,3.6,1211.0,65.93,Global Oriental Berhad
+499,BONIA,9288.KL,Consumer Products & Services,Personal Goods,1.32,1.5,23.0,266.07,Bonia Corporation Berhad
+500,ACME,7131.KL,Property,Property,0.145,-3.3,2767.0,53.29,ACME Holdings Berhad
+501,NESTCON,0235.KL,Construction,Construction,0.4,1.3,35835.0,285.88,Nestcon Berhad
+502,TELADAN,0230.KL,Property,Property,0.955,0.0,310.0,781.67,Teladan Group Berhad
+503,MAXIM,4022.KL,Property,Property,0.27,0.0,378.0,198.52,Maxim Global Berhad
+504,TIENWAH,7374.KL,Industrial Products & Services,Industrial Services,0.79,0.0,0.0,114.35,Tien Wah Press Holdings Berhad
+505,UOADEV,5200.KL,Property,Property,1.76,-0.6,6474.0,4619.87,UOA Development Bhd
+506,CEPAT,8982.KL,Plantation,Plantation,0.685,-0.7,683.0,218.14,Cepatwawasan Group Berhad
+507,KSENG,3476.KL,Industrial Products & Services,Diversified Industrials,5.7,0.2,208.0,2060.42,Keck Seng (Malaysia) Berhad
+508,SFPTECH,0251.KL,Technology,Semiconductors,0.285,11.8,205205.0,684.0,SFP Tech Holdings Berhad
+509,HIGHTEC,7033.KL,Industrial Products & Services,Industrial Engineering,0.71,0.0,0.0,86.5,Kumpulan H & L High-Tech Berhad
+510,KOBAY,6971.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",1.16,1.8,2931.0,378.37,Kobay Technology Bhd.
+511,KPSCB,9121.KL,Industrial Products & Services,Wood & Wood Products,0.47,2.2,134.0,76.43,KPS Consortium Berhad
+512,FIMACOR,3107.KL,Industrial Products & Services,Industrial Services,1.66,0.0,137.0,407.13,Fima Corporation Berhad
+513,AZRB,7078.KL,Construction,Construction,0.19,0.0,7513.0,124.97,Ahmad Zaki Resources Berhad
+514,SIMEPROP,5288.KL,Property,Property,1.34,3.1,256883.0,9113.12,Sime Darby Property Berhad
+515,MAG,0095.KL,Consumer Products & Services,Food & Beverages,0.18,0.0,39098.0,342.18,MAG Holdings Berhad
+516,NCT,0056.KL,Property,Property,0.47,0.0,2602.0,885.23,NCT Alliance Berhad
+517,KTI,0308.KL,Property,Property,0.385,1.3,7784.0,308.0,
+518,SAB,5134.KL,Industrial Products & Services,Chemicals,2.89,0.3,28.0,395.74,Southern Acids (M) Berhad
+519,BJCORP,3395.KL,Industrial Products & Services,Diversified Industrials,0.29,0.0,34632.0,1729.14,Berjaya Corporation Berhad
+520,SUNLOGY,0345.KL,Construction,Construction,0.25,-2.0,28252.0,175.0,
+521,MALAKOF,5264.KL,Utilities,Electricity,0.82,0.0,37846.0,4100.0,Malakoff Corporation Berhad
+522,HHRG,0175.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.095,5.6,11275.0,91.34,HHRG Berhad
+523,SJC,9431.KL,Telecommunications & Media,Media,0.31,0.0,140.0,66.2,Seni Jaya Corporation Berhad
+524,SSF,0287.KL,Consumer Products & Services,Retailers,0.395,1.3,47429.0,316.0,SSF Home Group Berhad
+525,MALPAC,4936.KL,Plantation,Plantation,0.795,0.0,0.0,59.63,Malpac Holdings Berhad
+526,CHGP,7187.KL,Transportation & Logistics,Transportation Equipment,2.1,-0.5,373.0,1388.3,Chin Hin Group Property Berhad
+527,HWATAI,8478.KL,Consumer Products & Services,Food & Beverages,0.47,0.0,80.0,35.17,Hwa Tai Industries Berhad
+528,PPB,4065.KL,Consumer Products & Services,Food & Beverages,11.04,2.6,6110.0,15705.49,PPB Group Berhad
+529,MIKROMB,0112.KL,Technology,Technology Equipment,0.185,2.8,74.0,223.54,Mikro MSC Berhad
+530,WEGMANS,0197.KL,Consumer Products & Services,Houshold Goods,0.16,0.0,339.0,88.01,Wegmans Holdings Berhad
+531,PLENITU,5075.KL,Property,Property,1.42,0.0,383.0,541.78,Plenitude Berhad
+532,FGV,5222.KL,Plantation,Plantation,1.13,0.9,2813.0,4122.41,FGV Holdings Berhad
+533,EITA,5208.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.655,2.3,160.0,197.69,EITA Resources Berhad
+534,DAY3,0281.KL,Consumer Products & Services,Consumer Services,0.265,1.9,1036.0,127.2,Daythree Digital Berhad
+535,VELOCITY,7165.KL,Industrial Products & Services,Building Materials,0.075,-6.2,6340.0,103.61,Velocity Capital Partner Berhad
+536,RESINTC,7232.KL,Industrial Products & Services,Building Materials,0.64,1.6,1084.0,125.27,Resintech Berhad
+537,MFLOUR,3662.KL,Consumer Products & Services,Food & Beverages,0.485,2.1,13901.0,600.99,Malayan Flour Mills Berhad
+538,AXIATA,6888.KL,Telecommunications & Media,Telecommunications Service Providers,1.91,-1.0,43965.0,17539.15,Axiata Group Berhad
+539,SDCG,0321.KL,Industrial Products & Services,Industrial Services,0.53,-0.9,135716.0,224.63,Solar District Cooling Group Berhad
+540,AFFIN,5185.KL,Financial Services,Banking,2.77,-0.7,11804.0,6649.35,AFFIN Bank Berhad
+541,ANEKA,0226.KL,Construction,Construction,0.135,-3.6,2665.0,93.61,Aneka Jaringan Holdings Berhad
+542,HCK,7105.KL,Property,Property,2.13,-0.5,3742.0,1308.42,HCK Capital Group Berhad
+543,SEG,9792.KL,Consumer Products & Services,Consumer Services,0.625,0.8,15187.0,791.09,SEG International Bhd
+544,UMSNGB,7227.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.9,-6.3,140.0,72.0,UMS-Neiken Group Berhad
+545,D&O,7204.KL,Technology,Semiconductors,1.27,4.1,29304.0,1574.14,D & O Green Technologies Berhad
+546,CARLORINO,0335.KL,Consumer Products & Services,Personal Goods,0.165,0.0,6253.0,161.29,Carlo Rino Group Bhd
+547,SPSETIA,8664.KL,Property,Property,1.25,-0.8,49851.0,6253.26,S P Setia Berhad
+548,GMUTUAL,9962.KL,Property,Property,0.26,0.0,0.0,97.66,Gromutual Berhad
+549,BKAWAN,1899.KL,Plantation,Plantation,19.6,0.5,5.0,7830.9,Batu Kawan Berhad
+550,3REN,0328.KL,Technology,Semiconductors,0.235,0.0,20779.0,152.75,3REN Berhad
+551,SUCCESS,7207.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.615,2.5,1974.0,155.69,Success Transformer Corporation Berhad
+552,ACO,0218.KL,Industrial Products & Services,Industrial Services,0.215,10.3,17621.0,74.68,ACO Group Berhad
+553,CYBERE,5166.KL,Consumer Products & Services,Consumer Services,0.925,0.0,288.0,157.64,Cyberjaya Education Group Berhad
+554,KLK,2445.KL,Plantation,Plantation,20.86,1.3,6315.0,23283.95,Kuala Lumpur Kepong Berhad
+555,MBSB,1171.KL,Financial Services,Other Financials,0.725,1.4,69329.0,5961.18,MBSB Berhad
+556,XL,7121.KL,Consumer Products & Services,Consumer Services,0.52,0.0,42500.0,230.05,XL Holdings Berhad
+557,EPMB,7773.KL,Industrial Products & Services,Auto Parts,0.445,2.3,798.0,127.43,EP Manufacturing Bhd
+558,PLINTAS,5320.KL,Business Trust,Business Trust,0.955,0.0,0.0,1050.5,
+559,SENDAI,5205.KL,Construction,Construction,0.455,0.0,15874.0,355.4,Eversendai Corporation Berhad
+560,SUPREME,0330.KL,Consumer Products & Services,Consumer Services,0.2,0.0,3527.0,86.0,
+561,COSMOS,0261.KL,Industrial Products & Services,Industrial Services,0.335,-1.5,250.0,85.93,Cosmos Technology International Berhad
+562,ALRICH,0079.KL,Technology,Software,0.025,0.0,7583.0,27.84,Aldrich Resources Berhad
+563,ASIAPAC,4057.KL,Property,Property,0.095,5.6,9919.0,141.44,Asian Pac Holdings Berhad
+564,HTPADU,5028.KL,Technology,Digital Services,2.7,-0.4,3738.0,300.64,HeiTech Padu Berhad
+565,PTARAS,9598.KL,Construction,Construction,1.43,-2.1,50.0,237.19,Pintaras Jaya Berhad
+566,MKH,6114.KL,Property,Property,1.07,0.9,1201.0,627.61,MKH Berhad
+567,SALCON,8567.KL,Utilities,"Gas, Water & Multi-Utilities",0.275,0.0,897.0,284.75,Salcon Berhad
+568,UWC,5292.KL,Technology,Semiconductors,2.2,-2.7,18330.0,2424.46,UWC Berhad
+569,M&A,7082.KL,Financial Services,Other Financials,0.28,5.7,2297.0,561.11,M & A Equity Holdings Berhad
+570,VOLCANO,0232.KL,Industrial Products & Services,Industrial Services,0.725,5.8,40.0,131.68,Volcano Berhad
+571,TANCO,2429.KL,Property,Property,1.81,0.0,135249.0,3989.99,Tanco Holdings Berhad
+572,GAMUDA,5398.KL,Construction,Construction,4.24,3.4,155424.0,24184.43,Gamuda Berhad
+573,MYNEWS,5275.KL,Consumer Products & Services,Retailers,0.64,6.7,7054.0,480.23,Mynews Holdings Berhad
+574,SMISCOR,7132.KL,Industrial Products & Services,Auto Parts,0.7,0.0,100.0,31.36,SMIS Corporation Berhad
+575,DPIH,0205.KL,Consumer Products & Services,Houshold Goods,0.11,4.8,1200.0,80.31,DPI Holdings Berhad
+576,METROD,6149.KL,Industrial Products & Services,Metals,1.31,-0.8,410.0,157.2,Metrod Holdings Berhad
+577,SHH,7412.KL,Consumer Products & Services,Houshold Goods,1.22,0.0,0.0,121.99,SHH Resources Holdings Berhad
+578,PMBTECH,7172.KL,Industrial Products & Services,Metals,1.6,4.6,976.0,3029.77,PMB Technology Berhad
+579,GUOCO,1503.KL,Property,Property,0.615,-2.4,3637.0,430.78,GuocoLand (Malaysia) Berhad
+580,WINSTAR,0336.KL,Industrial Products & Services,Metals,0.46,3.4,25459.0,133.4,
+581,CMSB,2852.KL,Industrial Products & Services,Building Materials,1.03,3.0,13905.0,1107.09,Cahya Mata Sarawak Berhad
+582,CITAGLB,7245.KL,Industrial Products & Services,Metals,0.79,-1.2,1156.0,336.13,Citaglobal Berhad
+583,SHANG,5517.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",1.81,1.7,1752.0,796.4,Shangri-La Hotels (Malaysia) Berhad
+584,HHHCORP,0160.KL,Industrial Products & Services,Industrial Services,0.12,0.0,0.0,47.9,Hiap Huat Holdings Berhad
+585,UMS,7137.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",2.04,0.0,125.0,83.01,UMS Holdings Berhad
+586,UOAREIT,5110.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,0.87,-0.6,811.0,587.77,Uoa Real Estate Investment
+587,CSCSTEL,5094.KL,Industrial Products & Services,Metals,1.12,0.0,812.0,425.6,CSC Steel Holdings Berhad
+588,FLEXI,0231.KL,Industrial Products & Services,Industrial Services,0.15,3.4,341.0,44.95,Flexidynamic Holdings Berhad
+589,JAKS,4723.KL,Construction,Construction,0.1,5.3,80009.0,262.63,JAKS Resources Berhad
+590,KLUANG,2453.KL,Plantation,Plantation,5.7,3.6,17.0,360.08,Kluang Rubber Company (Malaya) Berhad
+591,INSAS,3379.KL,Financial Services,Other Financials,0.845,1.2,13096.0,585.96,Insas Berhad
+592,PLABS,0171.KL,Consumer Products & Services,Agricultural Products,0.18,0.0,1847.0,49.54,PeterLabs Holdings Berhad
+593,RTECH,0342.KL,Consumer Products & Services,Consumer Services,0.215,2.4,47999.0,43.53,RichTech Digital Berhad
+594,BWYS,0313.KL,Industrial Products & Services,Metals,0.195,0.0,2416.0,199.92,BWYS Group Berhad
+595,KNUSFOR,5035.KL,Industrial Products & Services,Industrial Services,0.745,0.0,0.0,74.24,Knusford Berhad
+596,GTRONIC,7022.KL,Technology,Semiconductors,0.365,2.8,41626.0,246.52,Globetronics Technology Bhd.
+597,AMFIRST,5120.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,0.29,0.0,6787.0,199.06,AmFirst Real Estate Investment Trust
+598,TEXCHEM,8702.KL,Industrial Products & Services,Diversified Industrials,0.795,0.6,2501.0,100.47,Texchem Resources Bhd
+599,BENALEC,5190.KL,Construction,Construction,0.095,0.0,10250.0,98.0,Benalec Holdings Berhad
+600,CORAZA,0240.KL,Industrial Products & Services,Industrial Engineering,0.49,7.7,20998.0,242.16,Coraza Integrated Technology Berhad
+601,KYM,8362.KL,Industrial Products & Services,Packaging Materials,0.33,0.0,0.0,50.36,KYM Holdings Bhd
+602,BESHOM,7668.KL,Consumer Products & Services,Retailers,0.77,0.7,446.0,231.08,Beshom Holdings Berhad
+603,HEKTAR,5121.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,0.51,3.0,7369.0,361.74,Hektar Real Estate Investment Trust
+604,KOSSAN,7153.KL,Health Care,Health Care Equipment & Services,1.8,0.6,48870.0,4604.17,Kossan Rubber Industries Bhd
+605,LIIHEN,7089.KL,Consumer Products & Services,Houshold Goods,0.58,0.9,7236.0,313.2,Lii Hen Industries Bhd
+606,EDGENTA,1368.KL,Industrial Products & Services,Industrial Services,0.795,2.6,2818.0,661.14,UEM Edgenta Berhad
+607,MYCRON,5087.KL,Industrial Products & Services,Metals,0.35,29.6,2.0,114.47,Mycron Steel Berhad
+608,KAREX,5247.KL,Consumer Products & Services,Personal Goods,0.8,1.3,11913.0,842.77,Karex Berhad
+609,MISC,3816.KL,Transportation & Logistics,Transportation & Logistics Services,7.25,0.1,22189.0,32362.5,MISC Berhad
+610,TTVHB,0272.KL,Technology,Semiconductors,0.385,4.1,65439.0,184.65,TT Vision Holdings Berhad
+611,YONGTAI,7066.KL,Property,Property,0.15,-3.2,1959.0,64.31,Yong Tai Berhad
+612,OFB,0312.KL,Consumer Products & Services,Food & Beverages,0.31,0.0,610.0,65.15,Ocean Fresh Berhad
+613,SUNSURIA,3743.KL,Property,Property,0.41,-2.4,770.0,367.33,Sunsuria Berhad
+614,MAYU,7099.KL,Industrial Products & Services,Metals,0.225,2.3,701.0,108.56,Mayu Global Group Berhad
+615,SUNZEN,0148.KL,Consumer Products & Services,Agricultural Products,0.3,0.0,21231.0,242.44,Sunzen Group Berhad
+616,MELATI,5129.KL,Construction,Construction,0.525,0.0,0.0,63.0,Melati Ehsan Holdings Berhad
+617,SHCHAN,4316.KL,Plantation,Plantation,0.24,0.0,767.0,72.93,Sin Heng Chan (Malaya) Berhad
+618,BRIGHT,9938.KL,Industrial Products & Services,Packaging Materials,0.165,0.0,0.0,33.88,Bright Packaging Industry Berhad
+619,PCHEM,5183.KL,Industrial Products & Services,Chemicals,3.77,3.3,53467.0,30160.0,PETRONAS Chemicals Group Berhad
+620,TEKSENG,7200.KL,Consumer Products & Services,Houshold Goods,0.245,-3.9,5742.0,88.36,Tek Seng Holdings Berhad
+621,TURIYA,4359.KL,Technology,Semiconductors,0.25,0.0,701.0,57.18,Turiya Berhad
+622,JAG,0024.KL,Industrial Products & Services,Industrial Services,0.25,0.0,33736.0,188.56,JAG Berhad
+623,SURIA,6521.KL,Transportation & Logistics,Transportation & Logistics Services,1.54,7.7,474.0,532.56,Suria Capital Holdings Berhad
+624,LBICAP,8494.KL,Property,Property,0.435,0.0,0.0,49.99,LBI Capital Berhad
+625,MALTON,6181.KL,Property,Property,0.385,0.0,1031.0,220.89,Malton Berhad
+626,HARNLEN,7501.KL,Plantation,Plantation,0.41,2.5,1761.0,258.91,Harn Len Corporation Bhd
+627,SDRED,2224.KL,Property,Property,0.51,0.0,0.0,217.33,Selangor Dredging Berhad
+628,TSRCAP,5042.KL,Construction,Construction,0.225,0.0,0.0,39.25,TSR Capital Berhad
+629,SBH,0300.KL,Consumer Products & Services,Agricultural Products,0.235,0.0,591.0,208.68,SBH Marine Holdings Berhad
+630,MITRA,9571.KL,Construction,Construction,0.325,3.2,968.0,252.25,Mitrajaya Holdings Berhad
+631,PRESTAR,9873.KL,Industrial Products & Services,Metals,0.36,1.4,625.0,129.81,Prestar Resources Berhad
+632,ORNA,5065.KL,Industrial Products & Services,Packaging Materials,0.755,0.0,0.0,56.81,Ornapaper Berhad
+633,IGBCR,5299.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,0.53,-0.9,7552.0,1275.15,IGB Commercial Real Estate Investment Trust
+634,GENTING,3182.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",3.09,0.3,209911.0,11979.61,Genting Berhad
+635,OBHB,0327.KL,Consumer Products & Services,Food & Beverages,0.16,-5.9,4499.0,62.66,OB Holdings Berhad
+636,UNISEM,5005.KL,Technology,Semiconductors,1.95,-2.0,11989.0,3145.5,Unisem (M) Berhad
+637,ECOMATE,0239.KL,Consumer Products & Services,Houshold Goods,1.03,2.0,1774.0,368.77,Ecomate Holdings Berhad
+638,LAMBO,0018.KL,Technology,Software,0.005,0.0,0.0,7.7,Lambo Group Berhad
+639,GLOTEC,5220.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.46,-1.1,115.0,123.8,Globaltec Formation Berhad
+640,MSTGOLF,5316.KL,Consumer Products & Services,Retailers,0.22,7.3,1650.0,180.59,MST Golf Group Berhad
+641,HPMT,5291.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.235,2.2,1569.0,77.19,HPMT Holdings Berhad
+642,PRKCORP,8346.KL,Transportation & Logistics,Transportation & Logistics Services,0.39,0.0,0.0,39.0,Perak Corporation Berhad
+643,BCB,6602.KL,Property,Property,0.32,3.2,752.0,132.0,BCB Berhad
+644,PGLOBAL,5331.KL,Industrial Products & Services,Metals,0.575,0.0,53440.0,488.75,
+645,TAGHILL,0241.KL,Construction,Construction,0.1,0.0,20619.0,155.62,Taghill Holdings Berhad
+646,DPS,7198.KL,Property,Property,0.5,0.0,225.0,132.87,DPS Resources Berhad
+647,FACBIND,2984.KL,Industrial Products & Services,Metals,1.17,0.9,15.0,99.64,FACB Industries Incorporated Berhad
+648,GLOMAC,5020.KL,Property,Property,0.36,1.4,2105.0,288.03,Glomac Berhad
+649,CETECH,03024.KL,Industrial Products & Services,Industrial Services,0.505,0.0,0.0,174.79,CE Technology Berhad
+650,JFTECH,0146.KL,Technology,Technology Equipment,0.505,0.0,9514.0,468.16,JF Technology Berhad
+651,RVIEW,2542.KL,Plantation,Plantation,2.82,0.0,2.0,182.88,"Riverview Rubber Estates, Berhad"
+652,IBHD,4251.KL,Property,Property,0.235,4.4,101.0,436.47,I-Berhad
+653,IMASPRO,7222.KL,Industrial Products & Services,Chemicals,0.875,-0.6,322.0,70.0,Imaspro Corporation Berhad
+654,TRC,5054.KL,Construction,Construction,0.32,-1.5,800.0,153.76,TRC Synergy Berhad
+655,OCB,5533.KL,Consumer Products & Services,Food & Beverages,0.685,0.0,100.0,70.45,OCB Berhad
+656,TITIJYA,5239.KL,Property,Property,0.25,2.0,7502.0,334.61,Titijaya Land Berhad
+657,ASIAFLE,7129.KL,Consumer Products & Services,Consumer Services,1.55,2.6,261.0,303.77,Asia File Corporation Bhd.
+658,VTC,0319.KL,Technology,Digital Services,0.365,4.3,4498.0,143.08,VETECE Holdings Berhad
+659,SENHENG,5305.KL,Consumer Products & Services,Retailers,0.205,2.5,4809.0,307.5,Senheng New Retail Berhad
+660,OCK,0172.KL,Telecommunications & Media,Telecommunications Service Providers,0.415,3.7,5614.0,445.02,OCK Group Berhad
+661,RGTBHD,9954.KL,Industrial Products & Services,Chemicals,0.505,-1.0,83.0,178.01,RGT Berhad
+662,ADVENTA,7191.KL,Health Care,Health Care Equipment & Services,0.235,2.2,1369.0,71.81,Adventa Berhad
+663,KEN,7323.KL,Property,Property,0.485,6.6,178.0,92.98,Ken Holdings Berhad
+664,MSM,5202.KL,Consumer Products & Services,Food & Beverages,1.17,-4.9,82655.0,822.49,MSM Malaysia Holdings Berhad
+665,MULPHA,3905.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",2.8,1.1,1736.0,871.3,Mulpha International Bhd
+666,SKYGATE,7249.KL,Property,Property,0.705,2.9,580.0,225.29,Skygate Solutions Berhad
+667,TWL,7079.KL,Property,Property,0.025,25.0,15488.0,156.31,TWL Holdings Berhad
+668,GENM,4715.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",1.81,0.0,290165.0,10747.86,Genting Malaysia Berhad
+669,LUSTER,5068.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.06,0.0,122.0,181.36,Luster Industries Bhd
+670,ELSOFT,0090.KL,Technology,Technology Equipment,0.33,0.0,1433.0,229.07,Elsoft Research Berhad
+671,VARIA,5006.KL,Construction,Construction,0.8,7.4,40.0,346.0,Varia Berhad
+672,PASDEC,6912.KL,Property,Property,0.28,-3.4,30.0,112.1,Pasdec Holdings Berhad
+673,EFFICEN,0064.KL,Industrial Products & Services,Industrial Services,0.18,-2.7,261.0,166.76,Efficient E-Solutions Berhad
+674,HPPHB,0228.KL,Industrial Products & Services,Packaging Materials,0.39,-1.3,414.0,151.54,HPP Holdings Berhad
+675,RADIUM,5313.KL,Property,Property,0.49,-1.0,1132.0,1699.32,Radium Development Berhad
+676,STRAITS,0080.KL,Transportation & Logistics,Transportation & Logistics Services,0.095,0.0,47632.0,94.47,Straits Energy Resources Berhad
+677,NE,0325.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.335,-1.5,20724.0,247.9,Northeast Group Berhad
+678,CRESBLD,8591.KL,Construction,Construction,0.57,0.0,510.0,100.85,Crest Builder Holdings Berhad
+679,HARTA,5168.KL,Health Care,Health Care Equipment & Services,2.17,0.0,89427.0,7437.91,Hartalega Holdings Berhad
+680,TRIMODE,0199.KL,Transportation & Logistics,Transportation & Logistics Services,0.225,-4.3,60.0,37.35,Tri-Mode System (M) Berhad
+681,MASTEEL,5098.KL,Industrial Products & Services,Metals,0.24,0.0,14058.0,166.23,Malaysia Steel Works (KL) Bhd.
+682,VINVEST,0069.KL,Technology,Software,0.05,-9.1,6728.0,48.46,Vinvest Capital Holdings Berhad
+683,CAMRES,7128.KL,Consumer Products & Services,Houshold Goods,0.3,13.2,51.0,59.04,CAM Resources Berhad
+684,TCS,0221.KL,Construction,Construction,0.135,0.0,1750.0,81.08,TCS Group Holdings Berhad
+685,TWRREIT,5111.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,0.29,0.0,0.0,142.35,Tower Real Estate Investment Trust
+686,RKI,7006.KL,Consumer Products & Services,Houshold Goods,1.2,2.6,280.0,234.83,Rhong Khen International Berhad
+687,TDM,2054.KL,Plantation,Plantation,0.19,0.0,4998.0,327.35,TDM Berhad
+688,MATANG,0189.KL,Plantation,Plantation,0.075,0.0,5470.0,179.19,Matang Berhad
+689,OCR,7071.KL,Construction,Construction,0.03,0.0,85647.0,100.23,OCR Group Berhad
+690,BINACOM,0195.KL,Telecommunications & Media,Telecommunications Service Providers,0.16,0.0,6781.0,68.34,Binasat Communications Berhad
+691,MINHO,5576.KL,Industrial Products & Services,Wood & Wood Products,0.29,3.6,7674.0,103.45,Minho (M) Berhad
+692,TMCLIFE,0101.KL,Health Care,Health Care Providers,0.425,0.0,1030.0,740.3,TMC Life Sciences Berhad
+693,MELEWAR,3778.KL,Industrial Products & Services,Metals,0.17,0.0,280.0,61.11,Melewar Industrial Group Berhad
+694,UEMS,5148.KL,Property,Property,0.845,3.0,49919.0,4274.41,UEM Sunrise Berhad
+695,HUAYANG,5062.KL,Property,Property,0.21,-8.7,2069.0,92.4,Hua Yang Berhad
+696,CGB,8052.KL,Industrial Products & Services,Packaging Materials,0.88,-1.1,84102.0,674.49,Central Global Berhad
+697,HEXZA,3298.KL,Industrial Products & Services,Chemicals,0.88,-1.1,633.0,176.33,Hexza Corporation Berhad
+698,SCIB,9237.KL,Industrial Products & Services,Building Materials,0.175,2.9,5841.0,122.37,Sarawak Consolidated Industries Berhad
+699,MRCB,1651.KL,Property,Property,0.42,1.2,110194.0,1876.35,Malaysian Resources Corporation Berhad
+700,METRO,0329.KL,Health Care,Health Care Providers,0.2,0.0,545.0,195.78,Metro Healthcare Berhad
+701,LIONPSIM,8486.KL,Industrial Products & Services,Industrial Services,0.32,4.9,6.0,74.1,Lion Posim Berhad
+702,HUBLINE,7013.KL,Transportation & Logistics,Transportation & Logistics Services,0.05,11.1,6131.0,214.5,Hubline Berhad
+703,ENGTEX,5056.KL,Industrial Products & Services,Metals,0.435,-8.4,11205.0,345.52,Engtex Group Berhad
+704,LEONFB,5232.KL,Industrial Products & Services,Metals,0.42,3.7,120.0,143.22,Leon Fuat Berhad
+705,GADANG,9261.KL,Construction,Construction,0.28,0.0,3385.0,224.24,Gadang Holdings Berhad
+706,NADIBHD,0206.KL,Construction,Construction,0.275,0.0,233.0,207.08,Gagasan Nadi Cergas Berhad
+707,KRONO,0176.KL,Technology,Digital Services,0.21,2.4,1092.0,186.99,Kronologi Asia Berhad
+708,ASIABRN,7722.KL,Consumer Products & Services,Personal Goods,0.55,0.0,0.0,127.96,Asia Brands Berhad
+709,LEFORM,0266.KL,Industrial Products & Services,Metals,0.135,8.0,9699.0,199.94,Leform Berhad
+710,OWG,5260.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.23,-4.2,2757.0,105.54,Only World Group Holdings Berhad
+711,ECM,2143.KL,Financial Services,Other Financials,0.19,11.8,2500.0,94.11,ECM Libra Group Berhad
+712,KHB,0322.KL,Industrial Products & Services,Auto Parts,0.105,5.0,4676.0,42.25,KHPT Holdings Berhad
+713,TNLOGIS,8397.KL,Transportation & Logistics,Transportation & Logistics Services,0.69,-1.4,20.0,364.2,Tiong Nam Logistics Holdings Berhad
+714,ARBB,7181.KL,Technology,Software,0.035,16.7,15311.0,43.74,ARB Berhad
+715,MKLAND,8893.KL,Property,Property,0.15,3.4,3458.0,181.09,M K Land Holdings Berhad
+716,ALSREIT,5269.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,0.39,-4.9,6.0,226.2,Al-Salam Real Estate Investment Trust
+717,BERTAM,9814.KL,Property,Property,0.165,-5.7,3113.0,79.83,Bertam Alliance Berhad
+718,MAYBULK,5077.KL,Transportation & Logistics,Transportation & Logistics Services,0.335,1.5,18198.0,335.0,Maybulk Berhad
+719,PETRONM,3042.KL,Energy,Oil & Gas Producers,3.56,0.8,299.0,961.2,Petron Malaysia Refining & Marketing Bhd
+720,HEXRTL,7202.KL,Consumer Products & Services,Houshold Goods,0.485,2.1,3061.0,239.2,Hextar Retail Berhad
+721,MUIPROP,3913.KL,Property,Property,0.305,0.0,3186.0,233.04,MUI Properties Berhad
+722,SCC,0158.KL,Consumer Products & Services,Consumer Services,0.205,-2.4,250.0,28.94,SCC Holdings Berhad
+723,SCB,0316.KL,Consumer Products & Services,Food & Beverages,0.135,0.0,778.0,35.91,Sik Cheong Berhad
+724,TURBO,5167.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.5,0.0,0.0,54.0,Turbo-Mech Berhad
+725,S&FCAP,8745.KL,Industrial Products & Services,Wood & Wood Products,0.085,0.0,6861.0,51.46,S & F Capital Berhad
+726,KHIND,7062.KL,Consumer Products & Services,Houshold Goods,2.0,0.0,0.0,84.08,Khind Holdings Berhad
+727,SYCAL,9717.KL,Construction,Construction,0.155,-11.4,3472.0,64.53,Sycal Ventures Berhad
+728,AMLEX,03011.KL,Technology,Semiconductors,0.2,0.0,0.0,53.62,Amlex Holdings Berhad
+729,L&G,3174.KL,Property,Property,0.105,5.0,19716.0,312.18,Land & General Berhad
+730,LSTEEL,9881.KL,Industrial Products & Services,Metals,0.36,0.0,0.0,57.93,Leader Steel Holdings Berhad
+731,UPA,7757.KL,Consumer Products & Services,Consumer Services,0.75,5.6,30.0,179.06,UPA Corporation Berhad
+732,CHINWEL,5007.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.88,1.1,192.0,263.59,Chin Well Holdings Berhad
+733,ZANTAT,0301.KL,Industrial Products & Services,Chemicals,0.28,-3.4,1960.0,79.73,Zantat Holdings Berhad
+734,ARREIT,5127.KL,Real Estate Investment Trusts,Real Estate Investment Trusts,0.39,2.6,6732.0,223.56,AmanahRaya Real Estate Investment Trust
+735,DFCITY,5165.KL,Industrial Products & Services,Building Materials,0.25,0.0,0.0,26.4,DFCITY Group Berhad
+736,CYL,7157.KL,Industrial Products & Services,Packaging Materials,0.385,0.0,0.0,38.5,CYL Corporation Berhad
+737,EMETALL,7217.KL,Industrial Products & Services,Metals,0.285,0.0,1921.0,87.72,Eonmetall Group Berhad
+738,WANGZNG,7203.KL,Consumer Products & Services,Houshold Goods,0.535,8.1,1538.0,85.76,Wang-Zheng Berhad
+739,ENCORP,6076.KL,Property,Property,0.175,6.1,760.0,55.42,Encorp Berhad
+740,BDB,6173.KL,Property,Property,0.24,-2.0,1175.0,72.93,Bina Darulaman Berhad
+741,WAJA,0102.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.05,-16.7,7265.0,55.76,Waja Konsortium Berhad
+742,ICAP,5108.KL,Closed-End Fund,Closed End Fund,2.56,0.0,80.0,361.05,
+743,MIECO,5001.KL,Industrial Products & Services,Wood & Wood Products,0.69,0.0,50.0,690.0,Mieco Chipboard Berhad
+744,SUBUR,6904.KL,Industrial Products & Services,Wood & Wood Products,0.715,0.0,0.0,149.43,Subur Tiasa Holdings Berhad
+745,SNOWFIT,03054.KL,Consumer Products & Services,Houshold Goods,0.2,0.0,0.0,42.22,
+746,YEWLEE,0248.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.69,0.7,73517.0,374.9,Yew Lee Pacific Group Berhad
+747,CHHB,5738.KL,Property,Property,0.18,-5.3,103.0,58.64,Country Heights Holdings Berhad
+748,TONGHER,5010.KL,Industrial Products & Services,Metals,1.45,-3.3,211.0,228.27,Tong Herr Resources Berhad
+749,DRBHCOM,1619.KL,Consumer Products & Services,Automotive,0.69,2.2,15698.0,1333.93,DRB-HICOM Berhad
+750,DUTALND,3948.KL,Plantation,Plantation,0.28,-1.8,20.0,236.91,DutaLand Berhad
+751,LEBTECH,9628.KL,Construction,Construction,0.78,0.0,1.0,106.46,Lebtech Berhad
+752,SEACERA,7073.KL,Industrial Products & Services,Building Materials,0.175,0.0,320.0,108.88,Seacera Group Berhad
+753,EVERGRN,5101.KL,Industrial Products & Services,Wood & Wood Products,0.22,-2.2,4014.0,186.21,Evergreen Fibreboard Berhad
+754,K1,0111.KL,Technology,Technology Equipment,0.135,8.0,8699.0,112.32,K-One Technology Berhad
+755,HEXCAP,0035.KL,Telecommunications & Media,Telecommunications Equipment,0.3,1.7,1536.0,134.09,Hextar Capital Berhad
+756,LOTUS,8303.KL,Consumer Products & Services,Food & Beverages,0.11,4.8,3834.0,141.16,Lotus KFM Berhad
+757,TUNEPRO,5230.KL,Financial Services,Insurance,0.29,0.0,2232.0,218.56,Tune Protect Group Berhad
+758,Y&G,7003.KL,Property,Property,0.45,-8.2,3.0,98.32,Y&G Corporation Bhd.
+759,ABLEGRP,7086.KL,Industrial Products & Services,Building Materials,0.08,-5.9,3.0,21.11,AbleGroup Berhad
+760,TOPGLOV,7113.KL,Health Care,Health Care Equipment & Services,0.89,2.9,181026.0,7313.66,Top Glove Corporation Bhd.
+761,LSH,0351.KL,,,0.88,0.0,0.0,0.0,Lim Seong Hai Capital Berhad
+762,LSH,0351.KL,,,0.88,0.0,0.0,0.0,
+763,SALIRAN,0346.KL,,,0.27,0.0,0.0,0.0,
+764,DIN045801028,0400GB.KL,Bond Islamic,Islamic GG,102.5,0.0,0.0,102.5,
+765,DENGKIL,0347.KL,,,0.25,0.0,0.0,0.0,
+766,OMH,5298.KL,Industrial Products & Services,Metals,0.94,6.8,80.0,694.31,OM Holdings Limited
+767,ALLIANZ-PA,1163PA.KL,Financial Services,Insurance,18.54,0.0,0.0,3089.42,Allianz Malaysia Berhad
+768,CLITE,0348.KL,,,0.25,0.0,0.0,0.0,
+769,EQ8WAQF,0839EA.KL,ETF-Equity,Equity Fund,0.955,0.0,0.0,1.43,
+770,FBMKLCI-EA,0820EA.KL,ETF-Equity,Equity Fund,1.695,-0.3,103.0,5.67,
+771,MCOM,03022.KL,Technology,Digital Services,0.2,0.0,0.0,39.15,
+772,CAPITALA,5099.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.81,2.5,117611.0,3509.85,Capital A Berhad
+773,IREKA,8834.KL,Construction,Construction,0.375,5.6,94.0,85.42,Ireka Corporation Berhad
+774,ZENTECH,0094.KL,Technology,Software,0.01,100.0,27026.0,31.37,Zen Tech International Berhad
+775,GPP,03029.KL,Industrial Products & Services,Industrial Services,0.28,0.0,0.0,43.43,
+776,JAGAAPP,03002.KL,Technology,Digital Services,0.05,0.0,0.0,5.25,JaGaSolution Berhad
+777,CARZO,03048.KL,Consumer Products & Services,Food & Beverages,0.4,0.0,0.0,38.17,Carzo Holdings Berhad
+778,SAPNRG,5218.KL,Energy,"Energy, Infrastructure, Equipment & Services",0.035,16.7,117678.0,643.16,Sapura Energy Berhad
+779,ZELAN,2283.KL,Construction,Construction,0.05,11.1,14975.0,42.25,Zelan Berhad
+780,SCABLE,5170.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.085,0.0,11353.0,33.91,Sarawak Cable Berhad
+781,ALAM,5115.KL,Energy,"Energy, Infrastructure, Equipment & Services",0.03,0.0,33544.0,45.95,Alam Maritim Resources Berhad
+782,PHARMA,7081.KL,Health Care,Pharmaceuticals,0.22,-2.2,15923.0,317.07,Pharmaniaga Berhad
+783,KHEESAN,6203.KL,Consumer Products & Services,Food & Beverages,0.24,-4.0,1462.0,32.95,Khee San Berhad
+784,ABFMY1,0800EA.KL,ETF-Bond,Bond Fund,1.2,0.0,1.0,1749.51,
+785,HM,0060.KL,Technology,Technology Equipment,0.135,3.8,40518.0,221.55,Harvest Miracle Capital Berhad
+786,KANGER,0170.KL,Consumer Products & Services,Houshold Goods,0.04,14.3,8899.0,35.36,Kanger International Berhad
+787,OCNCASH,0049.KL,Consumer Products & Services,Personal Goods,0.355,-2.7,43369.0,92.58,Oceancash Pacific Berhad
+788,GBGAQRS,5226.KL,Construction,Construction,0.195,2.6,4037.0,106.07,Gabungan AQRS Berhad
+789,PBSB,5231.KL,Consumer Products & Services,Consumer Services,0.18,5.9,70.0,109.46,PBS Berhad
+790,TIMWELL,7854.KL,Industrial Products & Services,Wood & Wood Products,0.42,0.0,0.0,37.4,Timberwell Berhad
+791,NTPM,5066.KL,Consumer Products & Services,Houshold Goods,0.27,0.0,1110.0,303.26,NTPM Holdings Berhad
+792,GDEX,0078.KL,Transportation & Logistics,Transportation & Logistics Services,0.185,2.8,11512.0,1043.66,GDEX Berhad
+793,TASHIN,0211.KL,Industrial Products & Services,Metals,0.3,0.0,0.0,104.7,Tashin Holdings Berhad
+794,SBCCORP,5207.KL,Property,Property,0.315,-6.0,461.0,81.31,SBC Corporation Berhad
+795,GBAY,9148.KL,Industrial Products & Services,Packaging Materials,0.6,0.0,2000.0,48.81,Greater Bay Holdings Berhad
+796,MAA,1198.KL,Financial Services,Insurance,0.2,0.0,2420.0,52.75,MAA Group Berhad
+797,SINKUNG,0305.KL,Transportation & Logistics,Transportation & Logistics Services,0.125,4.2,4207.0,150.0,Sin-Kung Logistics Berhad
+798,IQGROUP,5107.KL,Consumer Products & Services,Houshold Goods,0.58,0.0,0.0,51.06,IQ Group Holdings Berhad
+799,MMSV,0113.KL,Technology,Technology Equipment,0.34,0.0,481.0,70.53,MMS Ventures Berhad
+800,CHINAETF-USD,0829EB.KL,ETF-Equity,Equity Fund,1.215,0.0,0.0,0.07,
+801,UNIWALL,03017.KL,Construction,Construction,0.49,0.0,0.0,358.39,Uni Wall APS Holdings Berhad
+802,FSBM,9377.KL,Technology,Technology Equipment,0.21,2.4,70023.0,107.75,FSBM Holdings Berhad
+803,XIN,7043.KL,Industrial Products & Services,Building Materials,0.25,6.4,674.0,125.47,Xin Synergy Group Berhad
+804,AWANTEC,5204.KL,Technology,Digital Services,0.295,0.0,2225.0,233.05,AwanBiru Technology Berhad
+805,CLASSITA,7154.KL,Consumer Products & Services,Personal Goods,0.065,8.3,83674.0,80.13,Classita Holdings Berhad
+806,CANONE,5105.KL,Industrial Products & Services,Packaging Materials,2.25,1.4,820.0,432.34,Can-One Berhad
+807,INCKEN,2607.KL,Plantation,Plantation,0.385,-1.3,39.0,161.99,Inch Kenneth Kajang Rubber Public Limited Company
+808,SEAL,4286.KL,Property,Property,0.765,0.0,3161.0,321.53,Seal Incorporated Berhad
+809,HEVEA,5095.KL,Industrial Products & Services,Wood & Wood Products,0.215,-2.3,5820.0,122.07,HeveaBoard Berhad
+810,OVERSEA,0153.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.045,12.5,14151.0,102.59,Oversea Enterprise Berhad
+811,AYS,5021.KL,Industrial Products & Services,Building Materials,0.25,4.2,853.0,104.61,AYS Ventures Berhad
+812,FIHB,8605.KL,Consumer Products & Services,Houshold Goods,0.29,0.0,0.0,42.04,Federal International Holdings Berhad
+813,AGRICOR,0309.KL,Consumer Products & Services,Food & Beverages,0.41,0.0,0.0,83.15,Agricore CS Holdings Berhad
+814,EKSONS,9016.KL,Industrial Products & Services,Wood & Wood Products,0.51,0.0,0.0,83.75,Eksons Corporation Berhad
+815,ROHAS,9741.KL,Industrial Products & Services,Industrial Engineering,0.225,0.0,220.0,106.35,Rohas Tecnic Berhad
+816,SYMLIFE,1538.KL,Property,Property,0.225,0.0,0.0,161.2,Symphony Life Berhad
+817,KESM,9334.KL,Technology,Semiconductors,3.13,2.6,177.0,134.64,KESM Industries Berhad
+818,LANDMRK,1643.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.135,3.8,819.0,90.65,Landmarks Berhad
+819,PAOS,5022.KL,Consumer Products & Services,Houshold Goods,0.31,0.0,51.0,56.16,Paos Holdings Berhad
+820,CWG,9423.KL,Consumer Products & Services,Consumer Services,0.19,0.0,0.0,49.85,CWG Holdings Berhad
+821,CJCEN,7117.KL,Transportation & Logistics,Transportation & Logistics Services,0.19,0.0,0.0,112.9,CJ Century Logistics Holdings Berhad
+822,ALCOM,2674.KL,Industrial Products & Services,Metals,0.665,-0.7,230.0,89.33,Alcom Group Berhad
+823,PARAGON,9407.KL,Consumer Products & Services,Houshold Goods,2.26,0.0,940.0,228.53,Paragon Union Berhad
+824,BJASSET,3239.KL,Property,Property,0.28,7.7,1719.0,716.32,Berjaya Assets Berhad
+825,WOODLAN,7025.KL,Industrial Products & Services,Wood & Wood Products,0.595,-0.8,1.0,23.8,Woodlandor Holdings Berhad
+826,WTHORSE,5009.KL,Industrial Products & Services,Building Materials,0.735,0.7,50.0,176.4,White Horse Berhad
+827,MENTIGA,5223.KL,Plantation,Plantation,0.42,0.0,13.0,29.4,Mentiga Corporation Berhad
+828,CHUAN,7016.KL,Industrial Products & Services,Building Materials,0.3,-20.0,761.0,50.6,Chuan Huat Resources Berhad
+829,BSLCORP,7221.KL,Industrial Products & Services,Metals,0.025,25.0,3628.0,48.32,BSL Corporation Berhad
+830,AASIA,7054.KL,Plantation,Plantation,0.09,-5.3,218.0,62.31,Astral Asia Berhad
+831,HPI,03060.KL,Industrial Products & Services,Building Materials,0.31,0.0,0.0,40.88,
+832,BJLAND,4219.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.295,0.0,5111.0,1475.1,Berjaya Land Berhad
+833,PGB,0091.KL,Energy,"Energy, Infrastructure, Equipment & Services",0.09,-10.0,2.0,65.0,
+834,FITTERS,9318.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.03,0.0,10699.0,70.62,FITTERS Diversified Berhad
+835,SG,5157.KL,Consumer Products & Services,Food & Beverages,0.015,0.0,9025.0,23.43,SaudiGold Group Berhad
+836,SWSCAP,7186.KL,Consumer Products & Services,Houshold Goods,0.19,0.0,703.0,57.43,SWS Capital Berhad
+837,OPPSTAR,0275.KL,Technology,Semiconductors,0.405,1.2,20684.0,259.46,Oppstar Berhad
+838,EMICO,9091.KL,Consumer Products & Services,Consumer Services,0.215,-2.3,100.0,28.38,Emico Holdings Berhad
+839,ASDION,0068.KL,Technology,Software,0.025,0.0,1800.0,12.77,Asdion Berhad
+840,HEXCARE,7803.KL,Health Care,Health Care Equipment & Services,0.14,3.7,8783.0,167.07,Hextar Healthcare Berhad
+841,IWCITY,1589.KL,Property,Property,0.37,0.0,32984.0,340.82,Iskandar Waterfront City Berhad
+842,HWGB,9601.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.23,2.2,7358.0,47.28,Ho Wah Genting Berhad
+843,SCGM,7247.KL,Industrial Products & Services,Packaging Materials,0.56,0.0,900.0,108.42,SCGM Bhd
+844,EWINT,5283.KL,Property,Property,0.245,0.0,4647.0,588.0,Eco World International Berhad
+845,DNEX,4456.KL,Technology,Digital Services,0.26,6.1,177448.0,902.71,Dagang NeXchange Berhad
+846,MJPERAK,8141.KL,Property,Property,0.105,-4.5,2200.0,29.86,Majuperak Holdings Berhad
+847,WATTA,7226.KL,Industrial Products & Services,Auto Parts,0.38,0.0,0.0,32.1,Watta Holding Berhad
+848,UNITRAD,0247.KL,Industrial Products & Services,Building Materials,0.205,7.9,9941.0,334.3,Unitrade Industries Berhad
+849,SSTEEL,5665.KL,Industrial Products & Services,Metals,0.345,-1.4,6657.0,517.88,Southern Steel Berhad
+850,PERTAMA,8532.KL,Consumer Products & Services,Personal Goods,0.095,0.0,1560.0,41.63,Pertama Digital Berhad
+851,REKATECH,0081.KL,Industrial Products & Services,Industrial Services,0.04,0.0,0.0,23.68,Rekatech Capital Berhad
+852,HBGLOB,5187.KL,Consumer Products & Services,Food & Beverages,0.07,0.0,8246.0,54.74,HB Global Limited
+853,FINTEC,0150.KL,Financial Services,Other Financials,0.165,3.1,2751.0,33.82,Fintec Global Berhad
+854,NHB,5614.KL,Energy,Renewable Energy,0.45,0.0,0.0,87.76,Nuenergy Holdings Berhad
+855,MSNIAGA,5011.KL,Technology,Digital Services,1.42,0.0,0.0,85.77,Mesiniaga Berhad
+856,CNH,5104.KL,Consumer Products & Services,Consumer Services,0.045,0.0,130.0,32.4,Citra Nusa Holdings Berhad
+857,ESCERAM,0100.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.105,0.0,4982.0,74.25,ES Ceramics Technology Berhad
+858,ECONBHD,5253.KL,Construction,Construction,0.32,3.2,24193.0,453.6,Econpile Holdings Berhad
+859,GLBHD,7382.KL,Plantation,Plantation,0.28,0.0,0.0,62.42,Golden Land Berhad
+860,LIENHOE,3573.KL,Property,Property,0.24,0.0,0.0,86.82,Lien Hoe Corporation Berhad
+861,YNHPROP,3158.KL,Property,Property,0.44,2.3,14525.0,232.76,YNH Property Bhd
+862,CBIP,7076.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",1.11,0.9,819.0,547.51,CB Industrial Product Holding Berhad
+863,SMI,4375.KL,Property,Property,0.37,-1.3,300.0,77.68,South Malaysia Industries Berhad
+864,SUPERMX,7106.KL,Health Care,Health Care Equipment & Services,0.775,2.6,67313.0,2530.16,Supermax Corporation Berhad
+865,MPAY,0156.KL,Technology,Software,0.075,-6.2,4560.0,77.41,ManagePay Systems Berhad
+866,PLS,9695.KL,Plantation,Plantation,0.445,0.0,55.0,195.63,PLS Plantations Berhad
+867,PARKWD,2682.KL,Property,Property,0.12,0.0,0.0,33.84,Parkwood Holdings Berhad
+868,ASTEEL,7020.KL,Industrial Products & Services,Metals,0.065,8.3,6521.0,31.52,ASTEEL Group Berhad
+869,TOPVISN,0332.KL,Health Care,Health Care Providers,0.21,5.0,2102.0,65.06,Topvision Eye Specialist Berhad
+870,XDL,5156.KL,Consumer Products & Services,Personal Goods,0.01,0.0,150.0,21.16,XiDeLang Holdings Ltd
+871,PHB,4464.KL,Property,Property,0.01,100.0,87173.0,108.21,Pegasus Heights Berhad
+872,CFM,8044.KL,Industrial Products & Services,Industrial Services,0.095,5.6,5904.0,29.23,Computer Forms (Malaysia) Berhad
+873,OLYMPIA,3018.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.055,0.0,60.0,56.29,Olympia Industries Berhad
+874,RENEUCO,7130.KL,Energy,Renewable Energy,0.045,0.0,2187.0,51.41,Reneuco Berhad
+875,GREENYB,0136.KL,Consumer Products & Services,Agricultural Products,0.2,2.6,126.0,108.46,Greenyield Berhad
+876,KHJB,0210.KL,Consumer Products & Services,Retailers,0.13,8.3,1121.0,49.4,Kim Hin Joo (Malaysia) Berhad
+877,MUDA,3883.KL,Industrial Products & Services,Packaging Materials,1.02,0.0,310.0,311.15,Muda Holdings Berhad
+878,CHOOBEE,5797.KL,Industrial Products & Services,Metals,0.6,0.0,834.0,118.52,Choo Bee Metal Industries Berhad
+879,AVI,8885.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.03,-14.3,14047.0,34.0,Avillion Berhad
+880,BORNOIL,7036.KL,Industrial Products & Services,Industrial Services,0.01,0.0,15466.0,134.92,Borneo Oil Berhad
+881,TRIVE,0118.KL,Energy,Renewable Energy,0.03,-14.3,478.0,37.91,Trive Property Group Berhad
+882,SEEHUP,7053.KL,Transportation & Logistics,Transportation & Logistics Services,0.8,2.6,571.0,64.34,See Hup Consolidated Berhad
+883,TROP,5401.KL,Property,Property,1.15,0.0,3771.0,2891.38,Tropicana Corporation Berhad
+884,GUH,3247.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.315,5.0,1356.0,88.85,GUH Holdings Berhad
+885,FARLIM,6041.KL,Property,Property,0.21,5.0,212.0,35.36,Farlim Group (Malaysia) Bhd.
+886,FOCUS,0116.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.015,0.0,3395.0,95.58,Focus Dynamics Group Berhad
+887,KAMDAR,8672.KL,Consumer Products & Services,Retailers,0.21,10.5,114.0,41.58,Kamdar Group (M) Berhad
+888,PINEPAC,1902.KL,Plantation,Plantation,0.23,-8.0,85.0,34.45,Pinehill Pacific Berhad
+889,PJBUMI,7163.KL,Industrial Products & Services,Industrial Services,0.9,0.6,28.0,73.8,PJBumi Berhad
+890,CME,7018.KL,Industrial Products & Services,Industrial Services,0.01,0.0,0.0,12.09,CME Group Berhad
+891,WIDAD,0162.KL,Construction,Construction,0.035,0.0,2144.0,109.24,Widad Group Berhad
+892,EIG,5081.KL,Consumer Products & Services,Personal Goods,0.235,0.0,0.0,55.74,Esthetics International Group Berhad
+893,SYSTECH,0050.KL,Technology,Software,0.24,2.1,576.0,154.68,Systech Bhd
+894,PEB,5622.KL,Construction,Construction,0.88,0.0,0.0,60.83,Pimpinan Ehsan Berhad
+895,MMM,0159.KL,Telecommunications & Media,Media,0.07,0.0,0.0,21.79,MMM Group Berhad
+896,WARISAN,5016.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.95,0.0,0.0,63.84,Warisan TC Holdings Berhad
+897,WTK,4243.KL,Industrial Products & Services,Wood & Wood Products,0.425,-1.2,2448.0,204.57,W T K Holdings Berhad
+898,SERNKOU,7180.KL,Consumer Products & Services,Houshold Goods,0.82,1.9,2429.0,884.04,Sern Kou Resources Berhad
+899,MILUX,7935.KL,Consumer Products & Services,Houshold Goods,0.49,0.0,0.0,115.18,Milux Corporation Berhad
+900,NIHSIN,7215.KL,Consumer Products & Services,Houshold Goods,0.095,0.0,5146.0,54.44,Ni Hsin Group Berhad
+901,RALCO,7498.KL,Industrial Products & Services,Chemicals,0.7,0.0,0.0,35.56,Ralco Corporation Berhad
+902,EKOVEST,8877.KL,Construction,Construction,0.275,1.9,112485.0,815.49,Ekovest Berhad
+903,XINHWA,5267.KL,Transportation & Logistics,Transportation & Logistics Services,0.16,-3.0,231.0,40.91,Xin Hwa Holdings Berhad
+904,ESAFE,0190.KL,Industrial Products & Services,Auto Parts,0.15,3.4,14.0,36.09,Eversafe Rubber Berhad
+905,SAPRES,4596.KL,Property,Property,0.21,0.0,0.0,54.44,Sapura Resources Berhad
+906,PERMAJU,7080.KL,Consumer Products & Services,Automotive,0.03,0.0,6450.0,58.69,Permaju Industries Berhad
+907,VSOLAR,0066.KL,Technology,Software,0.05,0.0,601.0,24.86,Vsolar Group Berhad
+908,COMFORT,2127.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.345,1.5,678.0,201.12,Comfort Gloves Berhad
+909,IVORY,5175.KL,Property,Property,0.04,14.3,44.0,19.6,Ivory Properties Group Berhad
+910,AXTERIA,7120.KL,Property,Property,0.105,0.0,2760.0,82.8,Axteria Group Berhad
+911,AXJ-REITSETF,0837EA.KL,ETF-Equity,Equity Fund,0.629,0.8,4.0,3.81,
+912,DIGISTA,0029.KL,Technology,Digital Services,0.05,0.0,3267.0,31.01,Digistar Corporation Berhad
+913,BCMALL,0187.KL,Industrial Products & Services,Industrial Services,0.01,0.0,1772.0,20.34,BCM Alliance Berhad
+914,NEXGRAM,0096.KL,Telecommunications & Media,Telecommunications Equipment,0.015,0.0,1566.0,13.33,Nexgram Holdings Berhad
+915,ENGKAH,7149.KL,Consumer Products & Services,Houshold Goods,0.24,0.0,125.0,29.64,Eng Kah Corporation Berhad
+916,JHM,0127.KL,Technology,Semiconductors,0.385,4.1,2678.0,233.31,JHM Consolidation Berhad
+917,SANICHI,0133.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.11,-4.3,4550.0,18.07,Sanichi Technology Berhad
+918,DNONCE,7114.KL,Industrial Products & Services,Packaging Materials,0.03,-25.0,108534.0,26.05,D'nonce Technology Bhd.
+919,PARKSON,5657.KL,Consumer Products & Services,Retailers,0.165,6.5,24889.0,189.57,Parkson Holdings Berhad
+920,CHEETAH,7209.KL,Consumer Products & Services,Personal Goods,0.12,0.0,659.0,58.35,Cheetah Holdings Berhad
+921,TCHONG,4405.KL,Consumer Products & Services,Automotive,0.33,3.1,235.0,221.76,Tan Chong Motor Holdings Berhad
+922,MNC,0103.KL,Telecommunications & Media,Telecommunications Equipment,0.085,30.8,50.0,20.21,M N C Wireless Berhad
+923,GKENT,3204.KL,Construction,Construction,0.35,-1.4,1070.0,197.14,George Kent (Malaysia) Berhad
+924,PERSTIM,5436.KL,Industrial Products & Services,Metals,2.05,0.0,3.0,264.65,Perusahaan Sadur Timah Malaysia (Perstima) Berhad
+925,COMPUGT,5037.KL,Industrial Products & Services,Industrial Services,0.015,0.0,204997.0,90.76,Compugates Holdings Berhad
+926,CYPARK,5184.KL,Energy,Renewable Energy,0.76,0.7,57795.0,625.35,Cypark Resources Berhad
+927,LIONIND,4235.KL,Industrial Products & Services,Metals,0.18,2.9,3704.0,129.22,Lion Industries Corporation Berhad
+928,SOLUTN,0093.KL,Technology,Digital Services,0.1,-4.8,2121.0,48.6,Solution Group Berhad
+929,PICORP,7201.KL,Industrial Products & Services,Industrial Services,0.05,0.0,0.0,32.9,Progressive Impact Corporation Berhad
+930,MEDIAC,5090.KL,Telecommunications & Media,Media,0.115,0.0,11820.0,190.29,Media Chinese International Limited
+931,TECHBASE,8966.KL,Consumer Products & Services,Personal Goods,0.11,0.0,1867.0,33.13,Techbase Industries Berhad
+932,MLAB,0085.KL,Technology,Technology Equipment,0.075,7.1,1488.0,21.68,Mlabs Systems Berhad
+933,JOHAN,3441.KL,Financial Services,Other Financials,0.03,0.0,14732.0,35.04,Johan Holdings Berhad
+934,CHINAETF-MYR,0829EA.KL,ETF-Equity,Equity Fund,5.38,2.5,71.0,64.77,
+935,AFUJIYA,5198.KL,Industrial Products & Services,Auto Parts,0.3,0.0,0.0,54.0,ABM Fujiya Berhad
+936,ASIAPLY,0105.KL,Industrial Products & Services,Chemicals,0.14,0.0,89453.0,147.61,Asia Poly Holdings Berhad
+937,CAREPLS,0163.KL,Health Care,Health Care Equipment & Services,0.18,2.9,32396.0,137.49,Careplus Group Berhad
+938,VANZO,0333.KL,Consumer Products & Services,Personal Goods,0.165,6.5,42012.0,77.01,
+939,EQ8SID,0825EA.KL,ETF-Equity,Equity Fund,0.7,0.0,0.0,41.3,
+940,MBN,0280.KL,Consumer Products & Services,Consumer Services,0.11,-4.3,480.0,42.46,MYMBN Berhad
+941,N2N,0108.KL,Technology,Software,0.42,2.4,12694.0,234.45,N2N Connect Berhad
+942,CEB,5311.KL,Industrial Products & Services,Diversified Industrials,0.275,10.0,185220.0,272.8,Cape EMS Berhad
+943,BTM,7188.KL,Industrial Products & Services,Wood & Wood Products,0.045,0.0,1550.0,56.54,BTM Resources Berhad
+944,WILLOW,0008.KL,Technology,Software,0.275,1.9,2333.0,136.4,Willowglen MSC Berhad
+945,ITRONIC,9393.KL,Technology,Technology Equipment,0.035,0.0,709.0,24.77,Industronics Berhad
+946,REACH,5256.KL,Energy,Oil & Gas Producers,0.015,0.0,570.0,31.93,Reach Energy Berhad
+947,XOX,0165.KL,Telecommunications & Media,Telecommunications Service Providers,0.51,3.0,50673.0,94.58,XOX Berhad
+948,KIMHIN,5371.KL,Industrial Products & Services,Building Materials,0.44,0.0,0.0,68.47,Kim Hin Industry Berhad
+949,JSB,5673.KL,Industrial Products & Services,Industrial Services,0.43,4.9,7722.0,191.33,Jentayu Sustainables Berhad
+950,PUNCAK,6807.KL,Construction,Construction,0.18,5.9,476.0,80.87,Puncak Niaga Holdings Berhad
+951,FLBHD,5197.KL,Industrial Products & Services,Wood & Wood Products,0.325,0.0,150.0,74.89,Focus Lumber Berhad
+952,PENSONI,9997.KL,Consumer Products & Services,Houshold Goods,0.46,0.0,0.0,72.4,Pensonic Holdings Berhad
+953,BOXPAK,6297.KL,Industrial Products & Services,Packaging Materials,0.495,0.0,0.0,59.42,Box-Pak (Malaysia) Bhd.
+954,SMILE,03023.KL,Health Care,Health Care Providers,0.13,0.0,0.0,32.79,Smile-Link Healthcare Global Berhad
+955,TAWIN,7097.KL,Industrial Products & Services,Metals,0.025,0.0,42281.0,91.79,Ta Win Holdings Berhad
+956,MQTECH,0070.KL,Technology,Semiconductors,0.075,0.0,4332.0,15.49,MQ Technology Berhad
+957,REVENUE,0200.KL,Technology,Digital Services,0.09,0.0,8400.0,54.46,Revenue Group Berhad
+958,LCTITAN,5284.KL,Industrial Products & Services,Chemicals,0.395,0.0,9248.0,913.38,Lotte Chemical Titan Holding Berhad
+959,AIZO,7219.KL,Industrial Products & Services,Building Materials,0.095,0.0,42310.0,184.34,AIZO Group Berhad
+960,NICE,7139.KL,Consumer Products & Services,Personal Goods,0.135,0.0,3120.0,200.33,Niche Capital Emas Holdings Berhad
+961,NP,03045.KL,Technology,Digital Services,0.275,0.0,0.0,110.0,
+962,ARKA,7218.KL,Transportation & Logistics,Transportation & Logistics Services,1.66,-1.8,20.0,108.73,Arka Berhad
+963,VIS,0120.KL,Technology,Semiconductors,0.25,4.2,318.0,65.7,Visdynamics Holdings Berhad
+964,ADVCON,5281.KL,Construction,Construction,0.24,0.0,39080.0,140.34,Advancecon Holdings Berhad
+965,GCE,5592.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.37,0.0,33.0,72.89,Grand Central Enterprises Bhd.
+966,IHB,7240.KL,Construction,Construction,0.07,-33.3,18785.0,29.3,Infraharta Holdings Berhad
+967,EAH,0154.KL,Technology,Digital Services,0.005,0.0,33113.0,32.26,EA Holdings Berhad
+968,AEMULUS,0181.KL,Technology,Technology Equipment,0.22,-2.2,9378.0,147.79,Aemulus Holdings Berhad
+969,NOVAMSC,0026.KL,Technology,Software,0.075,7.1,47268.0,121.34,Nova MSC Berhad
+970,QUALITY,7544.KL,Industrial Products & Services,Building Materials,0.98,0.0,0.0,56.8,Quality Concrete Holdings Berhad
+971,YBS,0025.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.39,-4.9,42107.0,116.09,YBS International Berhad
+972,ECA,0267.KL,Technology,Technology Equipment,0.175,2.9,17454.0,101.33,ECA Integrated Solution Berhad
+973,PLB,7055.KL,Property,Property,1.0,0.0,0.0,112.4,PLB Engineering Berhad
+974,HONGSENG,0041.KL,Technology,Software,0.005,-50.0,9931.0,25.55,Hong Seng Consolidated Berhad
+975,JOE,7096.KL,Industrial Products & Services,Auto Parts,0.08,0.0,320.0,24.47,Joe Holding Berhad
+976,PASUKGB,0177.KL,Industrial Products & Services,Industrial Engineering,0.13,4.0,2071.0,24.77,Pasukhas Group Berhad
+977,NYLEX,4944.KL,Industrial Products & Services,Chemicals,0.24,0.0,0.0,46.64,
+978,GCAP,7676.KL,Transportation & Logistics,Transportation & Logistics Services,0.265,0.0,11737.0,86.89,G Capital Berhad
+979,YB,5048.KL,Industrial Products & Services,Building Materials,0.12,0.0,1130.0,35.05,YB Ventures Berhad
+980,SEDANIA,0178.KL,Consumer Products & Services,Consumer Services,0.1,-4.8,5226.0,36.54,Sedania Innovator Berhad
+981,ASB,1481.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.075,0.0,22295.0,189.69,Advance Synergy Berhad
+982,AURO,5025.KL,Industrial Products & Services,Wood & Wood Products,0.135,-3.6,26249.0,85.95,Auro Holdings Berhad
+983,SMCAP,9776.KL,Consumer Products & Services,Agricultural Products,0.04,0.0,0.0,17.36,Sinmah Capital Berhad
+984,CEPCO,8435.KL,Industrial Products & Services,Building Materials,1.17,-0.8,3.0,87.31,Concrete Engineering Products Berhad
+985,WONG,7050.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.205,0.0,1895.0,51.69,Wong Engineering Corporation Berhad
+986,PINEAPP,0006.KL,Technology,Digital Services,0.615,0.0,0.0,29.83,Pineapple Resources Berhad
+987,KLCI2XL,0834EA.KL,,,1.965,0.0,0.0,1.97,
+988,P&O,6009.KL,Financial Services,Insurance,0.625,-0.8,331.0,185.09,Pacific & Orient Berhad
+989,WCEHB,3565.KL,Construction,Construction,0.73,1.4,7971.0,2409.23,WCE Holdings Berhad
+990,SCNWOLF,7239.KL,Industrial Products & Services,Building Materials,0.54,0.0,6452.0,114.2,Scanwolf Corporation Berhad
+991,ANCOMLB,0048.KL,Transportation & Logistics,Transportation & Logistics Services,0.105,10.5,2732.0,49.7,Ancom Logistics Berhad
+992,EQ8MID,0824EA.KL,ETF-Equity,Equity Fund,1.15,0.0,7.0,22.88,
+993,MTRONIC,0043.KL,Industrial Products & Services,Industrial Services,0.01,-33.3,392.0,15.31,Metronic Global Berhad
+994,GPHAROS,5649.KL,Industrial Products & Services,Wood & Wood Products,0.195,-4.9,1786.0,27.45,Golden Pharos Berhad
+995,PNEPCB,6637.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.045,0.0,1003.0,25.23,PNE PCB Berhad
+996,XOXNET,0140.KL,Consumer Products & Services,Consumer Services,0.02,-20.0,400.0,22.71,Xox Networks Berhad
+997,YLI,7014.KL,Industrial Products & Services,Metals,0.35,-2.8,20.0,39.53,YLI Holdings Berhad
+998,MTOUCHE,0092.KL,Telecommunications & Media,Telecommunications Service Providers,0.04,14.3,40001.0,37.07,mTouche Technology Berhad
+999,INNITY,0147.KL,Telecommunications & Media,Media,0.38,0.0,0.0,52.97,Innity Corporation Berhad
+1000,MERCURY,8192.KL,Construction,Construction,0.945,0.0,0.0,60.76,Mercury Industries Berhad
+1001,MGRC,0155.KL,Health Care,Health Care Equipment & Services,0.255,-7.3,142.0,34.99,Malaysian Genomics Resource Centre Berhad
+1002,HEXTECH,5136.KL,Transportation & Logistics,Transportation & Logistics Services,1.2,0.0,6987.0,2470.06,Hextar Technologies Solutions Berhad
+1003,SCOPE,0028.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.07,0.0,4553.0,80.83,Scope Industries Berhad
+1004,SAFETY,03056.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.19,0.0,0.0,60.65,
+1005,TOMYPAK,7285.KL,Industrial Products & Services,Packaging Materials,0.27,0.0,200.0,116.4,Tomypak Holdings Berhad
+1006,GOCEAN,0074.KL,Consumer Products & Services,Food & Beverages,0.19,0.0,152230.0,40.12,Green Ocean Corporation Berhad
+1007,EURO,7208.KL,Consumer Products & Services,Consumer Services,0.05,0.0,7410.0,66.4,Euro Holdings Berhad
+1008,AHB,7315.KL,Consumer Products & Services,Consumer Services,0.035,0.0,7040.0,26.04,AHB Holdings Berhad
+1009,MMAG,0034.KL,Technology,Digital Services,0.505,-1.0,9813.0,1166.4,MMAG Holdings Berhad
+1010,CNASIA,7986.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.065,18.2,6005.0,17.5,CN Asia Corporation Bhd
+1011,EDUSPEC,0107.KL,Technology,Software,0.13,0.0,3699.0,172.49,Eduspec Holdings Berhad
+1012,SCBUILD,0109.KL,Construction,Construction,0.01,100.0,369.0,40.92,SC Estate Builder Berhad
+1013,ANNJOO,6556.KL,Industrial Products & Services,Metals,0.69,3.0,6761.0,496.06,Ann Joo Resources Berhad
+1014,ATAIMS,8176.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.265,0.0,15713.0,319.16,ATA IMS Berhad
+1015,LKL,0182.KL,Health Care,Health Care Equipment & Services,0.085,0.0,0.0,32.98,LKL International Berhad
+1016,DATAPRP,8338.KL,Technology,Digital Services,0.13,0.0,1185.0,98.24,Dataprep Holdings Bhd
+1017,MUIIND,3891.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.06,-7.7,49863.0,193.55,Malayan United Industries Berhad
+1018,HLT,0188.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.08,0.0,3749.0,67.1,HLT Global Berhad
+1019,THETA,9075.KL,Technology,Digital Services,1.07,4.9,1987.0,126.23,Theta Edge Berhad
+1020,NETX,0020.KL,Technology,Software,0.075,15.4,2581.0,70.35,NetX Holdings Berhad
+1021,ONEGLOVE,5079.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.225,0.0,11780.0,122.78,One Glove Group Berhad
+1022,THRIVEN,7889.KL,Property,Property,0.12,0.0,468.0,65.63,Thriven Global Berhad
+1023,AIM,0122.KL,Industrial Products & Services,Industrial Services,0.06,-14.3,10.0,23.41,Advance Information Marketing Berhad
+1024,HENGYUAN,4324.KL,Energy,Oil & Gas Producers,1.78,2.9,924.0,534.0,Hengyuan Refining Company Berhad
+1025,MAXLAND,7123.KL,Industrial Products & Services,Wood & Wood Products,0.05,11.1,50.0,80.18,Maxland Berhad
+1026,EQ8MY25,0821EA.KL,ETF-Equity,Equity Fund,0.95,-1.0,3.0,128.34,
+1027,1TECH,03041.KL,Technology,Software,0.2,0.0,0.0,15.39,
+1028,SEERS,03009.KL,Consumer Products & Services,Houshold Goods,0.1,0.0,0.0,25.76,
+1029,FAST,0084.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.055,0.0,1615.0,23.68,Fast Energy Holdings Berhad
+1030,PARLO,0022.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.035,0.0,500.0,21.04,Parlo Berhad
+1031,EXSIMHB,1287.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.37,0.0,13328.0,343.68,Exsim Hospitality Berhad
+1032,MPIRE,7943.KL,Consumer Products & Services,Houshold Goods,0.09,5.9,19889.0,13.48,Mpire Global Berhad
+1033,CHINA100-MYR,0838EA.KL,ETF-Equity,Equity Fund,1.13,0.0,416.0,32.77,
+1034,KNM,7164.KL,Energy,Other Energy Resources,0.05,0.0,21145.0,202.3,KNM Group Berhad
+1035,AEM,7146.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.055,0.0,0.0,11.9,AE Multi Holdings Berhad
+1036,TOYOVEN,7173.KL,Industrial Products & Services,Chemicals,0.28,-1.8,4590.0,46.45,Toyo Ventures Holdings Berhad
+1037,BJFOOD,5196.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.32,-1.5,18230.0,623.24,Berjaya Food Berhad
+1038,BVLH,03042.KL,Construction,Construction,0.19,0.0,0.0,25.76,
+1039,ARTRONIQ,0038.KL,Industrial Products & Services,Chemicals,0.075,0.0,8021.0,32.85,Artroniq Berhad
+1040,JIANKUN,8923.KL,Property,Property,0.045,0.0,183747.0,24.22,Jiankun International Berhad
+1041,PAM-C50,0823EA.KL,ETF-Equity,Equity Fund,1.4,-3.4,1.0,6.37,
+1042,CNOUHUA,5188.KL,Consumer Products & Services,Food & Beverages,0.04,0.0,134.0,26.72,China Ouhua Winery Holdings Limited
+1043,KOMARK,7017.KL,Industrial Products & Services,Packaging Materials,0.085,0.0,0.0,19.63,Komarkcorp Berhad
+1044,VIZIONE,7070.KL,Construction,Construction,0.1,5.3,229.0,55.25,Vizione Holdings Berhad
+1045,BIOHLDG,0179.KL,Consumer Products & Services,Food & Beverages,0.045,-10.0,23963.0,63.29,Bioalpha Holdings Berhad
+1046,MAGMA,7243.KL,Consumer Products & Services,Food & Beverages,0.215,2.4,1308.0,250.5,Magma Group Berhad
+1047,TECHNAX,2739.KL,Energy,Other Energy Resources,0.075,0.0,64.0,18.31,Techna-X Berhad
+1048,PESTECH,5219.KL,Industrial Products & Services,Industrial Engineering,0.165,0.0,7030.0,383.72,Pestec International Berhad
+1049,DCHCARE,0283.KL,Health Care,Health Care Providers,0.13,0.0,2080.0,129.52,DC Healthcare Holdings Berhad
+1050,GPACKET,0082.KL,Telecommunications & Media,Telecommunications Service Providers,0.03,0.0,6416.0,69.02,Green Packet Berhad
+1051,SMTRACK,0169.KL,Technology,Technology Equipment,0.01,0.0,29619.0,13.21,SMTrack Berhad
+1052,G3,7184.KL,Consumer Products & Services,Personal Goods,0.01,-33.3,572187.0,37.74,G3 Global Berhad
+1053,EIB,0255.KL,Industrial Products & Services,Industrial Engineering,0.21,16.7,1211.0,78.54,Ecoscience International Berhad
+1054,PUC,0007.KL,Telecommunications & Media,Media,0.035,-12.5,3600.0,97.27,PUC Berhad
+1055,ICONIC,9113.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.085,0.0,12040.0,143.4,Iconic Worldwide Berhad
+1056,JADI,7223.KL,Consumer Products & Services,Consumer Services,0.02,0.0,2101.0,27.99,Jadi Imaging Holdings Berhad
+1057,EVD,0174.KL,Technology,Software,0.07,0.0,0.0,31.16,Evd Berhad
+1058,PMCORP,4081.KL,Consumer Products & Services,"Travel, Leisure & Hospitality",0.12,0.0,150.0,106.14,Pan Malaysia Corporation Berhad
+1059,ENRA,8613.KL,Energy,"Energy, Infrastructure, Equipment & Services",0.62,4.2,4.0,92.81,ENRA Group Berhad
+1060,ERDASAN,0072.KL,Industrial Products & Services,"Industrial Materials, Components & Equipment",0.085,0.0,2241.0,19.45,Erdasan Group Berhad
+1061,GIIB,7192.KL,Industrial Products & Services,Auto Parts,0.06,0.0,3700.0,39.03,GIIB Holdings Berhad
+1062,KEYASIC,0143.KL,Technology,Semiconductors,0.04,14.3,17262.0,55.99,Key ASIC Berhad
+1063,TDEX,0132.KL,Technology,Software,0.05,0.0,0.0,44.29,Technodex Bhd
+1064,LYC,0075.KL,Health Care,Health Care Providers,0.07,-6.7,3041.0,50.05,LYC Healthcare Berhad
+1065,TFP,0145.KL,Technology,Digital Services,0.03,0.0,0.0,18.87,TFP Solutions Berhad
+1066,POS,4634.KL,Transportation & Logistics,Transportation & Logistics Services,0.185,2.8,7131.0,144.81,Pos Malaysia Berhad
+1067,AORB,03051.KL,Consumer Products & Services,Agricultural Products,3.35,0.0,0.0,335.0,Alpha Ocean Resources Berhad
+1068,TALAMT,2259.KL,Property,Property,0.115,0.0,1546.0,108.66,Talam Transform Berhad
+1069,SALUTE,0183.KL,Consumer Products & Services,Personal Goods,0.19,2.7,12350.0,81.03,Salutica Berhad
+1070,PRG,7168.KL,Consumer Products & Services,Personal Goods,0.085,6.3,2977.0,41.46,PRG Holdings Berhad
+1071,DESTINI,7212.KL,Industrial Products & Services,Industrial Engineering,0.305,0.0,586.0,152.21,Destini Berhad
+1072,MERIDIAN,5040.KL,Property,Property,0.04,0.0,0.0,9.14,Meridian Berhad
+1073,RSENA,5270.KL,SPAC,Special Purpose Acquisition Company,0.505,0.0,0.0,505.0,
+1074,MICROLN,0126.KL,Technology,Digital Services,0.165,22.2,20995.0,176.95,Microlink Solutions Berhad
+1075,HOHUP,5169.KL,Construction,Construction,0.1,17.6,23471.0,51.83,Ho Hup Construction Company Berhad
+1076,APB,5568.KL,Industrial Products & Services,Industrial Engineering,0.2,2.6,1154.0,24.83,APB Resources Berhad
+1077,ECOHLDS,0059.KL,Telecommunications & Media,Telecommunications Service Providers,0.03,20.0,1.0,12.62,Ecobuilt Holdings Berhad
+1078,GOINNO,03028.KL,Industrial Products & Services,Metals,0.03,0.0,0.0,9.0,Go Innovate Asia Berhad
+1079,SINARAN,5172.KL,Consumer Products & Services,Personal Goods,0.06,-14.3,3700.0,54.9,Sinaran Advance Group Berhad
+1080,CLOUD,03001.KL,Technology,Digital Services,0.005,0.0,0.0,4.16,Cloudaron Group Berhad
+1081,SNTORIA,5213.KL,Property,Property,0.01,0.0,0.0,6.23,Sentoria Group Berhad
+1082,ETH,03021.KL,Consumer Products & Services,Consumer Services,0.18,0.0,0.0,55.3,Equitiestracker Holdings Berhad
+1083,KUCHAI,2186.KL,Financial Services,Other Financials,0.655,0.8,458.0,81.05,Kuchai Development Berhad
+1084,HANDAL,7253.KL,Energy,"Energy, Infrastructure, Equipment & Services",0.055,0.0,101.0,22.59,Handal Energy Berhad
+1085,SGBHD,03033.KL,Industrial Products & Services,Industrial Services,0.15,0.0,0.0,17.35,Supergenics Berhad
+1086,KGROUP,0036.KL,Technology,Technology Equipment,0.2,33.3,117064.0,24.52,Key Alliance Group Berhad
+1087,OMESTI,9008.KL,Technology,Digital Services,0.145,0.0,1060.0,78.4,Omesti Berhad
+1088,DGB,0152.KL,Technology,Software,0.065,8.3,2376.0,16.53,DGB Asia Berhad
+1089,TXCD,7145.KL,Construction,Construction,0.1,5.3,2540.0,31.17,Txcd Berhad
