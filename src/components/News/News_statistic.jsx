@@ -4,7 +4,7 @@ import DonutChart from '../tools/donutChart';
 import WordCloudChart from './wordCloud';
 import './css/news.css'
 import CompanyBarChart from './barChart';
-import AnswerBox from './answerBox.jsx'
+
 
 function NewsStatistic({news}) {
   const [newsData, setNewsData] = useState({});
