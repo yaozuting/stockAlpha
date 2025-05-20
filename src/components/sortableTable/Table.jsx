@@ -18,21 +18,29 @@ const Table = ({ df, columns }) => {
 
     const handleSorting = (sortField, sortOrder) => {
         if (sortField) {
-            console.log(sortField);
             const sorted = [...tableData].sort((a, b) => {
-                const aValue = a[sortField] !== undefined && a[sortField] !== null ? a[sortField].toString() : "";
-                const bValue = b[sortField] !== undefined && b[sortField] !== null ? b[sortField].toString() : "";
-
-                return (
-                    aValue.localeCompare(bValue, "en", {
-                        numeric: true,
-                    }) * (sortOrder === "asc" ? 1 : -1)
-                );
+                const clean = (val) => {
+                    if (val === undefined || val === null) return "";
+                    const str = val.toString().replace(/[^\d.-]/g, ""); // removes %, commas etc.
+                    return isNaN(parseFloat(str)) ? str : parseFloat(str);
+                };
+    
+                const aValue = clean(a[sortField]);
+                const bValue = clean(b[sortField]);
+    
+                if (typeof aValue === "number" && typeof bValue === "number") {
+                    return (aValue - bValue) * (sortOrder === "asc" ? 1 : -1);
+                }
+    
+                return aValue.toString().localeCompare(bValue.toString(), "en", {
+                    numeric: true,
+                }) * (sortOrder === "asc" ? 1 : -1);
             });
+    
             setTableData(sorted);
         }
     };
-
+    
     return (
         <>
             <table className="table">
