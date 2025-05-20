@@ -6,6 +6,7 @@ from yahooquery import Ticker
 import time
 import re 
 from datetime import datetime
+import pytz
 from sklearn.feature_extraction.text import TfidfVectorizer
 from database import read_sql
 from openai import OpenAI
@@ -13,6 +14,23 @@ import os
 from dotenv import load_dotenv
 import json
 import pathlib
+from curl_cffi import requests
+
+# Convert ISO 8601 string to KL time and extract the date
+def convert_to_kl_date(iso_date_str):
+    if iso_date_str == None :
+        return 
+    # Parse the ISO 8601 string into a datetime object
+    utc_time = datetime.strptime(iso_date_str, "%Y-%m-%dT%H:%M:%S.%fZ")
+    
+    # Define the KL timezone
+    kl_timezone = pytz.timezone('Asia/Kuala_Lumpur')
+    
+    # Convert UTC time to KL time
+    kl_time = utc_time.replace(tzinfo=pytz.utc).astimezone(kl_timezone)
+    
+    # Extract and return only the date part
+    return kl_time.date()
 
 
 load_dotenv('.env')
@@ -33,6 +51,8 @@ def classify_with_deepseek(titles):
     Returns:
         dict: {'label': 'POSITIVE' | 'NEUTRAL' | 'NEGATIVE', 'score': float}
     """
+    titles = ' '.join(titles)
+    print(titles)
     if not isinstance(titles, str) or not titles.strip():
         return {"label": "NEUTRAL", "score": 0.0}
 
@@ -44,10 +64,10 @@ Analyze the overall market sentiment expressed in the following financial news h
 Return a JSON object with:
 - label: "POSITIVE", "NEUTRAL", or "NEGATIVE"
 - score: a float from 0.0 to 1.0 indicating confidence
-
+in this format '{'label:XX,score:XX'}' not other word needed
 News Headlines:
 {titles}
-    """.strip()
+    """
 
     try:
         response = client.chat.completions.create(
@@ -59,18 +79,15 @@ News Headlines:
             temperature=0.2,
         )
 
-        content = response.choices[0].message.content.strip()
+        content = response.choices[0].message.content.strip().replace('json','')
+        print(content)
         sentiment = json.loads(content)
+        print(sentiment)
         return sentiment
 
     except Exception as e:
         print(f"❌ DeepSeek sentiment classification failed: {e}")
         return {"label": "NEUTRAL", "score": 0.0}
-
-
-
-
-
 
 
 def get_market_data():
@@ -112,17 +129,25 @@ def get_market_data():
         temp = {}
         cols = row.find_all('td')
         for num, col in enumerate(cols):
+            if num == 2:
+                smalls = col.find_all('small')
+                temp['Industry'] = smalls[0].text.strip()
+                temp['Sector'] = smalls[1].text.rsplit(',', 1)[0]
             if num ==3:
                temp[headers[num]] =  cols[num].find(string=True, recursive=False).strip()
+            
             else:
                 temp[headers[num]] = col.text.strip().replace("\n", "").replace("[s]", "")
         data.append(temp)
 
     df =pd.DataFrame(data)
-    df = df.drop(columns=['EPS','DPS','DY','ROE','Indicators','Category'])
-    df = df.merge(sliced_data, left_on='Name', right_on='Name', how='left')
+    # Apply to your dataframe
+    df = df.drop(columns=['EPS','DPS','DY','ROE','Indicators'])
+    # df = df.merge(sliced_data, left_on='Name', right_on='Name', how='left')
 
     return df
+
+
 
 def stock_basic_data():
     # Load existing stock data
@@ -166,23 +191,73 @@ def stock_basic_data():
     # Display the updated DataFrame
     stock_data.to_csv('website.csv')
 
+
+
 #market news
-def get_market_news():
-    news = read_sql('Market_News')
-    print(news)
+def get_market_news(filters=None):
+    title =  filters.get('keyword') if filters and 'keyword' in filters else None
+
+    kl_timezone = pytz.timezone('Asia/Kuala_Lumpur')
+    # Get the current date and time in KL timezone
+    today_date = datetime.now(kl_timezone).date()
+
     # Ensure 'Published Date' is in datetime format
-    news['Published_Date'] = pd.to_datetime(news['Published_Date'], errors='coerce')
-    latest_date = news['Published_Date'].max()
-    today_news = news[news['Published_Date'].dt.date == latest_date.date()]
-    today_news = today_news.sort_values(by='Published_Date', ascending=False).reset_index(drop=True)
-    number_of_news = len(today_news)
-    sector_unique = today_news['Sector'].str.replace('"', '').unique()
-    sector_distribution = {s: len(today_news[today_news['Sector'] == s]) for s in sector_unique}
-    company_names = today_news['Related_Stock'].str.strip().str.split(',').explode().reset_index(drop=True)
+    if filters:
+        print(filters)
+        query = """
+            SELECT *
+            FROM Market_News
+            WHERE 
+                (? IS NULL OR Title LIKE '%' || ? || '%' OR Body LIKE '%' || ? || '%') 
+                AND (? IS NULL OR Sector = ?) 
+                AND (? IS NULL OR CAST(Published_Date AS DATE) >= ?)
+                AND (? IS NULL OR CAST(Published_Date AS DATE) <= ?)
+            ORDER BY Published_Date DESC
+            """
+        params = [
+            filters.get('keyword') if filters and 'keyword' in filters else None,
+            filters.get('keyword') if filters and 'keyword' in filters else None,
+            filters.get('keyword') if filters and 'keyword' in filters else None,
+            filters.get('sector') if filters and 'sector' in filters else None,
+            filters.get('sector') if filters and 'sector' in filters else None,
+            convert_to_kl_date(filters.get('start_date')) if filters and 'start_date' in filters else None,
+            convert_to_kl_date(filters.get('start_date')) if filters and 'start_date' in filters else None,
+            convert_to_kl_date(filters.get('end_date')) if filters and 'end_date' in filters else None,
+            convert_to_kl_date(filters.get('end_date'))if filters and 'end_date' in filters else None,
+        ]
+        notValid = set(params)
+        if len(notValid) == 1 and None in notValid:
+            query = """
+                SELECT * FROM Market_News
+                WHERE CAST(Published_Date AS DATE) = ?
+                    """
+            params = [today_date]
+
+    if filters is None:
+        # Define the Kuala Lumpur timezone
+        query = """
+                SELECT * FROM Market_News
+                WHERE CAST(Published_Date AS DATE) = ?
+                    """
+        params = [today_date]
+
+   
+    news = read_sql('Market_News',query,params)
+    news = news.drop_duplicates(subset=['Title'])
+    dates = pd.to_datetime(news['Published_Date'], errors='coerce').dropna().apply(lambda x: x.date()).unique()
+    min_date = dates.min()
+    max_date = dates.max()
+    date = f'{min_date} - {max_date}' if min_date!=max_date else dates[0]
+    news = news.sort_values(by='Published_Date', ascending=False).reset_index(drop=True)
+    number_of_news = len(news)
+    sector_unique = news['Sector'].str.replace('"', '').unique()
+    sector_distribution = {s: len(news[news['Sector'] == s]) for s in sector_unique}
+    company_names = news['Related_Stock'].str.strip().str.split(',').explode().reset_index(drop=True)
     company_distribution = company_names.value_counts().to_dict()
     company_distribution = [{"name": k, "value": int(v)} for k, v in company_distribution.items() if v > 0]
-    #word count
-    titles = today_news['Title'].dropna().astype(str).tolist()
+
+    # Word count
+    titles = news['Title'].dropna().astype(str).tolist()
 
     if titles:
         vectorizer = TfidfVectorizer(stop_words='english', max_features=200)
@@ -193,21 +268,31 @@ def get_market_news():
     else:
         word_cloud = []
         sentiment = {"label": "NEUTRAL", "score": 0.0}
-    sentiment = classify_with_deepseek(titles)
 
-    # classifier = pipeline("sentiment-analysis", model="ProsusAI/finbert")
-    # sentiment = classifier(text)
- 
+    sentiment = classify_with_deepseek(titles)
+    
+    #summarize
+    title_text = news[['Title','Published_Date','Body']].to_dict('split')
+    title_text = title_text['data']
+    text = ''
+    for item in title_text:
+        t = f'{item[1]}: {item[0]}:{item[2]}'  # Concatenate title and body with a colon and space
+        text += t + '\n'  # Add a newline for better readability
+
+    # summary = summary_deepseek(title,text)
+
     return {
         'number_of_news': number_of_news,
-        'today_news': today_news.to_dict(orient='records'),
-        'latest_date': latest_date,
+        'news': news.to_dict(orient='records'),
+        'latest_date': date,
         'sector_distribution': sector_distribution,
         'company_distribution': company_distribution,
         'word_Cloud': word_cloud,
         "sentiment": sentiment['label'],
         "sentiment_score": sentiment["score"],
-        }
+    }
+
+
 
 
 def unpack_dict(d, prefix=""):
@@ -267,6 +352,7 @@ def compare_stock_data(stock_data):
 
 
 
+
 def date_converter(date):
     """Convert a date to string format."""
     if pd.isna(date):
@@ -286,12 +372,14 @@ def get_stock_data(symbol):
     # if not symbol or not isinstance(symbol, str):
     #     return {'error': 'Invalid or missing stock symbol'}
 
-    # Initialize a dictionary to store results
+    session = requests.Session(impersonate="chrome")
+   
     result = {}
 
     try:
-        # Initialize a Ticker object for the single symbol
-        tickers = Ticker(symbol)
+       # Pass this session to yahooquery
+        tickers =  Ticker(symbol, asynchronous=True, progress=True, session=session)
+
 
         # Fetch different modules separately
         result["summary_detail"] = tickers.summary_detail.get(symbol, {})
@@ -378,11 +466,18 @@ def get_stock_data(symbol):
     # Return the result directly (not wrapped in a dictionary with symbol as key)
     return {symbol:result}
 
+
+
+
+
+
 def get_stock_price(symbol,daterange):
     result = {}
+     # Pick a random proxy
+    session = requests.Session(impersonate="chrome")
     try:
         # Initialize a Ticker object for the single symbol
-        tickers = Ticker(symbol)
+        tickers = Ticker(symbol, asynchronous=True, progress=True, session=session)
             # Fetch historical data
         historical_data = tickers.history(daterange).reset_index()
         if isinstance(historical_data, pd.DataFrame) and not historical_data.empty:
@@ -393,10 +488,7 @@ def get_stock_price(symbol,daterange):
         result["error"] = f"An error occurred: {str(e)}"
     return {symbol: result}
 
-# print(get_stock_price('4677.KL','max'))
-# Example usage
-# stock_data = get_stock_price('^KLSE','Max')
-# print(f'stock Price:{stock_data}')
+
 
 def get_news_data(stock):
     base_dir = pathlib.Path(__file__).resolve().parent
@@ -441,14 +533,17 @@ def get_news_data(stock):
 
         text_row.append(row_data)
 
+    name_company = ''
     # Company name lookup
     try:
         name_company = basic_file.loc[basic_file['Code'] == stock, 'Long Name'].values[0]
     except IndexError:
         name_company = stock
 
+
     # Get news from Google News RSS
     url_news = f'https://news.google.com/rss/search?q={name_company}+when:30d'
+
     response = requests.get(url_news, headers=headers)
     soup = bs(response.text, 'xml')
     items = soup.find_all('item')
