@@ -67,19 +67,19 @@ div .select-menu .row label {
 }
 
 /* Input and select elements styling */
-input[type="text"],
+input[type="number"],
 select {
     padding: 8px;
     border: 1px solid #ced4da;
     border-radius: 6px;
-    width: 100%;
+    width: 80%;
     background-color: white;
     transition: border 0.3s, box-shadow 0.3s;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 /* Focus effect for input and select elements */
-input[type="text"]:focus,
+input[type="number"]:focus,
 select:focus {
     border-color: #007bff;
     box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
