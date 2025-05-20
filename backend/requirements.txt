@@ -11,3 +11,4 @@ pymssql
 numpy
 gunicorn
 flask-cors
+curl_cffi 
