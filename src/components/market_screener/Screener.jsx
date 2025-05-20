@@ -18,8 +18,8 @@ function Screener({marketData}){
     const columns = [
         { label: "Name", accessor: "name" ,sortable:true},
         { label: "Code", accessor: "code" ,sortable:false},
-        { label: "Sector", accessor: "sector" ,sortable:false},
-        { label: "Industry", accessor: "industry" ,sortable:false},
+        { label: "Sector", accessor: "sector" ,sortable:true},
+        { label: "Industry", accessor: "industry" ,sortable:true},
         { label: "52week", accessor: "52week" ,sortable:false},
         { label: "Price", accessor: "price" ,sortable:true},
         { label: "Change", accessor: "Change" ,sortable:true},
