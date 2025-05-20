@@ -1,51 +1,129 @@
 /* Container for the news feed */
 div.News_container {
     display: flex;
-    gap: 16px;
-    padding: 20px;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    padding: 16px; /* Optional padding */
+    gap: 16px; /* Add spacing between children */
 }
 
+.search-container {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.search-container span{
+  align-self: flex-start;
+  cursor:pointer;
+}
+.search-container form {
+  display:flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.search-container div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1; /* Allow responsiveness */
+}
+
+.search-container label {
+  width:80px;
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.search-container input,
+.search-container select {
+  height: 36px;
+  padding: 6px 10px;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Keep date fields same width combined as sector/keyword */
+.search-container .date-range {
+  flex: 1 1 45%;
+  gap: 16px;
+}
+.search-container .date-range .react-datepicker__month-container{
+  display:flex;
+  flex-direction: column;
+}
+.react-datepicker__navigation--previous{
+  z-index:20;
+}
+.react-datepicker__header{
+  display:flex;
+  flex-direction: column;
+  width:100%
+} 
+.react-datepicker__month{
+  display:flex;
+  flex-direction: column;
+}
+
+/* Style the submit button */
+.search-container button[type="submit"] {
+  width: fit-content;
+  height:fit-content;
+  align-self: flex-end;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+}
+.search-container button[type="submit"] :hover {
+  color: #606569;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.search-container button[type="submit"]:active {
+  color: #5f666d;
+  font-weight: bold;
+  border-radius: 6px;
+}
 
 /* Individual news item with card style */
 div.News_container .news_feed {
     min-width: 250px;
-    width: 20%;
     background-color: #f9fbfd;
-    border: 2px solid #6aa0d6; /* Updated border color */
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 0%;
+    box-shadow: none;
     transition: all 0.3s ease-in-out;
     overflow: hidden;
     padding: 10px;
 }
 
-/* Hover effect for card */
-div.News_container .news_feed:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(30, 144, 255, 0.2);
-    background-color: #fff;
-    border-color: #0056b3;
-}
-
 div  .news_feed .text{
-    margin: 8px;
-    text-align: center;
-    font-weight: bolder;
+  margin-bottom:0;
+  margin-left:0;
+  text-align:start;
+  font-weight: bolder;
 }
 
 div  .news_feed .text p{
     margin: 0%;
 }
 /* Scrollable news block */
-div.News_container .news_feed .news_scroll {
-    position: relative;
-    margin: 8px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: all 0.2s ease-in-out;
+.news_scroll {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 250px; /* Optional fixed width */
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px;
+  box-sizing: border-box;
 }
 
 div.News_container .news_feed .news_scroll:hover{
@@ -53,12 +131,20 @@ div.News_container .news_feed .news_scroll:hover{
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     transform: translateY(-4px);
 }
-
-/* Remove list styling */
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.news_feed ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding: 16px;
+  padding-top: 0;
+  margin: 0;
+  list-style: none;
 }
 
 /* News link styling */
@@ -81,6 +167,7 @@ div.News_container .news_feed .news_scroll a:focus{
     color: brown;
 }
 div.News_container .news_feed .news_scroll .img_box{
+   position:relative;
     display:flex;
 }
 div.News_container .news_feed .news_scroll .img_box img{
@@ -127,9 +214,12 @@ div.News_container .news_feed .news_scroll .news_date {
     right: 10px;
 }
 
-div .news_feed .feed_bottom{
-    cursor: pointer;
-    text-align: center;
+div .feed_bottom{
+  cursor:pointer;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 div .news_feed .feed_bottom:hover{
     color:#342f2f;
@@ -140,6 +230,12 @@ div .news_feed .feed_bottom:hover{
 
 
 /* News statistic section */
+
+div.News_container .news_statistic {
+    width: 100%; /* Optional: Adjust width as needed */
+    max-width: 1200px; /* Optional: Set a max width */
+    margin: 0 auto; /* Center horizontally */
+}
 
 .news_statistic {
     width: 50%;
@@ -155,6 +251,7 @@ div .news_feed .feed_bottom:hover{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 16px;
+    
   }
   .firstRow >div {
     background-color:#f9fbfd;
@@ -223,6 +320,12 @@ div .news_feed .feed_bottom:hover{
     background-color: #f0f4f9;
     font-size: 14px;
   }
+<<<<<<< HEAD
+  .news-item-container{
+    max-height: 400px;
+    overflow-y:auto;
+  }
+=======
   
   .news_list_container {
     max-height: 400px; /* or whatever height you want */
@@ -235,6 +338,7 @@ div .news_feed .feed_bottom:hover{
 
   
 
+>>>>>>> 634fa8b527139977fa33062b068e183c3fee0d89
   .news_item {
     margin-top: 10px;
     padding: 8px 12px;
@@ -255,69 +359,12 @@ div .news_feed .feed_bottom:hover{
   }
   
   @media (max-width: 1024px) {
-    div.News_container{
-      flex-direction: column;
-      align-items: center;
-      padding:0;
-    }
-    div.News_container .news_feed {
-      border: none;
-      border-radius: 0%;
-      width:90%;
-      box-shadow: none;
- 
-    }
-    div.News_container .news_feed:hover {
-      background: inherit;
-      box-shadow: none;
-      transform: none;
-      cursor: default;
-      color: inherit;
-    }
-    
-    div  .news_feed .text{
-      margin-bottom:0;
-      margin-left:0;
-      text-align:start;
-      font-weight: bolder;
-  }
-    div .feed_bottom{
-      display:flex;
-      flex-direction: column;
-      justify-content: center;
+  
 
-    }
-    .news_feed ul {
-      display: flex;
-      flex-direction: row;
-      gap: 16px;
-      overflow-x: auto;
-      scroll-snap-type: x mandatory;
-      -webkit-overflow-scrolling: touch;
-      padding: 16px;
-      padding-top: 0;
-      margin: 0;
-      list-style: none;
-    }
-    
     .news_feed ul li {
       scroll-snap-align: start;
       flex: 0 0 auto;
     }
-    
-    .news_scroll {
-      background-color: #fff;
-      border-radius: 12px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-      width: 250px; /* Optional fixed width */
-      min-height: 300px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      padding: 12px;
-      box-sizing: border-box;
-    }
-    
     .news_scroll a {
       font-weight: bold;
       font-size: 16px;
@@ -332,8 +379,6 @@ div .news_feed .feed_bottom:hover{
       flex-grow: 1;
       margin: 8px 0;
     }
-    
-    
   
     .news_date {
       font-size: 12px;
