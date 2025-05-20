@@ -7,6 +7,18 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
+def clean_news_dataframe(news_df):
+    """Clean the news DataFrame: ensure all fields are string or None, and drop duplicate Titles."""
+    # Clean fields
+    for col in ['Title', 'News_Hyperlinks', 'Published_Date', 'Sector', 'Extracted_Entities', 'Related_Stock', 'Img','Body']:
+        if col in news_df.columns:
+            news_df[col] = news_df[col].apply(lambda x: str(x).strip() if pd.notna(x) else None)
+    
+    # Drop duplicates based on Title (keeping the first occurrence)
+    news_df = news_df.drop_duplicates(subset='Title', keep='first').reset_index(drop=True)
+
+    return news_df
+    
 # Validate required env vars
 def validate_env():
     required_vars = ['DB_SERVER', 'DB_NAME', 'DB_USERNAME', 'DB_PASSWORD']
@@ -41,12 +53,12 @@ def connect_to_azure_sql(max_retries=5, delay_seconds=10):
                 return None
 
 # Read entire table into DataFrame
-def read_sql(table_name):
+def read_sql(table_name,query, params=None):
     try:
         conn = connect_to_azure_sql()
         if conn:
-            query = f"SELECT * FROM {table_name}"
-            df = pd.read_sql(query, conn)
+            # Pass the query and parameters to pandas.read_sql
+            df = pd.read_sql(query, conn, params=params)
             conn.close()
             return df
         else:
